@@ -24,3 +24,15 @@
   * Responsible for ensuring and deploying infrastructure and code
   * Responsible for ensuring al team members can deploy code locally
   * Drawing Infrastructure diagrams 
+
+## Stated (atomic) Goals
+
+* Brainstorm ideas for the web application
+* Come up with the Topic of the project
+* Research the Technology needed for the project to work
+* Create a UI/UX diagram of Home Page of the web app
+* Create a User Story
+* Develop code for the Home Page of the web app
+* Research on the Database needed 
+* Research Security Options for the Account (Login) Page
+* Create a Data Schema
