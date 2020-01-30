@@ -71,7 +71,7 @@
 * Jr. Developer - Kajal Patel
   * First, I sat down with UI/UX Developer to design the user-friendly front end of our Web App. Together, we designed the homepage of our Web App. Taking every detail in encounter such as language preferred by the customer, symbols to navigate to an induvial page, a microphone on top right hand side to make the process of checkout faster and convenient. As the UI/UX Developer was designing the page, I was taking notes of each element in detail to pass on the information to the Developer. Using Trello and Slack, I successfully attached the word document of the notes so the Developer can start coding. 
 
-Homepage: 
+ * Homepage: 
 •	A background image of a grocery store
 •	“Tap to Start” click symbol in the middle 
 •	Choose the language to continue shopping 
