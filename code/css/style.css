@@ -1,0 +1,84 @@
+/* style.css */
+body,html{
+    height: 100%;
+}
+body{
+    background-image: url('../img/targetBG.jpg');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#storeBox{
+    background-color: aliceblue;
+    position: absolute;
+    float: left;
+    padding: 20px;
+    margin-top: 60px;
+    margin-left: 130px;
+    font-size: 20px;
+    font-family: Verdana, Tahoma, sans-serif;
+    opacity: 0.8;
+}
+
+#storeLogo{
+    width: 28px;
+    height: 28px;
+} 
+
+/* different color palettes: https://colorhunt.co/palette/155497 */
+#circle {
+    position: absolute;
+    width: 370px;
+    height: 370px;
+    border-radius: 50%;
+    margin-top: 180px;
+    margin-left: 450px;
+    font-size: 55px;
+    text-align: center;
+    letter-spacing: 1px;
+    background-color: #3282b8;
+    color: #faf5e4;
+}
+
+#circle:hover{
+    background-color: #f9fcfb;
+    color: #41aaa8;
+}
+  
+#touch{
+    margin-top: 30px;
+    width: 120px;
+    height: 120px;
+    margin-left: 100px;
+}
+
+a{
+    text-decoration: none;
+    color: #41aaa8;
+}
+
+.nav {
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+    bottom:0;
+    
+    }
+
+.nav a{
+    float: left;
+    background-color: #f0efef;
+    /*display: block;*/
+    text-align: center;
+    padding: 20px 120px; /* top,right,bottom,left */
+    font-size: 25px;
+    font-weight:bold;
+    color: #4d4646;
+    /*border: 5px solid gainsboro;*/
+    margin: 50px;
+}
+.nav a:hover{
+    background-color: #f9fcfb;
+    color: #41aaa8;
+}
