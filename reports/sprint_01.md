@@ -73,20 +73,20 @@
 
   * Homepage: 
     * A background image of a grocery store
-•	“Tap to Start” click symbol in the middle 
-•	Choose the language to continue shopping 
-o	English
-o	French
-o	Spanish 
-Index page:
-•	Top right hand side: a microphone symbol to continue shopping by voice recording
-•	Total of 6 symbol that leads into their own individual page
-o	Shopping card: The items scanned then placed into the shopping cart
-o	Navigation: Search for the item to see its location 
-o	Account: Log in to your account using username & Password to get discounted prices
-o	Price check: Simply scan the barcode of a product to see the price
-o	Help: Call a Customer Service Representative for any help
-o	Disability/senior: Call a Customer Service Representative for any help  
+    * “Tap to Start” click symbol in the middle 
+    * Choose the language to continue shopping 
+      * English
+      * French
+      * Spanish 
+  * Index page:
+    * Top right hand side: a microphone symbol to continue shopping by voice recording
+    * Total of 6 symbol that leads into their own individual page
+      * Shopping card: The items scanned then placed into the shopping cart
+      * Navigation: Search for the item to see its location 
+      * Account: Log in to your account using username & Password to get discounted prices
+      * Price check: Simply scan the barcode of a product to see the price
+      * Help: Call a Customer Service Representative for any help
+      * Disability/senior: Call a Customer Service Representative for any help  
 
 * IT Operations - Ramzee Christiel
   * (add more bullet points or paragraph)
