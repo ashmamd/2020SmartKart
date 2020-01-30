@@ -36,3 +36,43 @@
 * Research on the Database needed 
 * Research Security Options for the Account (Login) Page
 * Create a Data Schema
+
+## Stated (atomic) Goals Accomplishments
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+*  
+
+## Bugs
+* 
+
+## Security Assumptions
+* 
+
+## Sprint 2 Goals
+* 
+* 
+* 
+* 
+* 
+
+## Individual Accomplishments
+* Developer - Ashma Manandhar
+  * (add more bullet points or paragraph) 
+* UI/UX Developer - Aurangzeb Razzaq
+  * (add more bullet points or paragraph)
+* Project Manager - Darsh Patel
+  * (add more bullet points or paragraph)
+* Jr. Developer - Kajal Patel
+  * (add more bullet points or paragraph)
+* IT Operations - Ramzee Christiel
+  * (add more bullet points or paragraph)
+
+## References
+* Professory Jeremy Hajek
+* (List sites that we all used, in each bullet point)
