@@ -98,16 +98,18 @@ a{
 }
 
 #links{
+    float: left;
+    margin-top: 70px;
     text-decoration: none;
     color: #41aaa8;
-    float: left;
     background-color: #f0efef;
     text-align: center;
     padding: 20px 80px;
     font-size: 20px;
     font-weight:bold;
     color: #4d4646;
-    margin: 50px;
+    margin-left: 50px;
+    
 }
 
 #links:hover{
@@ -134,5 +136,160 @@ input[type=text] {
     margin-left: 20px;
     margin-right: 40px;
     float: right;
+}
 
+#viewCartBox{
+    width: 150px;
+    height: 150px;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 1px;
+    background-color: #f0efef;
+    padding: 20px 20px;
+    margin-top: 200px;
+    position: absolute;
+    margin-left: 200px;
+}
+
+#cart{
+    margin-top: 10px;
+    margin-right: 4px;
+    margin-bottom: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+#viewCartBox:hover{
+    background-color: #f9fcfb;
+    color: #41aaa8;
+}
+
+#navigationBox{
+    width: 150px;
+    height: 150px;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 1px;
+    background-color: #f0efef;
+    padding: 20px 20px;
+    margin-top: 200px;
+    position: absolute;
+    margin-left: 500px;
+}
+
+#navigation{
+    margin-top: 5px;
+    margin-right: 2px;
+    margin-bottom: 10px;
+    width: 110px;
+    height: 110px;
+}
+
+#navigationBox:hover{
+    background-color: #f9fcfb;
+    color: #41aaa8;
+}
+
+#profileBox{
+    width: 150px;
+    height: 150px;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 1px;
+    background-color: #f0efef;
+    padding: 20px 20px;
+    margin-top: 200px;
+    position: absolute;
+    margin-left: 800px;
+}
+
+#profile{
+    margin-top: 5px;
+    margin-right: 2px;
+    margin-bottom: 10px;
+    width: 110px;
+    height: 110px;
+}
+
+#profileBox:hover{
+    background-color: #f9fcfb;
+    color: #41aaa8;
+}
+
+#priceCheckBox{
+    width: 150px;
+    height: 150px;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 1px;
+    background-color: #f0efef;
+    padding: 20px 20px;
+    margin-top: 450px;
+    position: absolute;
+    margin-left: 200px;
+}
+
+#priceCheck{
+    margin-top: 5px;
+    margin-right: 2px;
+    margin-bottom: 10px;
+    width: 110px;
+    height: 110px;
+}
+
+#priceCheckBox:hover{
+    background-color: #f9fcfb;
+    color: #41aaa8;
+}
+
+#requestHelpBox{
+    width: 150px;
+    height: 150px;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 1px;
+    background-color: #f0efef;
+    padding: 20px 20px;
+    margin-top: 450px;
+    position: absolute;
+    margin-left: 500px;
+}
+
+#requestHelp{
+    margin-top: 5px;
+    margin-right: 2px;
+    margin-bottom: 10px;
+    width: 110px;
+    height: 110px;
+}
+
+#requestHelpBox:hover{
+    background-color: #f9fcfb;
+    color: #41aaa8;
+}
+
+#accessibilityBox{
+    width: 150px;
+    height: 150px;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 1px;
+    background-color: #f0efef;
+    padding: 20px 20px;
+    margin-top: 450px;
+    position: absolute;
+    margin-left: 800px;
+}
+
+#accessibility{
+    margin-top: 5px;
+    margin-right: 2px;
+    margin-bottom: 10px;
+    width: 110px;
+    height: 110px;
+}
+
+#accessibilityBox:hover{
+    background-color: #f9fcfb;
+    color: #41aaa8;
 }
