@@ -2,7 +2,7 @@
 body,html{
     height: 100%;
 }
-body{
+#indexPageBG{
     background-image: url('../img/targetBG.jpg');
     height: 100%;
     background-position: center;
@@ -81,4 +81,8 @@ a{
 .nav a:hover{
     background-color: #f9fcfb;
     color: #41aaa8;
+}
+
+#mainPageBG{
+    
 }
