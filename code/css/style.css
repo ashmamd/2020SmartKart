@@ -83,6 +83,51 @@ a{
     color: #41aaa8;
 }
 
+/* 
+ * mainpage link buttons 
+*/
+
+
 #mainPageBG{
     
+}
+
+#links{
+    text-decoration: none;
+    color: #41aaa8;
+    float: left;
+    background-color: #f0efef;
+    text-align: center;
+    padding: 20px 80px;
+    font-size: 20px;
+    font-weight:bold;
+    color: #4d4646;
+    margin: 50px;
+}
+
+#links:hover{
+    background-color: #f9fcfb;
+    color: #41aaa8;
+}
+
+/* voice search */
+input[type=text] {
+    float: right;
+    padding: 10px 40px;
+    margin-top: 70px;
+    border: 6px solid;
+    border-color: #f0efef;
+    font-size: 17px;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+/*microphone img */
+#voiceAssist{
+    width: 80px;
+    height: 80px;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 40px;
+    float: right;
+
 }
