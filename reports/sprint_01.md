@@ -69,7 +69,25 @@
 * Project Manager - Darsh Patel
   * (add more bullet points or paragraph)
 * Jr. Developer - Kajal Patel
-  * (add more bullet points or paragraph)
+  * First, I sat down with UI/UX Developer to design the user-friendly front end of our Web App. Together, we designed the homepage of our Web App. Taking every detail in encounter such as language preferred by the customer, symbols to navigate to an induvial page, a microphone on top right hand side to make the process of checkout faster and convenient. As the UI/UX Developer was designing the page, I was taking notes of each element in detail to pass on the information to the Developer. Using Trello and Slack, I successfully attached the word document of the notes so the Developer can start coding. 
+
+  * Homepage: 
+    * A background image of a grocery store
+    * “Tap to Start” click symbol in the middle 
+    * Choose the language to continue shopping 
+      * English
+      * French
+      * Spanish 
+  * Index page:
+    * Top right hand side: a microphone symbol to continue shopping by voice recording
+    * Total of 6 symbol that leads into their own individual page
+      * Shopping card: The items scanned then placed into the shopping cart
+      * Navigation: Search for the item to see its location 
+      * Account: Log in to your account using username & Password to get discounted prices
+      * Price check: Simply scan the barcode of a product to see the price
+      * Help: Call a Customer Service Representative for any help
+      * Disability/senior: Call a Customer Service Representative for any help  
+
 * IT Operations - Ramzee Christiel
   * (add more bullet points or paragraph)
 
