@@ -144,7 +144,7 @@ input[type=text] {
 #viewCartBox{
     width: 150px;
     height: 150px;
-    font-size: 20px;
+    font-size: 15px;
     text-align: center;
     letter-spacing: 1px;
     background-color: #f0efef;
@@ -156,7 +156,7 @@ input[type=text] {
 
 #cart{
     margin-top: 10px;
-    margin-right: 4px;
+    margin-right: 25px;
     margin-bottom: 10px;
     width: 100px;
     height: 100px;
@@ -170,7 +170,7 @@ input[type=text] {
 #navigationBox{
     width: 150px;
     height: 150px;
-    font-size: 20px;
+    font-size: 15px;
     text-align: center;
     letter-spacing: 1px;
     background-color: #f0efef;
@@ -182,7 +182,8 @@ input[type=text] {
 
 #navigation{
     margin-top: 5px;
-    margin-right: 2px;
+    margin-left:10px;
+    margin-right: 10px;
     margin-bottom: 10px;
     width: 110px;
     height: 110px;
@@ -196,7 +197,7 @@ input[type=text] {
 #profileBox{
     width: 150px;
     height: 150px;
-    font-size: 20px;
+    font-size: 15px;
     text-align: center;
     letter-spacing: 1px;
     background-color: #f0efef;
@@ -222,7 +223,7 @@ input[type=text] {
 #priceCheckBox{
     width: 150px;
     height: 150px;
-    font-size: 20px;
+    font-size: 15px;
     text-align: center;
     letter-spacing: 1px;
     background-color: #f0efef;
@@ -248,7 +249,7 @@ input[type=text] {
 #requestHelpBox{
     width: 150px;
     height: 150px;
-    font-size: 20px;
+    font-size: 15px;
     text-align: center;
     letter-spacing: 1px;
     background-color: #f0efef;
@@ -274,7 +275,7 @@ input[type=text] {
 #accessibilityBox{
     width: 150px;
     height: 150px;
-    font-size: 20px;
+    font-size: 15px;
     text-align: center;
     letter-spacing: 1px;
     background-color: #f0efef;
