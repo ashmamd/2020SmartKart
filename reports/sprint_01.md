@@ -63,7 +63,9 @@
 
 ## Individual Accomplishments
 * Developer - Ashma Manandhar
-  * (add more bullet points or paragraph) 
+  * Coded in HTML and CSS to make a website based on the UI/UX diagrams. 
+  * Created an index.html and the main layout pages with the three different languages chosen (English, Spanish, French).
+  * Showed consistent code commitments on Github.
 * UI/UX Developer - Aurangzeb Razzaq
   * (add more bullet points or paragraph)
 * Project Manager - Darsh Patel
