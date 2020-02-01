@@ -38,28 +38,30 @@
 * Create a Data Schema
 
 ## Stated (atomic) Goals Accomplishments
+* Researched online for the platform we will be using to develop our web app.
+* Discussed as a group on several ideas for the project. Then, decided to choose to work on a Smart Shopping Cart idea.
+* An IDE to code, a diagram tool for UI/UX designs, Draw.io for Infrastructure diagrams, Trello for tasks, and Slack for communication.
 * 
 * 
-* 
-* 
-* 
-* 
-* 
+* Thought of several ways a user can be frustrated while shopping in a store, and how our product can help them positively. 
+* We will be using MySQL.
 * 
 *  
 
 ## Bugs
-* 
+* As of the current phase of this project, we haven't encountered any bugs.
 
 ## Security Assumptions
 * 
 
 ## Sprint 2 Goals
-* 
-* 
-* 
-* 
-* 
+* Create UI/UX Diagrams for each feature.
+* UI/UX diagrams of the 'Profile' page should include Unauthenticated users, Authenticated users, and administrative users.
+* Create HTML and CSS pages for each feature (View Cart, Navigation, Profile, Price Check, Request Help, Accessibility). 
+* Create Database Tables in MySQL, based on the Data Schema.
+* Infrastructure drawing of the network and database
+* User Story in depth (including more features that a user can use) 
+* Implementing Secure Transaction method in our Web App.
 
 ## Individual Accomplishments
 * Developer - Ashma Manandhar
@@ -71,7 +73,7 @@
 * Project Manager - Darsh Patel
   * (add more bullet points or paragraph)
 * Jr. Developer - Kajal Patel
-  * First, I sat down with UI/UX Developer to design the user-friendly front end of our Web App. Together, we designed the homepage of our Web App. Taking every detail in encounter such as language preferred by the customer, symbols to navigate to an induvial page, a microphone on top right hand side to make the process of checkout faster and convenient. As the UI/UX Developer was designing the page, I was taking notes of each element in detail to pass on the information to the Developer. Using Trello and Slack, I successfully attached the word document of the notes so the Developer can start coding. 
+  * First, I sat down with UI/UX Developer to design the user-friendly front end of our Web App. Together, we designed the homepage of our Web App. Taking every detail in encounter such as language preferred by the customer, symbols to navigate to an individual page, a microphone on top right hand side to make the process of checkout faster and convenient. As the UI/UX Developer was designing the page, I was taking notes of each element in detail to pass on the information to the Developer. Using Trello and Slack, I successfully attached the word document of the notes so the Developer can start coding. 
 
   * Homepage: 
     * A background image of a grocery store
@@ -95,4 +97,5 @@
 
 ## References
 * Professory Jeremy Hajek
-* (List sites that we all used, in each bullet point)
+* https://www.theverge.com/2019/1/10/18177020/caper-labs-smart-shopping-cart-image-recognition-weight-sensor
+* https://www.engadget.com/2019/01/11/caper-smart-shopping-cart/
