@@ -67,7 +67,12 @@
   * Created an index.html and the main layout pages with the three different languages chosen (English, Spanish, French).
   * Showed consistent code commitments on Github.
 * UI/UX Developer - Aurangzeb Razzaq
-  * (add more bullet points or paragraph)
+  * Drafted and worked alongside the Jr. Developer in designing the Graphical User Interface
+    * Utilized a design program called Justinmind for drafting the design and determining the color scheme and layout
+    * Incorporated the three languages our team decided that we will support (English, Spanish, and French) in the splashscreen layout
+    * Collaborated with the Jr. Developer on the order and functions of the buttons featured on the main page
+    * Sent the UI/UX designs to the Lead Developer for incorporation in the team project
+      * included prototype sitemap
 * Project Manager - Darsh Patel
   * (add more bullet points or paragraph)
 * Jr. Developer - Kajal Patel
