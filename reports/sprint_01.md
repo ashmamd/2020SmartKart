@@ -91,7 +91,7 @@
       * Disability/senior: Call a Customer Service Representative for any help  
 
 * IT Operations - Ramzee Christiel
-  * (add more bullet points or paragraph)
+  * (During the initial process, I was able to brainstorm ideas with the team, we choose rolls/duties. We came up with an idea to create a mobile app that would serve as a Grocery's AI. Used as a mobile interface that's designed to cut shopper's shopping time by 50%. As the IT operator, this Spring I was able to choose database software that's conducive to our goals withthe project, map the database, provide comprehensive diagrams associted with the data storage and the IT infrastructure of our first prototype. Also, was able to research the security options provided by our advising proffesor, Jeremy Hajek. I recommended that we implement SQRL. )
 
 ## References
 * Professory Jeremy Hajek
