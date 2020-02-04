@@ -35,15 +35,19 @@
 * Develop code for the Home Page of the web app
 * Research on the Database needed 
 * Research Security Options for the Account (Login) Page
+* Creation of Data Schema 
+* Create an IT Infrastructure Diagram 
 
 ## Stated (atomic) Goals Accomplishments
 * Researched online for the platform we will be using to develop our web app.
 * Discussed as a group on several ideas for the project. Then, decided to choose to work on a Smart Shopping Cart idea.
 * An IDE to code, a diagram tool for UI/UX designs, Draw.io for Infrastructure diagrams, Trello for tasks, and Slack for communication.
-* Used 'Justinmind' program for creating UI/UX Diagrams
+* Used 'Justinmind' program for creating UI/UX Diagrams.
 * Thought of several ways a user can be frustrated while shopping in a store, and how our product can help them positively. 
 * We will be using MySQL.
 * We will be using SQRL (Secure Quick Reliable Login) which is used for website login and authentication.  
+* Created Data Schema using Google Sheets.
+* Created an IT Infrastructure Diagram.
 
 ## Bugs
 * As of the current phase of this project, we haven't encountered any bugs.
@@ -52,14 +56,12 @@
 * We will be using SQRL (Secure Quick Reliable Login) to cryptographically authenticate the identity of individuals across a network. It is used for sign-in systems and it can replace all other systems while offering dramatic improvements in usability and security.
 
 ## Sprint 2 Goals
-* Create UI/UX Diagrams for each feature.
+* Create UI/UX Diagrams for each feature in our Web App.
 * UI/UX diagrams of the 'Profile' page should include Unauthenticated users, Authenticated users, and administrative users.
 * Create HTML and CSS pages for each feature (View Cart, Navigation, Profile, Price Check, Request Help, Accessibility). 
 * Create Database Tables in MySQL, based on the Data Schema.
-* Infrastructure drawing of the network and database
-* User Story in depth (including more features that a user can use) 
+* User Story in depth (including more features that a user can use). 
 * Implementing Secure Transaction method in our Web App.
-* Create a Data Schema
 
 ## Individual Accomplishments
 * Developer - Ashma Manandhar
