@@ -76,7 +76,14 @@
     * Sent the UI/UX designs to the Lead Developer for incorporation in the team project
     * included prototype sitemap
 * Project Manager - Darsh Patel
-  * (add more bullet points or paragraph)
+  * Created and managed tasks in Trello.
+  * Communicated with Team members for goal setting and deadlines using email.
+  * Suggested online software/website options for creating Infrastructure and Database diagrams.
+  * Created GitHub folders in team Repository as per Professor Jeremy's requirements and added diagrams to the GitHub that were provided to me by team members.
+  * Prepared the 'Sprint 1 Written Report'.
+  * Created a User Story to present for Sprint 1 presentations. 
+  * Checked for bugs and issues on GitHub.   
+  * Documented each task that was accomplished by each team member to ensure completion of Sprint 1 successfully.  
 * Jr. Developer - Kajal Patel
   * First, I sat down with an UI/UX Developer to design the user-friendly front end of our Web App. Together, we designed the homepage of our Web App. Taking every detail in encounter such as language preferred by the customer, symbols to navigate to an individual page, a microphone on top right hand side to make the process of checkout faster and convenient. As the UI/UX Developer was designing the page, I was taking notes of each element in detail to pass on the information to the Developer. Using Trello and Slack, I successfully attached the word document of the notes so the Developer can start coding. 
 
