@@ -69,11 +69,16 @@
   * Created an index.html and the main layout pages with the three different languages chosen (English, Spanish, French).
   * Showed consistent code commitments on Github.
 * UI/UX Developer - Aurangzeb Razzaq
-  * (add more bullet points or paragraph)
+  * Drafted and worked alongside the Jr. Developer in designing the Graphical User Interface
+    * Utilized a design program called Justinmind for drafting the design and determining the color scheme and layout
+    * Incorporated the three languages our team decided that we will support (English, Spanish, and French) in the splashscreen layout
+    * Collaborated with the Jr. Developer on the order and functions of the buttons featured on the main page
+    * Sent the UI/UX designs to the Lead Developer for incorporation in the team project
+      * included prototype sitemap
 * Project Manager - Darsh Patel
   * (add more bullet points or paragraph)
 * Jr. Developer - Kajal Patel
-  * First, I sat down with UI/UX Developer to design the user-friendly front end of our Web App. Together, we designed the homepage of our Web App. Taking every detail in encounter such as language preferred by the customer, symbols to navigate to an individual page, a microphone on top right hand side to make the process of checkout faster and convenient. As the UI/UX Developer was designing the page, I was taking notes of each element in detail to pass on the information to the Developer. Using Trello and Slack, I successfully attached the word document of the notes so the Developer can start coding. 
+  * First, I sat down with an UI/UX Developer to design the user-friendly front end of our Web App. Together, we designed the homepage of our Web App. Taking every detail in encounter such as language preferred by the customer, symbols to navigate to an individual page, a microphone on top right hand side to make the process of checkout faster and convenient. As the UI/UX Developer was designing the page, I was taking notes of each element in detail to pass on the information to the Developer. Using Trello and Slack, I successfully attached the word document of the notes so the Developer can start coding. 
 
   * Homepage: 
     * A background image of a grocery store
@@ -93,7 +98,7 @@
       * Disability/senior: Call a Customer Service Representative for any help  
 
 * IT Operations - Ramzee Christiel
-  * (add more bullet points or paragraph)
+  * (During the initial process, I was able to brainstorm ideas with the team, we choose rolls/duties. We came up with an idea to create a mobile app that would serve as a Grocery's AI. Used as a mobile interface that's designed to cut shopper's shopping time by 50%. As the IT operator, this Spring I was able to choose database software that's conducive to our goals withthe project, map the database, provide comprehensive diagrams associted with the data storage and the IT infrastructure of our first prototype. Also, was able to research the security options provided by our advising proffesor, Jeremy Hajek. I recommended that we implement SQRL. )
 
 ## References
 * Professory Jeremy Hajek
