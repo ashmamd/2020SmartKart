@@ -327,10 +327,15 @@ input[type=text] {
     background-color: #f0efef;
     margin: auto;
     width: 60%;
-    padding: 20px 20px;
+    padding: 20px 10px;
     margin-top: 300px;
     position: absolute;
     margin-left: 200px;
+}
+.delete{
+    float: left;
+    padding:10px;
+    background-color: #f0efef;
 }
 .box{
     float: left;
@@ -339,19 +344,26 @@ input[type=text] {
 .info{
     font-size: 10px;
     font-family: Verdana, Tahoma, sans-serif;
-    padding: 5px;
+    padding: 25px 10px 18px 10px; /* top,right,bottom,left */
     color: #41aaa8;
-    width: 50%;
+    background-color: #f9fcfb;
+    width: 30%;
     text-align: center;
-    margin-top: 20px;
+    padding-left:120px;
 }
-
+#deleteImg{
+    padding:20px;
+    height:40px;
+    width:30px;
+}
 #cheetos{
     padding: 10px;
-    height: 70px;
+    height: 60px;
     width: 50px;
 }
-
-#prodInfo{
-
+#ketchup{
+    padding: 10px;
+    padding-left:25px;
+    height: 60px;
+    width: 30px;
 }
