@@ -35,15 +35,19 @@
 * Develop code for the Home Page of the web app
 * Research on the Database needed 
 * Research Security Options for the Account (Login) Page
+* Creation of Data Schema 
+* Create an IT Infrastructure Diagram 
 
 ## Stated (atomic) Goals Accomplishments
 * Researched online for the platform we will be using to develop our web app.
 * Discussed as a group on several ideas for the project. Then, decided to choose to work on a Smart Shopping Cart idea.
 * An IDE to code, a diagram tool for UI/UX designs, Draw.io for Infrastructure diagrams, Trello for tasks, and Slack for communication.
-* Used 'Justinmind' program for creating UI/UX Diagrams
+* Used 'Justinmind' program for creating UI/UX Diagrams.
 * Thought of several ways a user can be frustrated while shopping in a store, and how our product can help them positively. 
 * We will be using MySQL.
 * We will be using SQRL (Secure Quick Reliable Login) which is used for website login and authentication.  
+* Created Data Schema using Google Sheets.
+* Created an IT Infrastructure Diagram.
 
 ## Bugs
 * As of the current phase of this project, we haven't encountered any bugs.
@@ -52,14 +56,12 @@
 * We will be using SQRL (Secure Quick Reliable Login) to cryptographically authenticate the identity of individuals across a network. It is used for sign-in systems and it can replace all other systems while offering dramatic improvements in usability and security.
 
 ## Sprint 2 Goals
-* Create UI/UX Diagrams for each feature.
+* Create UI/UX Diagrams for each feature in our Web App.
 * UI/UX diagrams of the 'Profile' page should include Unauthenticated users, Authenticated users, and administrative users.
 * Create HTML and CSS pages for each feature (View Cart, Navigation, Profile, Price Check, Request Help, Accessibility). 
 * Create Database Tables in MySQL, based on the Data Schema.
-* Infrastructure drawing of the network and database
-* User Story in depth (including more features that a user can use) 
+* User Story in depth (including more features that a user can use). 
 * Implementing Secure Transaction method in our Web App.
-* Create a Data Schema
 
 ## Individual Accomplishments
 * Developer - Ashma Manandhar
@@ -75,10 +77,18 @@
       * included prototype sitemap
     * Created Slack Workspace
     * Created Trello Board
+
 * Project Manager - Darsh Patel
-  * (add more bullet points or paragraph)
+  * Created and managed tasks in Trello.
+  * Communicated with Team members for goal setting and deadlines using email.
+  * Suggested online software/website options for creating Infrastructure and Database diagrams.
+  * Created GitHub folders in team Repository as per Professor Jeremy's requirements and added diagrams to the GitHub that were provided to me by team members.
+  * Prepared the 'Sprint 1 Written Report'.
+  * Created a User Story to present for Sprint 1 presentations. 
+  * Checked for bugs and issues on GitHub.   
+  * Documented each task that was accomplished by each team member to ensure completion of Sprint 1 successfully.  
 * Jr. Developer - Kajal Patel
-  * First, I sat down with UI/UX Developer to design the user-friendly front end of our Web App. Together, we designed the homepage of our Web App. Taking every detail in encounter such as language preferred by the customer, symbols to navigate to an individual page, a microphone on top right hand side to make the process of checkout faster and convenient. As the UI/UX Developer was designing the page, I was taking notes of each element in detail to pass on the information to the Developer. Using Trello and Slack, I successfully attached the word document of the notes so the Developer can start coding. 
+  * First, I sat down with an UI/UX Developer to design the user-friendly front end of our Web App. Together, we designed the homepage of our Web App. Taking every detail in encounter such as language preferred by the customer, symbols to navigate to an individual page, a microphone on top right hand side to make the process of checkout faster and convenient. As the UI/UX Developer was designing the page, I was taking notes of each element in detail to pass on the information to the Developer. Using Trello and Slack, I successfully attached the word document of the notes so the Developer can start coding. 
 
   * Homepage: 
     * A background image of a grocery store
