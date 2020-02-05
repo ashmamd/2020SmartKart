@@ -67,15 +67,15 @@
 * Developer - Ashma Manandhar
   * Coded in HTML and CSS to make a website based on the UI/UX diagrams. 
   * Created an index.html and the main layout pages with the three different languages chosen (English, Spanish, French).
-  * Showed consistent code commitments on Github.
+  * Showed consistent code commitments on GitHub.
 * UI/UX Developer - Aurangzeb Razzaq
   * Drafted and worked alongside the Jr. Developer in designing the Graphical User Interface
     * Utilized a design program called Justinmind for drafting the design and determining the color scheme and layout
-    * Incorporated the three languages our team decided that we will support (English, Spanish, and French) in the splashscreen layout
+    * Incorporated the three languages our team decided that we will support (English, Spanish, and French) in the splash screen layout
     * Collaborated with the Jr. Developer on the order and functions of the buttons featured on the main page
     * Sent the UI/UX designs to the Lead Developer for incorporation in the team project
       * included prototype sitemap
-    * Created Slack Workspace
+    * Created Slack Workspace (Connected Trello/GitHub)
     * Created Trello Board
 
 * Project Manager - Darsh Patel
@@ -108,10 +108,10 @@
       * Disability/senior: Call a Customer Service Representative for any help  
 
 * IT Operations - Ramzee Christiel
-  * (During the initial process, I was able to brainstorm ideas with the team, we choose rolls/duties. We came up with an idea to create a mobile app that would serve as a Grocery's AI. Used as a mobile interface that's designed to cut shopper's shopping time by 50%. As the IT operator, this Spring I was able to choose database software that's conducive to our goals withthe project, map the database, provide comprehensive diagrams associted with the data storage and the IT infrastructure of our first prototype. Also, was able to research the security options provided by our advising proffesor, Jeremy Hajek. I recommended that we implement SQRL. )
+  * (During the initial process, I was able to brainstorm ideas with the team, we choose rolls/duties. We came up with an idea to create a mobile app that would serve as a Grocery's AI. Used as a mobile interface that's designed to cut shopper's shopping time by 50%. As the IT operator, this Spring I was able to choose database software that's conducive to our goals with the project, map the database, provide comprehensive diagrams associated with the data storage and the IT infrastructure of our first prototype. Also, was able to research the security options provided by our advising professor, Jeremy Hajek. I recommended that we implement SQRL. )
 
 ## References
-* Professory Jeremy Hajek
+* Professor Jeremy Hajek
 * https://www.theverge.com/2019/1/10/18177020/caper-labs-smart-shopping-cart-image-recognition-weight-sensor
 * https://www.engadget.com/2019/01/11/caper-smart-shopping-cart/
 * https://www.justinmind.com/
