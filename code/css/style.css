@@ -298,6 +298,29 @@ input[type=text] {
     color: #41aaa8;
 }
 
+.cart{
+    float: left;
+    padding-left: 100px;
+    padding-top: 150px;
+}
+
+#cartInViewCartPage{
+    width: 100px;
+    height: 100px;
+}
+
+.text{
+    width: 20%;
+    color: #41aaa8;
+    font-size: 15px;
+    font-family: Verdana, Tahoma, sans-serif;
+    text-align: center;
+    padding: 5px;
+    background-color: #f9fcfb;
+    border: 1px solid;
+    margin-top: 170px;
+    margin-left: 50px;
+}
 #shoppingCartBox{
     width: 700px;
     height: 400px;
@@ -305,21 +328,26 @@ input[type=text] {
     margin: auto;
     width: 60%;
     padding: 20px 20px;
-    margin-top: 200px;
+    margin-top: 300px;
     position: absolute;
     margin-left: 200px;
 }
-
-#shoppingTitle{
-    color: #41aaa8;
-    font-size: 20px;
-    font-family: Verdana, Tahoma, sans-serif;
-    padding: 10px;
+.box{
+    float: left;
     background-color: #f9fcfb;
-    border: 1px solid;
+}
+.info{
+    font-size: 10px;
+    font-family: Verdana, Tahoma, sans-serif;
+    padding: 5px;
+    color: #41aaa8;
+    width: 50%;
+    text-align: center;
+    margin-top: 20px;
 }
 
 #cheetos{
+    padding: 10px;
     height: 70px;
     width: 50px;
 }
