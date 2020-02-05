@@ -73,6 +73,8 @@
     * Collaborated with the Jr. Developer on the order and functions of the buttons featured on the main page
     * Sent the UI/UX designs to the Lead Developer for incorporation in the team project
       * included prototype sitemap
+    * Created Slack Workspace
+    * Created Trello Board
 * Project Manager - Darsh Patel
   * (add more bullet points or paragraph)
 * Jr. Developer - Kajal Patel
