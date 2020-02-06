@@ -1,8 +1,9 @@
 /* style.css */
 
-
-
-/*     EXPERIMENTING GITHUB      */
+/* 
+* https://www2.lunapic.com/editor/ 
+* link to edit images to get it to be transparent bg
+*/
 
 body,html{
     height: 100%;
@@ -162,6 +163,14 @@ input[type=text] {
     height: 100px;
 }
 
+#hr{
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    width: 120px;
+    height: 120px;
+}
+
 #firstBox:hover{
     background-color: #f9fcfb;
     color: #41aaa8;
@@ -182,6 +191,15 @@ input[type=text] {
 
 #navigation{
     margin-top: 5px;
+    margin-left:10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: 110px;
+    height: 110px;
+}
+
+#accounting{
+    margin-top: 10px;
     margin-left:10px;
     margin-right: 10px;
     margin-bottom: 10px;
@@ -215,6 +233,14 @@ input[type=text] {
     height: 110px;
 }
 
+#vendor{
+    margin-top: 10px;
+    margin-right: 2px;
+    margin-bottom: 10px;
+    width: 110px;
+    height: 110px;
+}
+
 #thirdBox:hover{
     background-color: #f9fcfb;
     color: #41aaa8;
@@ -234,6 +260,13 @@ input[type=text] {
 }
 
 #priceCheck{
+    margin-top: 5px;
+    margin-right: 2px;
+    margin-bottom: 10px;
+    width: 110px;
+    height: 110px;
+}
+#advertisement{
     margin-top: 5px;
     margin-right: 2px;
     margin-bottom: 10px;
@@ -267,6 +300,14 @@ input[type=text] {
     height: 110px;
 }
 
+#promotions{
+    margin-top: 5px;
+    margin-right: 2px;
+    margin-bottom: 10px;
+    width: 110px;
+    height: 110px;
+}
+
 #fifthBox:hover{
     background-color: #f9fcfb;
     color: #41aaa8;
@@ -293,37 +334,85 @@ input[type=text] {
     height: 110px;
 }
 
+#inventory{
+    margin-top: 5px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    width: 130px;
+    height: 110px;
+}
+
 #sixthBox:hover{
     background-color: #f9fcfb;
     color: #41aaa8;
 }
 
+.cart{
+    float: left;
+    padding-left: 100px;
+    padding-top: 150px;
+}
+
+#cartInViewCartPage{
+    width: 100px;
+    height: 100px;
+}
+
+.text{
+    width: 20%;
+    color: #41aaa8;
+    font-size: 15px;
+    font-family: Verdana, Tahoma, sans-serif;
+    text-align: center;
+    padding: 5px;
+    background-color: #f9fcfb;
+    border: 1px solid;
+    margin-top: 170px;
+    margin-left: 50px;
+}
 #shoppingCartBox{
     width: 700px;
     height: 400px;
     background-color: #f0efef;
     margin: auto;
     width: 60%;
-    padding: 20px 20px;
-    margin-top: 200px;
+    padding: 20px 10px;
+    margin-top: 300px;
     position: absolute;
     margin-left: 200px;
 }
-
-#shoppingTitle{
-    color: #41aaa8;
-    font-size: 20px;
-    font-family: Verdana, Tahoma, sans-serif;
-    padding: 10px;
-    background-color: #f9fcfb;
-    border: 1px solid;
+.delete{
+    float: left;
+    padding:10px;
+    background-color: #f0efef;
 }
-
+.box{
+    float: left;
+    background-color: #f9fcfb;
+}
+.info{
+    font-size: 10px;
+    font-family: Verdana, Tahoma, sans-serif;
+    padding: 25px 10px 18px 10px; /* top,right,bottom,left */
+    color: #41aaa8;
+    background-color: #f9fcfb;
+    width: 30%;
+    text-align: center;
+    padding-left:120px;
+}
+#deleteImg{
+    padding:20px;
+    height:40px;
+    width:30px;
+}
 #cheetos{
-    height: 70px;
+    padding: 10px;
+    height: 60px;
     width: 50px;
 }
-
-#prodInfo{
-
+#ketchup{
+    padding: 10px;
+    padding-left:25px;
+    height: 60px;
+    width: 30px;
 }
