@@ -72,6 +72,14 @@
   * Checked for bugs and issues on GitHub.   
   * Documented each task that was accomplished by each team member to ensure completion of Sprint 1 successfully.  
 
+## User/Admin Story
+
+# Customer Story
+
+# Customer Service Story
+
+# Store Manager Story
+
 ## Atomic Goals for Sprint-02
 * Create UI/UX Diagrams for each feature in our Web App.
 * UI/UX diagrams of the 'Profile' page should include Unauthenticated users, Authenticated users, and administrative users.
