@@ -2,7 +2,7 @@
 
 ## Team 14 - SmartKart
 
-## Team Members
+### Team Members
 
 * Developer - Ashma Manandhar, amanandh@hawk.iit.edu
   * Responsible for developing code based on UI/UX diagrams
@@ -74,11 +74,11 @@
 
 ## User/Admin Story
 
-# Customer Story
+### Customer Story
 
-# Customer Service Story
+### Customer Service Story
 
-# Store Manager Story
+### Store Manager Story
 
 ## Atomic Goals for Sprint-02
 * Create UI/UX Diagrams for each feature in our Web App.
