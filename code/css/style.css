@@ -1,5 +1,9 @@
 /* style.css */
 
+/* 
+* https://www2.lunapic.com/editor/ 
+* link to edit images to get it to be transparent bg
+*/
 
 body,html{
     height: 100%;
@@ -159,6 +163,14 @@ input[type=text] {
     height: 100px;
 }
 
+#hr{
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    width: 120px;
+    height: 120px;
+}
+
 #firstBox:hover{
     background-color: #f9fcfb;
     color: #41aaa8;
@@ -179,6 +191,15 @@ input[type=text] {
 
 #navigation{
     margin-top: 5px;
+    margin-left:10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: 110px;
+    height: 110px;
+}
+
+#accounting{
+    margin-top: 10px;
     margin-left:10px;
     margin-right: 10px;
     margin-bottom: 10px;
@@ -212,6 +233,14 @@ input[type=text] {
     height: 110px;
 }
 
+#vendor{
+    margin-top: 10px;
+    margin-right: 2px;
+    margin-bottom: 10px;
+    width: 110px;
+    height: 110px;
+}
+
 #thirdBox:hover{
     background-color: #f9fcfb;
     color: #41aaa8;
@@ -231,6 +260,13 @@ input[type=text] {
 }
 
 #priceCheck{
+    margin-top: 5px;
+    margin-right: 2px;
+    margin-bottom: 10px;
+    width: 110px;
+    height: 110px;
+}
+#advertisement{
     margin-top: 5px;
     margin-right: 2px;
     margin-bottom: 10px;
@@ -264,6 +300,14 @@ input[type=text] {
     height: 110px;
 }
 
+#promotions{
+    margin-top: 5px;
+    margin-right: 2px;
+    margin-bottom: 10px;
+    width: 110px;
+    height: 110px;
+}
+
 #fifthBox:hover{
     background-color: #f9fcfb;
     color: #41aaa8;
@@ -287,6 +331,14 @@ input[type=text] {
     margin-right: 2px;
     margin-bottom: 10px;
     width: 110px;
+    height: 110px;
+}
+
+#inventory{
+    margin-top: 5px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    width: 130px;
     height: 110px;
 }
 
