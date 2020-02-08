@@ -27,23 +27,23 @@
 
  ## UI/UX Report
   * Drafted and worked alongside the Jr. Developer in designing the Graphical User Interface
-    * Utilized a design program called Justinmind for drafting the design and determining the color scheme and layout
-    * Incorporated the three languages our team decided that we will support (English, Spanish, and French) in the splash screen layout
-    * Collaborated with the Jr. Developer on the order and functions of the buttons featured on the main page
-    * Sent the UI/UX designs to the Lead Developer for incorporation in the team project
-      * included prototype sitemap
-    * Created Slack Workspace (Connected Trello/GitHub)
-    * Created Trello Board
+  * Utilized a design program called Justinmind for drafting the design and determining the color scheme and layout
+  * Incorporated the three languages our team decided that we will support (English, Spanish, and French) in the splash screen layout
+  * Collaborated with the Jr. Developer on the order and functions of the buttons featured on the main page
+  * Sent the UI/UX designs to the Lead Developer for incorporation in the team project
+    * included prototype sitemap
+  * Created Slack Workspace (Connected Trello/GitHub)
+  * Created Trello Board
 
 ## Developer Report
-  * Coded in HTML and CSS to make a website based on the UI/UX diagrams. 
-  * Created an index.html and the main layout pages with the three different languages chosen (English, Spanish, French).
+  * Coded in HTML, CSS and JS to make a website based on discussions and the UI/UX diagrams. 
+  * Created an index.html that leads to all the different pages (starting page, main page, view shopping cart, customer profile, admin, customer service and the different language pages).
   * Showed consistent code commitments on GitHub.
 
 ## IT Infrastructure Report
   * (During the initial process, I was able to brainstorm ideas with the team, we choose rolls/duties. We came up with an idea to create a mobile app that would serve as a Grocery's AI. Used as a mobile interface that's designed to cut shopper's shopping time by 50%. As the IT operator, this Spring I was able to choose database software that's conducive to our goals with the project, map the database, provide comprehensive diagrams associated with the data storage and the IT infrastructure of our first prototype. Also, was able to research the security options provided by our advising professor, Jeremy Hajek. I recommended that we implement SQRL. ) 
 
-## Developer and Security Assumptions
+## Jr. Developer
   * First, I sat down with an UI/UX Developer to design the user-friendly front end of our Web App. Together, we designed the homepage of our Web App. Taking every detail in encounter such as language preferred by the customer, symbols to navigate to an individual page, a microphone on top right hand side to make the process of checkout faster and convenient. As the UI/UX Developer was designing the page, I was taking notes of each element in detail to pass on the information to the Developer. Using Trello and Slack, I successfully attached the word document of the notes so the Developer can start coding. 
   * Homepage: 
     * A background image of a grocery store
@@ -71,6 +71,8 @@
   * Created a User Story to present for Sprint 1 presentations. 
   * Checked for bugs and issues on GitHub.   
   * Documented each task that was accomplished by each team member to ensure completion of Sprint 1 successfully.  
+
+## Developer and Security Assumptions
 
 ## User/Admin Story
 
