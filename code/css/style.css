@@ -3,6 +3,8 @@
 /* 
 * https://www2.lunapic.com/editor/ 
 * link to edit images to get it to be transparent bg
+
+* different color palettes: https://colorhunt.co/palette/155497 
 */
 
 body,html{
@@ -24,15 +26,13 @@ body,html{
     margin-left: 100px;
     font-size: 20px;
     font-family: Verdana, Tahoma, sans-serif;
-    opacity: 0.8;
 }
 
 #storeLogo{
-    width: 160px;
-    height: 50px;
+    width: 200px;
+    height: 70px;
 } 
 
-/* different color palettes: https://colorhunt.co/palette/155497 */
 #circle {
     position: absolute;
     width: 370px;
@@ -122,23 +122,21 @@ a{
 }
 
 /* voice search */
-input[type=text] {
+input[type=search] {
     float: right;
-    padding: 10px 40px;
-    margin-top: 70px;
-    border: 6px solid;
-    border-color: #f0efef;
-    font-size: 17px;
+    padding: 20px 40px;
+    margin-top: 90px;
+    font-size: 200px;
     font-family: Verdana, Tahoma, sans-serif;
 }
 
 /*microphone img */
 #voiceAssist{
-    width: 80px;
-    height: 80px;
-    margin-top: 50px;
+    width: 60px;
+    height: 60px;
+    margin-top: 70px;
     margin-left: 20px;
-    margin-right: 40px;
+    margin-right: 150px;
     float: right;
 }
 
@@ -225,7 +223,7 @@ input[type=text] {
     margin-left: 800px;
 }
 
-#profile{
+.profile{
     margin-top: 5px;
     margin-right: 2px;
     margin-bottom: 10px;
@@ -415,4 +413,64 @@ input[type=text] {
     padding-left:25px;
     height: 60px;
     width: 30px;
+}
+
+/* customer log in page */
+
+#boxLayout{
+    width: 700px;
+    height: 400px;
+    background-color: #f0efef;
+    margin: auto;
+    width: 60%;
+    padding: 20px 10px;
+    margin-top: 200px;
+    position: absolute;
+    margin-left: 200px;
+}
+
+.userPage{
+    margin-top: 40px;
+    margin-left: 300px;
+    width: 150px;
+    height: 150px;
+}
+
+/*username and password container*/
+.container{
+    margin-top: 20px;
+    width: 50%;
+    margin-left: 210px;
+}
+
+input[type=text]{
+    padding: 10px 15px;
+    margin-top: 15px;
+    margin-left: 13px;
+    width: 45%;
+    font-size: 11px;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+input[type=password] {
+    padding: 10px 15px;
+    margin-top: 15px;
+    margin-left: 16px;
+    width: 45%;
+    font-size: 11px;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+button{
+    background-color: #3282b8;
+    color: #faf5e4;
+    padding: 10px 15px;
+    margin-top: 25px;
+    margin-left: 70px;
+    width: 50%;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover{
+    opacity: 0.7;
 }
