@@ -161,13 +161,14 @@ input[type=search] {
     height: 100px;
 }
 
-#hr{
+#hr, #priceModify{
     margin-top: 5px;
     margin-right: 5px;
     margin-bottom: 10px;
     width: 120px;
     height: 120px;
 }
+
 
 #firstBox:hover{
     background-color: #f9fcfb;
@@ -196,7 +197,7 @@ input[type=search] {
     height: 110px;
 }
 
-#accounting{
+#accounting, #return{
     margin-top: 10px;
     margin-left:10px;
     margin-right: 10px;
@@ -231,7 +232,7 @@ input[type=search] {
     height: 110px;
 }
 
-#vendor{
+#vendor, #settings{
     margin-top: 10px;
     margin-right: 2px;
     margin-bottom: 10px;
@@ -264,7 +265,7 @@ input[type=search] {
     width: 110px;
     height: 110px;
 }
-#advertisement{
+#advertisement, #accessCustomer{
     margin-top: 5px;
     margin-right: 2px;
     margin-bottom: 10px;
@@ -298,7 +299,7 @@ input[type=search] {
     height: 110px;
 }
 
-#promotions{
+#promotions, #customerCheckOut{
     margin-top: 5px;
     margin-right: 2px;
     margin-bottom: 10px;
@@ -332,7 +333,7 @@ input[type=search] {
     height: 110px;
 }
 
-#inventory{
+#inventory, #other{
     margin-top: 5px;
     margin-left: 20px;
     margin-bottom: 10px;
