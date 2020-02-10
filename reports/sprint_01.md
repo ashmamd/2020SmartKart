@@ -29,10 +29,11 @@
   * Drafted and worked alongside the Jr. Developer in designing the Graphical User Interface
   * Utilized a design program called Justinmind for drafting the design and determining the color scheme and layout
   * Incorporated the three languages our team decided that we will support (English, Spanish, and French) in the splash screen layout
-  * Collaborated with the Jr. Developer on the order and functions of the buttons featured on the main page
+  * Collaborated with the Jr. Developer on the order and functions of the buttons featured on the main page and shopping cart
   * Sent the UI/UX designs to the Lead Developer for incorporation in the team project
     * included prototype sitemap
   * Created Slack Workspace (Connected Trello/GitHub)
+  * Created Google Team Drive
   * Created Trello Board
 
 ## Developer Report
