@@ -94,9 +94,18 @@ He logs in with his Username and Password. As soon as he logs in, another page p
 
 ![View Cart](webApp/view_cart.JPG)
 
-He can see the two items he scanned. Than, he click on the checkout button. 
+He can see the two items he scanned. Than, he clicks on the checkout button and checks out his purchased items.  
 
 ### Customer Service Story
+A Customer Service representative of Walmart is working at the Customer Service Section. A customer comes into the store with an item in her hand, she walks up to the Customer Service section and asks the representative to offer a full refund on the return she is trying to make. The employee takes the item from her, scans it, clicks on the 'Profile' button on his screen and sees the following Login Page:
+
+![Customer Service Login Page](webApp/login.JPG)
+
+After logging in with his credentials, he sees the following Customer Service Page:
+
+![Customer Login Page](webApp/customerService_page.JPG)
+
+As Customer Service employees, they would have the options for modifying the price, do returns, settings, access the customer account, checkout for the customer, and other. The employee then clicks on 'Return', runs the return on the item successfully the lady wanted to return.
 
 ### Store Manager Story
 
