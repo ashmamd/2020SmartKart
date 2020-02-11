@@ -126,7 +126,7 @@ a{
     background-color: #f9fcfb;
 }
 
-#links:hover{
+.links:hover{
     background-color: #f9fcfb;
     color: #41aaa8;
 }
