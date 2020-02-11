@@ -78,6 +78,8 @@
 ## User/Admin Story
 
 ### Customer Story
+A customer is in a rush and wants to buy some groceries at Walmart. As soon as he enters the store, he notices a shopping cart which has a tablet device attached to it. He walks up to the tablet, and sees the following screen:
+![Main Page](webApp/main_page.JPG)
 
 ### Customer Service Story
 
