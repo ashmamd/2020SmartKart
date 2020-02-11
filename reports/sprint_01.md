@@ -79,7 +79,16 @@
 
 ### Customer Story
 A customer is in a rush and wants to buy some groceries at Walmart. As soon as he enters the store, he notices a shopping cart which has a tablet device attached to it. He walks up to the tablet, and sees the following screen:
+
 ![Main Page](webApp/main_page.JPG)
+
+The customer would have the option to change the language if he wants to. This customer keeps the default English language and taps 'Touch To Start'. Once he taps the that button, he sees the following screen:
+
+![Customer Main Page](webApp/customer_homepage.JPG)
+
+He would have a few options on the screen. He could View his Cart, Navigate through the store, view their personal profile, check the price of an item, request help from customer service, or request help for Accessibility. Then, he clicks on 'Profile'. There is a login page which looks like this:
+
+![Customer Login Page](webApp/customer_login.JPG)
 
 ### Customer Service Story
 
