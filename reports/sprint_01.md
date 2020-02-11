@@ -74,10 +74,9 @@
   * Documented each task that was accomplished by each team member to ensure completion of Sprint 1 successfully.  
 
 ## Developer and Security Assumptions
+We will be using SQRL (Secure, Quick, Reliable, Login) for secure website login and authentication. It is an open, free, intellectual property unencumbered, complete and practical system to cryptographically authenticate the identity of individuals across a network. SQRL may be used alongside other traditional website sign-in systems, and it can replace all other systems while offering dramatic improvements in usability and security. 
 
-## User/Admin Story
-
-### Customer Story
+## Customer Story
 A customer is in a rush and wants to buy some snacks at Walmart. As soon as he enters the store, he notices a shopping cart which has a tablet device attached to it. He walks up to the tablet, and sees the following screen:
 
 ![Main Page](webApp/main_page.JPG)
@@ -96,7 +95,7 @@ He logs in with his Username and Password. As soon as he logs in, another page p
 
 He can see the two items he scanned. Than, he clicks on the checkout button and checks out his purchased items.  
 
-### Customer Service Story
+## Customer Service Story
 A Customer Service representative of Walmart is working at the Customer Service Section. A customer comes into the store with an item in her hand, she walks up to the Customer Service section and asks the representative to offer a full refund on the return she is trying to make. The employee takes the item from her, scans it, clicks on the 'Profile' button on his screen and sees the following Login Page:
 
 ![Customer Service Login Page](webApp/login.JPG)
@@ -107,7 +106,7 @@ After logging in with his credentials, he sees the following Customer Service Pa
 
 As Customer Service employees, they would have the options for modifying the price, do returns, settings, access the customer account, checkout for the customer, and other. The employee then clicks on 'Return', runs the return on the item successfully the lady wanted to return.
 
-### Store Manager Story
+## Administrator Story
 
 ## Atomic Goals for Sprint-02
 * Create UI/UX Diagrams for each feature in our Web App.
