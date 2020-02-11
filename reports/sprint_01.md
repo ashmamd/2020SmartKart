@@ -78,7 +78,7 @@
 ## User/Admin Story
 
 ### Customer Story
-A customer is in a rush and wants to buy some groceries at Walmart. As soon as he enters the store, he notices a shopping cart which has a tablet device attached to it. He walks up to the tablet, and sees the following screen:
+A customer is in a rush and wants to buy some snacks at Walmart. As soon as he enters the store, he notices a shopping cart which has a tablet device attached to it. He walks up to the tablet, and sees the following screen:
 
 ![Main Page](webApp/main_page.JPG)
 
@@ -86,9 +86,15 @@ The customer would have the option to change the language if he wants to. This c
 
 ![Customer Main Page](webApp/customer_homepage.JPG)
 
-He would have a few options on the screen. He could View his Cart, Navigate through the store, view their personal profile, check the price of an item, request help from customer service, or request help for Accessibility. Then, he clicks on 'Profile'. There is a login page which looks like this:
+Then, he clicks on 'Profile'. There is a login page which looks like this:
 
-![Customer Login Page](webApp/customer_login.JPG)
+![Customer Login Page](webApp/login.JPG)
+
+He logs in with his Username and Password. As soon as he logs in, another page pops up. He would have a few options on the screen. He could View his Cart, Navigate through the store, view their personal profile, check the price of an item, request help from customer service, request help for Accessibility, or log out of the page. He is walking around and picks up a couple of items and scans it. He wants to make sure if he has the correct items scanned. He clicks on View Cart, and sees the following screen:
+
+![View Cart](webApp/view_cart.JPG)
+
+He can see the two items he scanned. Than, he click on the checkout button. 
 
 ### Customer Service Story
 
