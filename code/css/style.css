@@ -113,7 +113,18 @@ a{
     font-weight:bold;
     color: #4d4646;
     margin-left: 50px;
-    
+}
+#logoutLink{
+    float: right;
+    text-decoration: none;
+    color: #41aaa8;
+    background-color: #f0efef;
+    text-align: center;
+    padding: 20px 80px;
+    font-size: 20px;
+    font-weight:bold;
+    color: #4d4646;
+    margin-right: 50px;
 }
 
 #links:hover{
@@ -123,10 +134,10 @@ a{
 
 /* voice search */
 input[type=search] {
-    float: right;
     padding: 20px 40px;
     margin-top: 90px;
-    font-size: 200px;
+    margin-left: 200px;
+    font-size: 600px;
     font-family: Verdana, Tahoma, sans-serif;
 }
 
@@ -135,9 +146,8 @@ input[type=search] {
     width: 60px;
     height: 60px;
     margin-top: 70px;
-    margin-left: 20px;
-    margin-right: 150px;
-    float: right;
+    margin-left: 10px;
+   
 }
 
 #firstBox{
