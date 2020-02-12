@@ -107,19 +107,28 @@ After logging in with his credentials, he sees the following Customer Service Pa
 As Customer Service employees, they would have the options for modifying the price, do returns, settings, access the customer account, checkout for the customer, and other. The employee then clicks on 'Return', runs the return on the item successfully that the lady wanted to return. This makes the customery happy by quick and reliable service from Walmart using the SmartKart application.
 
 ## Administrator Story
-An Administrator is looking for some information in order to make something changes in the Human Resources. Admin clicks on the 'Profile' button and logs in with his credentials. As soon as he logs in, he sees the following screen:
+An Administrator is looking for some information in order to make some changes in the Human Resources. Admin clicks on the 'Profile' button and logs in with his credentials. As soon as he logs in, he sees the following screen:
 
 ![Customer Service Page](webApp/admin_page.JPG)
 
 The administrator has some options to choose from, such as Human Resources, Accounting, Vendor, Advertisement, Promotions, and Inventory. He clicks on 'Human Resources' to search for the information he is looking for. He updates some of the changes and let's his Human Resources team know.
 
 ## Atomic Goals for Sprint-02
-* Create UI/UX Diagrams for each feature in our Web App.
-* UI/UX diagrams of the 'Profile' page should include Unauthenticated users, Authenticated users, and administrative users.
-* Create HTML and CSS pages for each feature (View Cart, Navigation, Profile, Price Check, Request Help, Accessibility). 
-* Create Database Tables in MySQL, based on the Data Schema.
-* User Story in depth (including more features that a user can use). 
-* Implementing Secure Transaction method in our Web App.
+1. Create UI/UX Diagrams for new features.
+2. Test Responsive design for new features.
+3. Create diagrams of colors, fonts, and other usability feature.
+4. Create HTML and CSS pages for each feature in Admin and Customer Service Profiles.
+5. Make the HTML and CSS pages responsive design.
+6. Select 2 to 3 features and code them to make it work accurately.
+7. Infrastructure diagrams on new technology that will be implemented in our web application
+8. Create Database Tables in MySQL, based on the Data Schema.
+9. Generate 2 to 4 real test users. 
+10. User Story in depth (including more features that a user can use, such as Price Check). 
+11. Learn to manage JIRA and implement Agile project management.
+12. Resolve GitHub issues for code or diagrams. 
+13. Research on how we will be implementing Secure Transaction method in our Web App.
+14. Check for bugs or security issues/vulnerabilities in the code.
+15. Develop detailed notes based on the diagrams from UI/UX Developer.
 
 ## References
 * Professor Jeremy Hajek
