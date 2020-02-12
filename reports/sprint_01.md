@@ -102,11 +102,16 @@ A Customer Service representative of Walmart is working at the Customer Service 
 
 After logging in with his credentials, he sees the following Customer Service Page:
 
-![Customer Login Page](webApp/customerService_page.JPG)
+![Customer Service Page](webApp/customerService_page.JPG)
 
-As Customer Service employees, they would have the options for modifying the price, do returns, settings, access the customer account, checkout for the customer, and other. The employee then clicks on 'Return', runs the return on the item successfully the lady wanted to return.
+As Customer Service employees, they would have the options for modifying the price, do returns, settings, access the customer account, checkout for the customer, and other. The employee then clicks on 'Return', runs the return on the item successfully that the lady wanted to return. This makes the customery happy by quick and reliable service from Walmart using the SmartKart application.
 
 ## Administrator Story
+An Administrator is looking for some information in order to make something changes in the Human Resources. Admin clicks on the 'Profile' button and logs in with his credentials. As soon as he logs in, he sees the following screen:
+
+![Customer Service Page](webApp/admin_page.JPG)
+
+The administrator has some options to choose from, such as Human Resources, Accounting, Vendor, Advertisement, Promotions, and Inventory. He clicks on 'Human Resources' to search for the information he is looking for. He updates some of the changes and let's his Human Resources team know.
 
 ## Atomic Goals for Sprint-02
 * Create UI/UX Diagrams for each feature in our Web App.
