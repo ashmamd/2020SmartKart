@@ -45,7 +45,11 @@
   * (During the initial process, I was able to brainstorm ideas with the team, we choose rolls/duties. We came up with an idea to create a mobile app that would serve as a Grocery's AI. Used as a mobile interface that's designed to cut shopper's shopping time by 50%. As the IT operator, this Spring I was able to choose database software that's conducive to our goals with the project, map the database, provide comprehensive diagrams associated with the data storage and the IT infrastructure of our first prototype. Also, was able to research the security options provided by our advising professor, Jeremy Hajek. I recommended that we implement SQRL. ) 
 
   Data Schema
-  ![Main Page](webApp/data_schema.JPG)
+  ![Data Schema](webApp/data_schema.JPG)
+
+  IT Infrastructure
+  ![Infrastructure Diagram](webApp/infrastructure.JPG)
+
 
 ## Jr. Developer
   * First, I sat down with an UI/UX Developer to design the user-friendly front end of our Web App. Together, we designed the homepage of our Web App. Taking every detail in encounter such as language preferred by the customer, symbols to navigate to an individual page, a microphone on top right hand side to make the process of checkout faster and convenient. As the UI/UX Developer was designing the page, I was taking notes of each element in detail to pass on the information to the Developer. Using Trello and Slack, I successfully attached the word document of the notes so the Developer can start coding. 
