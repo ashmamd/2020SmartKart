@@ -107,9 +107,13 @@ After logging in with his credentials, he sees the following Customer Service Pa
 As Customer Service employees, they would have the options for modifying the price, do returns, settings, access the customer account, checkout for the customer, and other. The employee then clicks on 'Return', runs the return on the item successfully that the lady wanted to return. This makes the customery happy by quick and reliable service from Walmart using the SmartKart application.
 
 ## Administrator Story
-An Administrator is looking for some information in order to make some changes in the Human Resources. Admin clicks on the 'Profile' button and logs in with his credentials. As soon as he logs in, he sees the following screen:
+An Administrator is looking for some information in order to make some changes in the Human Resources. Admin clicks on the 'Profile' button and logs in with his credentials. 
 
-![Customer Service Page](webApp/admin_page.JPG)
+![Admin Login Page](webApp/login.JPG)
+
+As soon as he logs in, he sees the following screen:
+
+![Admin Page](webApp/admin_page.JPG)
 
 The administrator has some options to choose from, such as Human Resources, Accounting, Vendor, Advertisement, Promotions, and Inventory. He clicks on 'Human Resources' to search for the information he is looking for. He updates some of the changes and let's his Human Resources team know.
 
