@@ -125,6 +125,10 @@ a{
     float: right;
     background-color: #f9fcfb;
 }
+.createaccount{
+    float: right;
+    margin-right: 150px;
+}
 
 .links:hover{
     background-color: #f9fcfb;
