@@ -118,21 +118,31 @@ As soon as he logs in, he sees the following screen:
 The administrator has some options to choose from, such as Human Resources, Accounting, Vendor, Advertisement, Promotions, and Inventory. He clicks on 'Human Resources' to search for the information he is looking for. He updates some of the changes and let's his Human Resources team know.
 
 ## Atomic Goals for Sprint-02
+
+### UI/UX Developer
 1. Create UI/UX Diagrams for new features.
 2. Test Responsive design for new features.
 3. Create diagrams of colors, fonts, and other usability feature.
-4. Create HTML and CSS pages for each feature in Admin and Customer Service Profiles.
-5. Make the HTML and CSS pages responsive design.
-6. Select 2 to 3 features and code them to make it work accurately.
-7. Infrastructure diagrams on new technology that will be implemented in our web application
-8. Create Database Tables in MySQL, based on the Data Schema.
-9. Generate 2 to 4 real test users. 
-10. User Story in depth (including more features that a user can use, such as Price Check). 
-11. Learn to manage JIRA and implement Agile project management.
-12. Resolve GitHub issues for code or diagrams. 
-13. Research on how we will be implementing Secure Transaction method in our Web App.
-14. Check for bugs or security issues/vulnerabilities in the code.
-15. Develop detailed notes based on the diagrams from UI/UX Developer.
+
+### Developer
+1. Create HTML and CSS pages for each feature in Admin and Customer Service Profiles.
+2. Make the HTML and CSS pages responsive design.
+3. Select 2 to 3 features and code them to make it work accurately.
+
+### IT Operations
+1. Infrastructure diagrams on new technology that will be implemented in our web application
+2. Create Database Tables in MySQL, based on the Data Schema.
+3. Generate 2 to 4 real test users. 
+
+### Project Manager
+1. User Story in depth (including more features that a user can use, such as Price Check). 
+2. Learn to manage JIRA and implement Agile project management.
+3. Resolve GitHub issues for code or diagrams. 
+
+### Jr. Developer
+1. Research on how we will be implementing Secure Transaction method in our Web App.
+2. Check for bugs or security issues/vulnerabilities in the code.
+3. Develop detailed notes based on the diagrams from UI/UX Developer.
 
 ## References
 * Professor Jeremy Hajek
