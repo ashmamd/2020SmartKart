@@ -44,6 +44,13 @@
 ## IT Infrastructure Report
   * (During the initial process, I was able to brainstorm ideas with the team, we choose rolls/duties. We came up with an idea to create a mobile app that would serve as a Grocery's AI. Used as a mobile interface that's designed to cut shopper's shopping time by 50%. As the IT operator, this Spring I was able to choose database software that's conducive to our goals with the project, map the database, provide comprehensive diagrams associated with the data storage and the IT infrastructure of our first prototype. Also, was able to research the security options provided by our advising professor, Jeremy Hajek. I recommended that we implement SQRL. ) 
 
+  Data Schema
+  ![Data Schema](webApp/data_schema.JPG)
+
+  IT Infrastructure
+  ![Infrastructure Diagram](webApp/infrastructure.JPG)
+
+
 ## Jr. Developer
   * First, I sat down with an UI/UX Developer to design the user-friendly front end of our Web App. Together, we designed the homepage of our Web App. Taking every detail in encounter such as language preferred by the customer, symbols to navigate to an individual page, a microphone on top right hand side to make the process of checkout faster and convenient. As the UI/UX Developer was designing the page, I was taking notes of each element in detail to pass on the information to the Developer. Using Trello and Slack, I successfully attached the word document of the notes so the Developer can start coding. 
   * Homepage: 
@@ -107,19 +114,42 @@ After logging in with his credentials, he sees the following Customer Service Pa
 As Customer Service employees, they would have the options for modifying the price, do returns, settings, access the customer account, checkout for the customer, and other. The employee then clicks on 'Return', runs the return on the item successfully that the lady wanted to return. This makes the customery happy by quick and reliable service from Walmart using the SmartKart application.
 
 ## Administrator Story
-An Administrator is looking for some information in order to make something changes in the Human Resources. Admin clicks on the 'Profile' button and logs in with his credentials. As soon as he logs in, he sees the following screen:
+An Administrator is looking for some information in order to make some changes in the Human Resources. Admin clicks on the 'Profile' button and logs in with his credentials. 
 
-![Customer Service Page](webApp/admin_page.JPG)
+![Admin Login Page](webApp/login.JPG)
+
+As soon as he logs in, he sees the following screen:
+
+![Admin Page](webApp/admin_page.JPG)
 
 The administrator has some options to choose from, such as Human Resources, Accounting, Vendor, Advertisement, Promotions, and Inventory. He clicks on 'Human Resources' to search for the information he is looking for. He updates some of the changes and let's his Human Resources team know.
 
 ## Atomic Goals for Sprint-02
-* Create UI/UX Diagrams for each feature in our Web App.
-* UI/UX diagrams of the 'Profile' page should include Unauthenticated users, Authenticated users, and administrative users.
-* Create HTML and CSS pages for each feature (View Cart, Navigation, Profile, Price Check, Request Help, Accessibility). 
-* Create Database Tables in MySQL, based on the Data Schema.
-* User Story in depth (including more features that a user can use). 
-* Implementing Secure Transaction method in our Web App.
+
+### UI/UX Developer
+1. Create UI/UX Diagrams for new features.
+2. Test Responsive design for new features.
+3. Create diagrams of colors, fonts, and other usability feature.
+
+### Developer
+1. Create HTML and CSS pages for each feature in Admin and Customer Service Profiles.
+2. Make the HTML and CSS pages responsive design.
+3. Select 2 to 3 features and code them to make it work accurately.
+
+### IT Operations
+1. Infrastructure diagrams on new technology that will be implemented in our web application
+2. Create Database Tables in MySQL, based on the Data Schema.
+3. Generate 2 to 4 real test users. 
+
+### Project Manager
+1. User Story in depth (including more features that a user can use, such as Price Check). 
+2. Learn to manage JIRA and implement Agile project management.
+3. Resolve GitHub issues for code or diagrams. 
+
+### Jr. Developer
+1. Research on how we will be implementing Secure Transaction method in our Web App.
+2. Check for bugs or security issues/vulnerabilities in the code.
+3. Develop detailed notes based on the diagrams from UI/UX Developer.
 
 ## References
 * Professor Jeremy Hajek
