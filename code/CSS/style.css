@@ -431,6 +431,27 @@ input[type=search] {
     height: 60px;
     width: 30px;
 }
+#personnel{
+    margin-top: 5px;
+    margin-right: 2px;
+    margin-bottom: 10px;
+    width: 110px;
+    height: 110px;
+}
+#payroll{
+    margin-top: 5px;
+    margin-right: 2px;
+    margin-bottom: 10px;
+    width: 110px;
+    height: 110px;
+}
+#hoursworked{
+    margin-top: 10px;
+    margin-right: 2px;
+    margin-bottom: 10px;
+    width: 110px;
+    height: 110px;
+}
 
 /* customer log in page */
 
