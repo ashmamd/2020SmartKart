@@ -44,6 +44,13 @@
 ## IT Infrastructure Report
   * (During the initial process, I was able to brainstorm ideas with the team, we choose rolls/duties. We came up with an idea to create a mobile app that would serve as a Grocery's AI. Used as a mobile interface that's designed to cut shopper's shopping time by 50%. As the IT operator, this Spring I was able to choose database software that's conducive to our goals with the project, map the database, provide comprehensive diagrams associated with the data storage and the IT infrastructure of our first prototype. Also, was able to research the security options provided by our advising professor, Jeremy Hajek. I recommended that we implement SQRL. ) 
 
+  Data Schema
+  ![Data Schema](webApp/data_schema.JPG)
+
+  IT Infrastructure
+  ![Infrastructure Diagram](webApp/infrastructure.JPG)
+
+
 ## Jr. Developer
   * First, I sat down with an UI/UX Developer to design the user-friendly front end of our Web App. Together, we designed the homepage of our Web App. Taking every detail in encounter such as language preferred by the customer, symbols to navigate to an individual page, a microphone on top right hand side to make the process of checkout faster and convenient. As the UI/UX Developer was designing the page, I was taking notes of each element in detail to pass on the information to the Developer. Using Trello and Slack, I successfully attached the word document of the notes so the Developer can start coding. 
   * Homepage: 
@@ -74,24 +81,75 @@
   * Documented each task that was accomplished by each team member to ensure completion of Sprint 1 successfully.  
 
 ## Developer and Security Assumptions
+We will be using SQRL (Secure, Quick, Reliable, Login) for secure website login and authentication. It is an open, free, intellectual property unencumbered, complete and practical system to cryptographically authenticate the identity of individuals across a network. SQRL may be used alongside other traditional website sign-in systems, and it can replace all other systems while offering dramatic improvements in usability and security. 
 
-## User/Admin Story
+## Customer Story
+A customer is in a rush and wants to buy some snacks at Walmart. As soon as he enters the store, he notices a shopping cart which has a tablet device attached to it. He walks up to the tablet, and sees the following screen:
 
-### Customer Story
-A customer is in a rush and wants to buy some groceries at Walmart. As soon as he enters the store, he notices a shopping cart which has a tablet device attached to it. He walks up to the tablet, and sees the following screen:
 ![Main Page](webApp/main_page.JPG)
 
-### Customer Service Story
+The customer would have the option to change the language if he wants to. This customer keeps the default English language and taps 'Touch To Start'. Once he taps the that button, he sees the following screen:
 
-### Store Manager Story
+![Customer Main Page](webApp/customer_homepage.JPG)
+
+Then, he clicks on 'Profile'. There is a login page which looks like this:
+
+![Customer Login Page](webApp/login.JPG)
+
+He logs in with his Username and Password. As soon as he logs in, another page pops up. He would have a few options on the screen. He could View his Cart, Navigate through the store, view their personal profile, check the price of an item, request help from customer service, request help for Accessibility, or log out of the page. He is walking around and picks up a couple of items and scans it. He wants to make sure if he has the correct items scanned. He clicks on View Cart, and sees the following screen:
+
+![View Cart](webApp/view_cart.JPG)
+
+He can see the two items he scanned. Than, he clicks on the checkout button and checks out his purchased items.  
+
+## Customer Service Story
+A Customer Service representative of Walmart is working at the Customer Service Section. A customer comes into the store with an item in her hand, she walks up to the Customer Service section and asks the representative to offer a full refund on the return she is trying to make. The employee takes the item from her, scans it, clicks on the 'Profile' button on his screen and sees the following Login Page:
+
+![Customer Service Login Page](webApp/login.JPG)
+
+After logging in with his credentials, he sees the following Customer Service Page:
+
+![Customer Service Page](webApp/customerService_page.JPG)
+
+As Customer Service employees, they would have the options for modifying the price, do returns, settings, access the customer account, checkout for the customer, and other. The employee then clicks on 'Return', runs the return on the item successfully that the lady wanted to return. This makes the customery happy by quick and reliable service from Walmart using the SmartKart application.
+
+## Administrator Story
+An Administrator is looking for some information in order to make some changes in the Human Resources. Admin clicks on the 'Profile' button and logs in with his credentials. 
+
+![Admin Login Page](webApp/login.JPG)
+
+As soon as he logs in, he sees the following screen:
+
+![Admin Page](webApp/admin_page.JPG)
+
+The administrator has some options to choose from, such as Human Resources, Accounting, Vendor, Advertisement, Promotions, and Inventory. He clicks on 'Human Resources' to search for the information he is looking for. He updates some of the changes and let's his Human Resources team know.
 
 ## Atomic Goals for Sprint-02
-* Create UI/UX Diagrams for each feature in our Web App.
-* UI/UX diagrams of the 'Profile' page should include Unauthenticated users, Authenticated users, and administrative users.
-* Create HTML and CSS pages for each feature (View Cart, Navigation, Profile, Price Check, Request Help, Accessibility). 
-* Create Database Tables in MySQL, based on the Data Schema.
-* User Story in depth (including more features that a user can use). 
-* Implementing Secure Transaction method in our Web App.
+
+### UI/UX Developer
+1. Create UI/UX Diagrams for new features.
+2. Test Responsive design for new features.
+3. Create diagrams of colors, fonts, and other usability feature.
+
+### Developer
+1. Create HTML and CSS pages for each feature in Admin and Customer Service Profiles.
+2. Make the HTML and CSS pages responsive design.
+3. Select 2 to 3 features and code them to make it work accurately.
+
+### IT Operations
+1. Infrastructure diagrams on new technology that will be implemented in our web application
+2. Create Database Tables in MySQL, based on the Data Schema.
+3. Generate 2 to 4 real test users. 
+
+### Project Manager
+1. User Story in depth (including more features that a user can use, such as Price Check). 
+2. Learn to manage JIRA and implement Agile project management.
+3. Resolve GitHub issues for code or diagrams. 
+
+### Jr. Developer
+1. Research on how we will be implementing Secure Transaction method in our Web App.
+2. Check for bugs or security issues/vulnerabilities in the code.
+3. Develop detailed notes based on the diagrams from UI/UX Developer.
 
 ## References
 * Professor Jeremy Hajek

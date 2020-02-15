@@ -101,7 +101,8 @@ a{
     
 }
 
-#links{
+/* go back btn */
+.links{
     float: left;
     margin-top: 70px;
     text-decoration: none;
@@ -113,20 +114,36 @@ a{
     font-weight:bold;
     color: #4d4646;
     margin-left: 50px;
-    
+}
+/* logout btn */
+.logout{
+    float: right;
+    margin-top: 70px;
+    margin-right: 50px;
+}
+.checkout{
+    float: right;
+    background-color: #f9fcfb;
+}
+.createaccount{
+    float: right;
+    margin-right: 150px;
 }
 
-#links:hover{
+.links:hover{
     background-color: #f9fcfb;
     color: #41aaa8;
 }
-
 /* voice search */
 input[type=search] {
-    float: right;
     padding: 20px 40px;
     margin-top: 90px;
+<<<<<<< HEAD:code/css/style.css
     font-size: 10px;
+=======
+    margin-left: 200px;
+    font-size: 600px;
+>>>>>>> d3f233dbe0c53330280b5dc9ee4299f66614b194:code/CSS/style.css
     font-family: Verdana, Tahoma, sans-serif;
 }
 
@@ -135,9 +152,7 @@ input[type=search] {
     width: 60px;
     height: 60px;
     margin-top: 70px;
-    margin-left: 20px;
-    margin-right: 150px;
-    float: right;
+    margin-left: 10px;
 }
 
 #firstBox{
@@ -148,7 +163,7 @@ input[type=search] {
     letter-spacing: 1px;
     background-color: #f0efef;
     padding: 20px 20px;
-    margin-top: 200px;
+    margin-top: 100px;
     position: absolute;
     margin-left: 200px;
 }
@@ -183,7 +198,7 @@ input[type=search] {
     letter-spacing: 1px;
     background-color: #f0efef;
     padding: 20px 20px;
-    margin-top: 200px;
+    margin-top: 100px;
     position: absolute;
     margin-left: 500px;
 }
@@ -219,7 +234,7 @@ input[type=search] {
     letter-spacing: 1px;
     background-color: #f0efef;
     padding: 20px 20px;
-    margin-top: 200px;
+    margin-top: 100px;
     position: absolute;
     margin-left: 800px;
 }
@@ -231,7 +246,12 @@ input[type=search] {
     width: 110px;
     height: 110px;
 }
-
+/* create an account btn */
+#createaccount{
+    float: right;
+    margin-top: 70px;
+    margin-right: 50px;
+}
 #vendor, #settings{
     margin-top: 10px;
     margin-right: 2px;
@@ -253,7 +273,7 @@ input[type=search] {
     letter-spacing: 1px;
     background-color: #f0efef;
     padding: 20px 20px;
-    margin-top: 450px;
+    margin-top: 350px;
     position: absolute;
     margin-left: 200px;
 }
@@ -286,7 +306,7 @@ input[type=search] {
     letter-spacing: 1px;
     background-color: #f0efef;
     padding: 20px 20px;
-    margin-top: 450px;
+    margin-top: 350px;
     position: absolute;
     margin-left: 500px;
 }
@@ -320,7 +340,7 @@ input[type=search] {
     letter-spacing: 1px;
     background-color: #f0efef;
     padding: 20px 20px;
-    margin-top: 450px;
+    margin-top: 350px;
     position: absolute;
     margin-left: 800px;
 }
@@ -371,7 +391,7 @@ input[type=search] {
 }
 #shoppingCartBox{
     width: 700px;
-    height: 400px;
+    height: 340px;
     background-color: #f0efef;
     margin: auto;
     width: 60%;
@@ -415,7 +435,83 @@ input[type=search] {
     height: 60px;
     width: 30px;
 }
-
+#personnel{
+    margin-top: 5px;
+    margin-right: 2px;
+    margin-bottom: 10px;
+    width: 110px;
+    height: 110px;
+}
+#payroll{
+    margin-top: 5px;
+    margin-right: 2px;
+    margin-bottom: 10px;
+    width: 110px;
+    height: 110px;
+}
+.hours{
+    margin-top: 5px;
+    margin-right: 2px;
+    margin-bottom: 10px;
+    width: 110px;
+    height: 110px;
+}
+#accountpay{
+    margin-top: 5px;
+    margin-right: 2px;
+    margin-bottom: 10px;
+    width: 110px;
+    height: 110px;
+}
+#recievable{
+    margin-top: 5px;
+    margin-right: 2px;
+    margin-bottom: 10px;
+    width: 110px;
+    height: 110px;
+}
+#meat{
+    margin-top: 5px;
+    margin-right: 2px;
+    margin-bottom: 10px;
+    width: 110px;
+    height: 110px;
+}
+#dairy{
+    margin-top: 5px;
+    margin-right: 2px;
+    margin-bottom: 10px;
+    width: 110px;
+    height: 110px;
+}
+.produce{
+    margin-top: 5px;
+    margin-right: 2px;
+    margin-bottom: 10px;
+    width: 110px;
+    height: 110px;
+}
+#tv{
+    margin-top: 5px;
+    margin-right: 2px;
+    margin-bottom: 10px;
+    width: 110px;
+    height: 110px;
+}
+#radio{
+    margin-top: 5px;
+    margin-right: 2px;
+    margin-bottom: 10px;
+    width: 110px;
+    height: 110px;
+}
+.print{
+    margin-top: 5px;
+    margin-right: 2px;
+    margin-bottom: 10px;
+    width: 110px;
+    height: 110px;
+}
 /* customer log in page */
 
 #boxLayout{
