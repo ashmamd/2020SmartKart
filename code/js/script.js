@@ -21,7 +21,7 @@ function validateForm(){
         return false;
     }
     else{
-        alert("Invalid password");
+        alert("Invalid username or password");
         return false;
     }
     
