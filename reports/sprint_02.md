@@ -28,8 +28,10 @@
 
 List all atomic defined goals for the sprint and place screenshots showing the artifact that completes the particular goal.   In addition, present the screenshots of your working system and explain which parts of your User Story is still outstanding.  An artifact in this case is a GitHub commit SHA hash and the JIRA/Trello screenshot of the task *completed*.
 
-Check for bugs or security issues/vulnerabilities in the code.
-Learn to manage Trello and implement Agile project management.
+* Check for bugs or security issues/vulnerabilities in the code.
+* Learn to manage Trello and implement Agile project management.
+* Test Responsive design for new features.
+
 
 ## Atomic Goals for Sprint-03
 
@@ -39,8 +41,8 @@ List atomic goals here in ordered list, minimum 3 per category
 
 List all atomic goals for UI/UX for this sprint and the artifacts that completed them.  Explain any design assumptions made and or any derivations from the initial User/Admin story.
 
-Create UI/UX Diagrams for new features.
-Make UI/UX diagrams for mobile devices
+* Create UI/UX Diagrams for new features.
+* Make UI/UX diagrams for mobile devices
 
 ## Developer Report
 
@@ -48,18 +50,18 @@ List all atomic goals for the Developer for this sprint and the artifacts that c
 
 ## IT Infrastructure Report
 
-*List all atomic goals for the Infrastructure for this sprint and the *artifacts that completed them.  Explain the IT/OS assumptions made and or any *derivations from the initial User/Admin story.
+List all atomic goals for the Infrastructure for this sprint and the artifacts that completed them. 
 
-*Resolve GitHub issues for code or diagrams.
-*Infrastructure diagrams on new technology that will be implemented in our web application
-*Test Responsive design for new features.
-*Create Database Tables in MySQL, based on the Data Schema.
+* Explain the IT/OS assumptions made and or any derivations from the initial User/Admin story.
+* Infrastructure diagrams on new technology that will be implemented in our web application
+* Create Database Tables in MySQL, based on the Data Schema.
+* Resolve GitHub issues for code or diagrams.
 
 
 ## Junior Developer and Security Assumptions
 
 List all atomic goals for the Junior Developer and Security Assumptions for this sprint and the artifacts that completed them.  Explain the Junior Developer and Security assumptions made and or any derivations from the initial User/Admin story.
 
-*Make the HTML and CSS pages responsive design.
-*Develop detailed notes based on the diagrams from UI/UX Developer.
-*Create diagrams of colors, fonts, and other usability feature.
+* Make the HTML and CSS pages responsive design.
+* Develop detailed notes based on the diagrams from UI/UX Developer.
+* Create diagrams of colors, fonts, and other usability feature.
