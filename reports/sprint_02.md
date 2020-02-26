@@ -43,6 +43,7 @@ List all atomic goals for UI/UX for this sprint and the artifacts that completed
 
 * Create UI/UX Diagrams for new features.
 * Make UI/UX diagrams for mobile devices
+![View Cart](webApp/UserMobileScreen.png)
 
 ## Developer Report
 
