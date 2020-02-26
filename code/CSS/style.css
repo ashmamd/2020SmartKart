@@ -445,6 +445,13 @@ input[type=search] {
     width: 110px;
     height: 110px;
 }
+.others{
+    margin-top: 5px;
+    margin-right: 2px;
+    margin-bottom: 10px;
+    width: 110px;
+    height: 110px;
+}
 .hours{
     margin-top: 5px;
     margin-right: 2px;
