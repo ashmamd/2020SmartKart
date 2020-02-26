@@ -43,6 +43,7 @@ List all atomic goals for UI/UX for this sprint and the artifacts that completed
 
 * Create UI/UX Diagrams for new features.
 * Make UI/UX diagrams for mobile devices
+![View Cart](webApp/UserMobileScreen.png)
 
 ## Developer Report
 
@@ -56,6 +57,7 @@ List all atomic goals for the Infrastructure for this sprint and the artifacts t
 * Infrastructure diagrams on new technology that will be implemented in our web application
 * Create Database Tables in MySQL, based on the Data Schema.
 * Resolve GitHub issues for code or diagrams.
+* Generate 15 test users. 
 
 
 ## Junior Developer and Security Assumptions
