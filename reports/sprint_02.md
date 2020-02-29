@@ -54,6 +54,9 @@ List all atomic goals for the Developer for this sprint and the artifacts that c
 List all atomic goals for the Infrastructure for this sprint and the artifacts that completed them. 
 
 * Explain the IT/OS assumptions made and or any derivations from the initial User/Admin story.
+
+    * We will be using Android Operating System on Amazon Fire Tablet.
+
 * Explain the Load Balancing and Master/Slave Datastore that will be used in web application. 
 
     * Load balancing is a process of the traffic navigation and workload distribution across multiple components, which is performed by the dedicated type of nodes called load balancers. 
