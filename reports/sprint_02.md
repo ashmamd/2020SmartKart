@@ -62,9 +62,14 @@ List all atomic goals for the Infrastructure for this sprint and the artifacts t
 
     We will be using Jelastic TCP Load Balancer. TCP load balancing component receives a connection request from a client app through a network socket. This component decides which node in the environment receives the request. When the connection is established, requests from the client app continue to go through the same connection to the chosen node. 
 
-    * 
+    * Master-slave replication enables data from one database server (the master) to be replicated to one or more database servers (the slave). The master logs the updates, which then ripple through to the slaves. The slave outputs a message stating that it has received the update successfully, thus allowing the sending of subsequent updates. 
+
+    ![Master/Slave Datastore](webApp/masterslave_datastore.JPG)
 
 * Create Database Tables in MySQL, based on the Data Schema.
+    
+    ![Database](webApp/database.JPG)
+
 * Resolve GitHub issues for code or diagrams.
 * Generate 15 test users. 
 
