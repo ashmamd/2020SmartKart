@@ -54,7 +54,14 @@ List all atomic goals for the Developer for this sprint and the artifacts that c
 List all atomic goals for the Infrastructure for this sprint and the artifacts that completed them. 
 
 * Explain the IT/OS assumptions made and or any derivations from the initial User/Admin story.
-* Infrastructure diagrams on new technology that will be implemented in our web application
+* Explain the Load Balancing and Master/Slave Datastore that will be used in web application. 
+
+    * Load balancing is a process of the traffic navigation and workload distribution across multiple components, which is performed by the dedicated type of nodes called load balancers. 
+
+    ![load balancer](webApp/load_balancer.jpg)
+
+    We will be using Jelastic TCP Load Balancer. TCP load balancing component receives a connection request from a client app through a network socket. This component decides which node in the environment receives the request. When the connection is established, requests from the client app continue to go through the same connection to the chosen node. 
+
 * Create Database Tables in MySQL, based on the Data Schema.
 * Resolve GitHub issues for code or diagrams.
 * Generate 15 test users. 
