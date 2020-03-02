@@ -83,7 +83,7 @@ List all atomic goals for the Infrastructure for this sprint and the artifacts t
 * Resolve GitHub issues for code or diagrams.
 * Generate 15 test users. 
 
-    ![Customer table](webApp/customer_table.JPG) ![Orders table](webApp/orders_table.JPG)
+    ![Customer table](webApp/customer_table.JPG) ![Orders table](webApp/orders_table.JPG) ![order detail table](webApp/orderDetail_table.JPG)
 
 
 ## Junior Developer and Security Assumptions
