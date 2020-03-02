@@ -41,9 +41,16 @@ List atomic goals here in ordered list, minimum 3 per category
 
 List all atomic goals for UI/UX for this sprint and the artifacts that completed them.  Explain any design assumptions made and or any derivations from the initial User/Admin story.
 
-* Create UI/UX Diagrams for new features.
+* Create UI diagram for administrative users with database dump, restore and read features.
+![Admin Screen](../diagrams/UI-UX/adminScreen.png)
+* Created UI diagram for Authenticated and Unauthenticated users.
+![Authenticated Users](../diagrams/UI-UX/authenticatedUserProfileScreen.png)
+![UnAuthenticated Users](../diagrams/UI-UX/unAuthenticatedUser.png)
+* Created UI diagram for when user if kicked out if user not in session.
+![HTTP session](../diagrams/UI-UX/stillThereScreen.png)
 * Make UI/UX diagrams for mobile devices
 ![View Cart](webApp/UserMobileScreen.png)
+* Created other UI/UX diagrams for other screens and relayed information to developing team.
 
 ## Developer Report
 
