@@ -49,6 +49,19 @@ List all atomic goals for UI/UX for this sprint and the artifacts that completed
 
 List all atomic goals for the Developer for this sprint and the artifacts that completed them.  Explain development assumptions and or any derivations from the initial User/Admin story.
 
+* Create a html page for Admin/Human Resources with editing the CSS file.
+![Human Resources](screenshots/HumanResources.png)
+* Create a html page for Admin/Accounting with editing the CSS file.
+![Accounting](screenshots/Accounting.png)
+* Create a html page for Admin/Vendor with editing the CSS file.
+![Vendor](screenshots/Vendor.png)
+* Create a html page for Admin/Advertisement with editing the CSS file.
+![Advertisement](screenshots/Advertisement.png)
+* Create a html page for Admin/Promotions with editing the CSS file.
+![Promotion](screenshots/Promotion.png)
+* Create a html page for Admin/Inventory with editing the CSS file.
+![Inventory](screenshots/Inventory.png)
+
 ## IT Infrastructure Report
 
 List all atomic goals for the Infrastructure for this sprint and the artifacts that completed them. 
