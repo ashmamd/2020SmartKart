@@ -78,7 +78,7 @@ List all atomic goals for the Infrastructure for this sprint and the artifacts t
 
 * Create Database Tables in MySQL, based on the Data Schema.
     
-    ![Database](webApp/database.JPG)
+    ![Database](webApp/database.JPG) ![Database on Github](webApp/github_database.JPG)
 
 * Resolve GitHub issues for code or diagrams.
 * Generate 15 test users. 
