@@ -6,37 +6,74 @@
 * Developer - Kajal Patel, kpatel115@hawk.iit.edu
   * Responsible for developing code based on UI/UX diagrams
   * Responsible for consistent code commitment for Sprint 1
+  * Created a html page for Admin/Human Resources with editing the CSS file.
+  * Created a html page for Admin/Vendor with editing the CSS file.
+  * Created a html page for Admin/Advertisement with editing the CSS file.
+  * Create a html page for Admin/Inventory with editing the CSS file.
 * UI/UX Developer - Ashma Manandhar, amanandh@hawk.iit.edu 
   * Responsible for designing UI/UX diagrams of the project
-  * Creative a testing responsive design
-  * Responsible for user testing and filing of issue on GitHub Issues
+  * Created and tested responsive design
+  * Responsible for user testing 
+  * Create UI diagram for administrative users with database dump, restore and read features.
+  * Created UI diagram for Authenticated and Unauthenticated users.
+  * Created UI diagram for when user if kicked out if user not in session.
+  * Created other UI/UX diagrams for other screens and relayed information to developing team.
 * Project Manager - Ramzee Christiel, rchristiel@hawk.iit.edu
   * Responsible for managing goals, communication methods, and achieving set goals
   * Responsible for getting resources for the team
   * Responsible for preparing Reports and documentations
   * Responsible for allocating issues and issues tracking on GitHub
+  * Check for bugs or security issues/vulnerabilities in the code.
+  * Test Responsive design for new features and discuss feedback with devOps.
 * Jr. Developer - Aurangzeb Razzaq, arazzaq@hawk.iit.edu 
-  * Responsible for working with Developer to develop code 
-  * Working with UI/UX developer to assist with User Interface diagrams
-  * Testing the initial developed code for security vulnerabilities
+  * Responsible for working with Developer to develop code. 
+  * Working with UI/UX developer to assist with User Interface diagrams.
+  * Testing the initial developed code for security vulnerabilities.
+  * Make the HTML and CSS pages responsive design.
+  * Develop detailed notes based on the diagrams from UI/UX Developer.
+  * Create diagrams of colors, fonts, and other usability feature.
 * IT Operations - Darsh Patel, dpatel137@hawk.iit.edu
-  * Responsible for ensuring and deploying infrastructure and code
-  * Responsible for ensuring al team members can deploy code locally
-  * Drawing Infrastructure diagrams 
+  * Responsible for ensuring and deploying infrastructure and code.
+  * Responsible for ensuring all team members can deploy code locally.
+  * Drawing Infrastructure diagrams.
+  * Responsible for researching Load balancer and implementing its use.
+  * Responsible for populating database.
+  * implement database with master/slave repicaltion.
 
 ## Project Manager Report
-
-List all atomic defined goals for the sprint and place screenshots showing the artifact that completes the particular goal.   In addition, present the screenshots of your working system and explain which parts of your User Story is still outstanding.  An artifact in this case is a GitHub commit SHA hash and the JIRA/Trello screenshot of the task *completed*.
-
-* Check for bugs or security issues/vulnerabilities in the code.
-* Learn to manage Trello and implement Agile project management.
-* Test Responsive design for new features.
+  * Responsible for managing goals, communication methods, and achieving set goals
+  * Responsible for getting resources for the team
+  * Responsible for preparing Reports and documentations
+  * Responsible for allocating issues and issues tracking on GitHub
+  * Check for bugs or security issues/vulnerabilities in the code.
+  * Test Responsive design for new features and discuss feedback with devOps.
+    ![Trello](webApp/Screenshot(24).png)
 
 
 ## Atomic Goals for Sprint-03
 
-List atomic goals here in ordered list, minimum 3 per category
-
+### Project Manager
+1. Create a scope of work to divide amongst team members based on current status. 
+2. Create gitnore file in github. 
+3. Create Sprint 3 report
+4. Assist team members where needed.
+### UI/UX 
+1. Create design for new features on admin page.
+2. Create design for new features on customer servicepage
+3. Create front-end user test.
+4. When transitioning to new position debrief personal notes pertaining to project two new successor.
+## Developer
+1. Prepare HTML file for inventory
+2. Add style to new HTML files through CSS
+3. Add relevant code to JavaScript file
+## JR. Developer
+1. Communicate with developer and supplement developers responsibilities
+2. Ensure that all new HTML files have responsive CSS code relevant to it
+3. Test responsive designs and all three formats
+## IT Infrastructure
+1. Deplore code to machine for testing
+2. Test responsive design
+3. Install load balancer
 ## UI/UX Report
 
 List all atomic goals for UI/UX for this sprint and the artifacts that completed them.  Explain any design assumptions made and or any derivations from the initial User/Admin story.
@@ -91,9 +128,14 @@ List all atomic goals for the Infrastructure for this sprint and the artifacts t
 
 * Create Database Tables in MySQL, based on the Data Schema.
     
-    ![Database](webApp/database.JPG)
+    ![Database](webApp/database.JPG) ![Database on Github](webApp/github_database.JPG)
 
-* Resolve GitHub issues for code or diagrams.
+* Explain Login Security Assumptions
+
+    * SQRL (Secure, Quick, Reliable Login) was designed to eliminate username and password authentication to remote websites/apps. When using SQRL, users need only to provide one password to unlock their signing keys, which are stored locally on their device and never disclosed to any website. The password is verified locally on the device that stores the signing keys.
+    * To authenticate using SQRL, visitors to a website/app are uniquely identified by an anonymous SQRL ID, which they present every time they visit the same site.
+    * While users always present the same ID to the same site, they present an entirely different ID to every other site they visit, so it is impossible to link identities across sites.
+
 * Generate 15 test users. 
 
     ![Customer table](webApp/customer_table.JPG) ![Orders table](webApp/orders_table.JPG) ![order detail table](webApp/orderDetail_table.JPG) ![Product table](webApp/product_table.JPG) ![order detail delivery](webApp/orderDetailDelivery.JPG) ![Store Associate](webApp/storeAssociate_table.JPG) ![branch table](webApp/branch_table.JPG) ![Delivery](webApp/delivery_table.JPG) 
@@ -106,3 +148,7 @@ List all atomic goals for the Junior Developer and Security Assumptions for this
 * Make the HTML and CSS pages responsive design.
 * Develop detailed notes based on the diagrams from UI/UX Developer.
 * Create diagrams of colors, fonts, and other usability feature.
+  ![Commits](webApp/Screenshot(25).png)
+  ![Commits](webApp/Screenshot(26).png)
+  ![Commits](webApp/Screenshot(27).png)
+  ![Commits](webApp/Zabe.png)
