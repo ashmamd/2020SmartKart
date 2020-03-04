@@ -153,4 +153,4 @@ List all atomic goals for the Junior Developer and Security Assumptions for this
   ![Commits](webApp/Screenshot(25).png)
   ![Commits](webApp/Screenshot(26).png)
   ![Commits](webApp/Screenshot(27).png)
-  ![Commits](webApp/Zabe.png)
+  ![Commits](webApp/Zabe.PNG)
