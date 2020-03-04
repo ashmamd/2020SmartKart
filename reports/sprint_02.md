@@ -93,7 +93,12 @@ List all atomic goals for the Infrastructure for this sprint and the artifacts t
     
     ![Database](webApp/database.JPG) ![Database on Github](webApp/github_database.JPG)
 
-* Resolve GitHub issues for code or diagrams.
+* Explain Login Security Assumptions
+
+    * SQRL (Secure, Quick, Reliable Login) was designed to eliminate username and password authentication to remote websites/apps. When using SQRL, users need only to provide one password to unlock their signing keys, which are stored locally on their device and never disclosed to any website. The password is verified locally on the device that stores the signing keys.
+    * To authenticate using SQRL, visitors to a website/app are uniquely identified by an anonymous SQRL ID, which they present every time they visit the same site.
+    * While users always present the same ID to the same site, they present an entirely different ID to every other site they visit, so it is impossible to link identities across sites.
+
 * Generate 15 test users. 
 
     ![Customer table](webApp/customer_table.JPG) ![Orders table](webApp/orders_table.JPG) ![order detail table](webApp/orderDetail_table.JPG) ![Product table](webApp/product_table.JPG) ![order detail delivery](webApp/orderDetailDelivery.JPG) ![Store Associate](webApp/storeAssociate_table.JPG) ![branch table](webApp/branch_table.JPG) ![Delivery](webApp/delivery_table.JPG) 
