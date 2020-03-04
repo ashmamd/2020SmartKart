@@ -18,7 +18,9 @@
 * Jr. Developer - Aurangzeb Razzaq, arazzaq@hawk.iit.edu 
   * Responsible for working with Developer to develop code 
   * Working with UI/UX developer to assist with User Interface diagrams
+  * Develop detailed notes based on the diagrams from UI/UX Developer
   * Testing the initial developed code for security vulnerabilities
+  * Create diagrams of colors, fonts, and other usability features
 * IT Operations - Darsh Patel, dpatel137@hawk.iit.edu
   * Responsible for ensuring and deploying infrastructure and code
   * Responsible for ensuring al team members can deploy code locally
@@ -108,6 +110,20 @@ List all atomic goals for the Infrastructure for this sprint and the artifacts t
 
 List all atomic goals for the Junior Developer and Security Assumptions for this sprint and the artifacts that completed them.  Explain the Junior Developer and Security assumptions made and or any derivations from the initial User/Admin story.
 
-* Make the HTML and CSS pages responsive design.
-* Develop detailed notes based on the diagrams from UI/UX Developer.
-* Create diagrams of colors, fonts, and other usability feature.
+* Overhaul the current HTML and CSS for Responsive Design (Designed for the Amazon Fire HD 8 Tablet)
+  * Initial Page Responsive Design (1280x800)
+  
+    ![Initial Page Responsive Design (Landscape)](webApp/touchtostart_landscape.png)
+  * Initial Page Responsive Design (800x1280)
+
+    ![Initial Page Responsive Design (Portrait)](webApp/touchtostart_portrait.png)
+* Main Page Responsive Design
+  * Main Page Responsive Design (1280x800)
+
+    ![Main Page Responsive Design (Landscape)](webApp/mainpage_landscape.png)
+  * Main Page Responsive Design (800x1280)
+
+    ![Main Page Responsive Design (Portrait)](webApp/mainpage_portrait.png)
+
+* Security Assumptions
+  * Currently the user login is running on locally-stored credentials (JavaScript/Injection vulnerability), this will change in the future. Admin/User passwords will be encrypted as well.
