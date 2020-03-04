@@ -74,6 +74,7 @@
 1. Deploy code to machine for testing
 2. Test responsive design
 3. Install load balancer
+4. Implement SQRL security
 ## UI/UX Report
 
 List all atomic goals for UI/UX for this sprint and the artifacts that completed them.  Explain any design assumptions made and or any derivations from the initial User/Admin story.
