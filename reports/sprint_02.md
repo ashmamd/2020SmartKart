@@ -41,21 +41,67 @@ List atomic goals here in ordered list, minimum 3 per category
 
 List all atomic goals for UI/UX for this sprint and the artifacts that completed them.  Explain any design assumptions made and or any derivations from the initial User/Admin story.
 
-* Create UI/UX Diagrams for new features.
+* Create UI diagram for administrative users with database dump, restore and read features.
+![Admin Screen](../diagrams/UI-UX/adminScreen.png)
+* Created UI diagram for Authenticated and Unauthenticated users.
+![Authenticated Users](../diagrams/UI-UX/authenticatedUserProfileScreen.png)
+![UnAuthenticated Users](../diagrams/UI-UX/unAuthenticatedUser.png)
+* Created UI diagram for when user if kicked out if user not in session.
+![HTTP session](../diagrams/UI-UX/stillThereScreen.png)
 * Make UI/UX diagrams for mobile devices
+![View Cart](webApp/UserMobileScreen.png)
+* Created other UI/UX diagrams for other screens and relayed information to developing team.
 
 ## Developer Report
 
 List all atomic goals for the Developer for this sprint and the artifacts that completed them.  Explain development assumptions and or any derivations from the initial User/Admin story.
+
+* Create a html page for Admin/Human Resources with editing the CSS file.
+![Human Resources](webApp/HumanResources.png)
+* Create a html page for Admin/Accounting with editing the CSS file.
+![Accounting](webApp/Accounting.png)
+* Create a html page for Admin/Vendor with editing the CSS file.
+![Vendor](webApp/Vendor.png)
+* Create a html page for Admin/Advertisement with editing the CSS file.
+![Advertisement](webApp/Advertisement.png)
+* Create a html page for Admin/Promotions with editing the CSS file.
+![Promotion](webApp/Promotion.png)
+* Create a html page for Admin/Inventory with editing the CSS file.
+![Inventory](webApp/Inventory.png)
 
 ## IT Infrastructure Report
 
 List all atomic goals for the Infrastructure for this sprint and the artifacts that completed them. 
 
 * Explain the IT/OS assumptions made and or any derivations from the initial User/Admin story.
-* Infrastructure diagrams on new technology that will be implemented in our web application
+
+    * We will be using Android Operating System on Amazon Fire Tablet.
+
+* Explain the Load Balancing and Master/Slave Datastore that will be used in web application. 
+
+    * Load balancing is a process of the traffic navigation and workload distribution across multiple components, which is performed by the dedicated type of nodes called load balancers. 
+
+    ![load balancer](webApp/load_balancer.JPG)
+
+    We will be using Jelastic TCP Load Balancer. TCP load balancing component receives a connection request from a client app through a network socket. This component decides which node in the environment receives the request. When the connection is established, requests from the client app continue to go through the same connection to the chosen node. 
+
+    * Master-slave replication enables data from one database server (the master) to be replicated to one or more database servers (the slave). The master logs the updates, which then ripple through to the slaves. The slave outputs a message stating that it has received the update successfully, thus allowing the sending of subsequent updates. 
+
+    ![Master/Slave Datastore](webApp/masterslave_datastore.JPG)
+
 * Create Database Tables in MySQL, based on the Data Schema.
-* Resolve GitHub issues for code or diagrams.
+    
+    ![Database](webApp/database.JPG) ![Database on Github](webApp/github_database.JPG)
+
+* Explain Login Security Assumptions
+
+    * SQRL (Secure, Quick, Reliable Login) was designed to eliminate username and password authentication to remote websites/apps. When using SQRL, users need only to provide one password to unlock their signing keys, which are stored locally on their device and never disclosed to any website. The password is verified locally on the device that stores the signing keys.
+    * To authenticate using SQRL, visitors to a website/app are uniquely identified by an anonymous SQRL ID, which they present every time they visit the same site.
+    * While users always present the same ID to the same site, they present an entirely different ID to every other site they visit, so it is impossible to link identities across sites.
+
+* Generate 15 test users. 
+
+    ![Customer table](webApp/customer_table.JPG) ![Orders table](webApp/orders_table.JPG) ![order detail table](webApp/orderDetail_table.JPG) ![Product table](webApp/product_table.JPG) ![order detail delivery](webApp/orderDetailDelivery.JPG) ![Store Associate](webApp/storeAssociate_table.JPG) ![branch table](webApp/branch_table.JPG) ![Delivery](webApp/delivery_table.JPG) 
 
 
 ## Junior Developer and Security Assumptions

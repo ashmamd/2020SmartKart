@@ -450,6 +450,13 @@ input[type=search] {
     width: 110px;
     height: 110px;
 }
+.others{
+    margin-top: 5px;
+    margin-right: 2px;
+    margin-bottom: 10px;
+    width: 110px;
+    height: 110px;
+}
 .hours{
     margin-top: 5px;
     margin-right: 2px;
@@ -507,6 +514,69 @@ input[type=search] {
     height: 110px;
 }
 .print{
+    margin-top: 5px;
+    margin-right: 2px;
+    margin-bottom: 10px;
+    width: 110px;
+    height: 110px;
+}
+#deals{
+    margin-top: 5px;
+    margin-right: 2px;
+    margin-bottom: 10px;
+    width: 110px;
+    height: 110px;
+}
+#ad{
+    margin-top: 5px;
+    margin-right: 2px;
+    margin-bottom: 10px;
+    width: 110px;
+    height: 110px;
+}
+.discount{
+    margin-top: 5px;
+    margin-right: 2px;
+    margin-bottom: 10px;
+    width: 110px;
+    height: 110px;
+}
+#purchase{
+    margin-top: 5px;
+    margin-right: 2px;
+    margin-bottom: 10px;
+    width: 110px;
+    height: 110px;
+}
+#bill{
+    margin-top: 5px;
+    margin-right: 2px;
+    margin-bottom: 10px;
+    width: 110px;
+    height: 110px;
+}
+.refund{
+    margin-top: 5px;
+    margin-right: 2px;
+    margin-bottom: 10px;
+    width: 110px;
+    height: 110px;
+}
+#invoice{
+    margin-top: 5px;
+    margin-right: 2px;
+    margin-bottom: 10px;
+    width: 110px;
+    height: 110px;
+}
+#warehouse{
+    margin-top: 5px;
+    margin-right: 2px;
+    margin-bottom: 10px;
+    width: 110px;
+    height: 110px;
+}
+#sales{
     margin-top: 5px;
     margin-right: 2px;
     margin-bottom: 10px;
