@@ -7,6 +7,12 @@
 * different color palettes: https://colorhunt.co/palette/155497 
 */
 
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
 body,html{
     height: 100%;
 }
@@ -29,19 +35,17 @@ body,html{
 }
 
 #storeLogo{
-    width: 200px;
     height: 70px;
+    padding-right: 4em;
 } 
 
-#circle {
-    position: absolute;
+.flex-container > #circle {
     width: 370px;
     height: 370px;
     border-radius: 50%;
-    margin-top: 180px;
-    margin-left: 450px;
     background-color: #3282b8;
     color: #faf5e4;
+
 }
 
 #circle:hover{
@@ -55,11 +59,13 @@ h5{
     text-align: center;
     letter-spacing: 1px;
 }
+
+.flex-container > #circle, #touch{
+    align-self: center;
+}
+
 #touch{
-    margin-top: 40px;
-    width: 120px;
-    height: 120px;
-    margin-left: 100px;
+    padding-left: 6em;
 }
 
 a{
@@ -67,12 +73,11 @@ a{
     color: #41aaa8;
 }
 
-.nav {
+.flex-container > .nav {
     position: absolute;
     overflow: hidden;
-    width: 100%;
     bottom:0;
-    
+    display: flex;
     }
 
 .nav a{
@@ -80,7 +85,7 @@ a{
     background-color: #f0efef;
     /*display: block;*/
     text-align: center;
-    padding: 20px 120px; /* top,right,bottom,left */
+    padding: 20px 80px; /* top,right,bottom,left */
     font-size: 25px;
     font-weight:bold;
     color: #4d4646;
@@ -98,36 +103,39 @@ a{
 
 
 #mainPageBG{
-    
+    background-color: #d3d3d1;
 }
 
 /* go back btn */
 .links{
     float: left;
-    margin-top: 70px;
+    margin-top: 3em;
     text-decoration: none;
     color: #41aaa8;
     background-color: #f0efef;
     text-align: center;
-    padding: 20px 80px;
+    padding: 20px 30px;
     font-size: 20px;
     font-weight:bold;
     color: #4d4646;
-    margin-left: 50px;
+    margin-left: .5em;
+    margin-right: .5em;
 }
+
 /* logout btn */
 .logout{
     float: right;
-    margin-top: 70px;
-    margin-right: 50px;
+    margin-top: 3em;
+    margin-right: 1em;
 }
 .checkout{
     float: right;
     background-color: #f9fcfb;
 }
+/* create an account btn */
 .createaccount{
     float: right;
-    margin-right: 150px;
+    margin-right: 1em;
 }
 
 .links:hover{
@@ -151,6 +159,15 @@ input[type=search] {
     margin-left: 10px;
 }
 
+/*main page styles */
+
+#flexboxes{
+    display: flex;
+    padding-top: 13em;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 #firstBox{
     width: 150px;
     height: 150px;
@@ -159,9 +176,8 @@ input[type=search] {
     letter-spacing: 1px;
     background-color: #f0efef;
     padding: 20px 20px;
-    margin-top: 100px;
-    position: absolute;
-    margin-left: 200px;
+    order: 1;
+    margin: 1em;
 }
 
 #cart{
@@ -194,9 +210,9 @@ input[type=search] {
     letter-spacing: 1px;
     background-color: #f0efef;
     padding: 20px 20px;
-    margin-top: 100px;
-    position: absolute;
-    margin-left: 500px;
+    order: 2;
+    margin: 1em;
+
 }
 
 #navigation{
@@ -230,9 +246,8 @@ input[type=search] {
     letter-spacing: 1px;
     background-color: #f0efef;
     padding: 20px 20px;
-    margin-top: 100px;
-    position: absolute;
-    margin-left: 800px;
+    order: 3;
+    margin: 1em;
 }
 
 .profile{
@@ -242,12 +257,7 @@ input[type=search] {
     width: 110px;
     height: 110px;
 }
-/* create an account btn */
-#createaccount{
-    float: right;
-    margin-top: 70px;
-    margin-right: 50px;
-}
+
 #vendor, #settings{
     margin-top: 10px;
     margin-right: 2px;
@@ -269,9 +279,8 @@ input[type=search] {
     letter-spacing: 1px;
     background-color: #f0efef;
     padding: 20px 20px;
-    margin-top: 350px;
-    position: absolute;
-    margin-left: 200px;
+    order: 4;
+    margin: 1em;
 }
 
 #priceCheck{
@@ -281,6 +290,7 @@ input[type=search] {
     width: 110px;
     height: 110px;
 }
+
 #advertisement, #accessCustomer{
     margin-top: 5px;
     margin-right: 2px;
@@ -302,9 +312,8 @@ input[type=search] {
     letter-spacing: 1px;
     background-color: #f0efef;
     padding: 20px 20px;
-    margin-top: 350px;
-    position: absolute;
-    margin-left: 500px;
+    order: 5;
+    margin: 1em;
 }
 
 #requestHelp{
@@ -336,9 +345,8 @@ input[type=search] {
     letter-spacing: 1px;
     background-color: #f0efef;
     padding: 20px 20px;
-    margin-top: 350px;
-    position: absolute;
-    margin-left: 800px;
+    order: 6;
+    margin: 1em;
 }
 
 #accessibility{
@@ -382,8 +390,6 @@ input[type=search] {
     padding: 5px;
     background-color: #f9fcfb;
     border: 1px solid;
-    margin-top: 170px;
-    margin-left: 50px;
 }
 #shoppingCartBox{
     width: 700px;
@@ -439,6 +445,13 @@ input[type=search] {
     height: 110px;
 }
 #payroll{
+    margin-top: 5px;
+    margin-right: 2px;
+    margin-bottom: 10px;
+    width: 110px;
+    height: 110px;
+}
+.others{
     margin-top: 5px;
     margin-right: 2px;
     margin-bottom: 10px;
@@ -508,32 +521,91 @@ input[type=search] {
     width: 110px;
     height: 110px;
 }
+#deals{
+    margin-top: 5px;
+    margin-right: 2px;
+    margin-bottom: 10px;
+    width: 110px;
+    height: 110px;
+}
+#ad{
+    margin-top: 5px;
+    margin-right: 2px;
+    margin-bottom: 10px;
+    width: 110px;
+    height: 110px;
+}
+.discount{
+    margin-top: 5px;
+    margin-right: 2px;
+    margin-bottom: 10px;
+    width: 110px;
+    height: 110px;
+}
+#purchase{
+    margin-top: 5px;
+    margin-right: 2px;
+    margin-bottom: 10px;
+    width: 110px;
+    height: 110px;
+}
+#bill{
+    margin-top: 5px;
+    margin-right: 2px;
+    margin-bottom: 10px;
+    width: 110px;
+    height: 110px;
+}
+.refund{
+    margin-top: 5px;
+    margin-right: 2px;
+    margin-bottom: 10px;
+    width: 110px;
+    height: 110px;
+}
+#invoice{
+    margin-top: 5px;
+    margin-right: 2px;
+    margin-bottom: 10px;
+    width: 110px;
+    height: 110px;
+}
+#warehouse{
+    margin-top: 5px;
+    margin-right: 2px;
+    margin-bottom: 10px;
+    width: 110px;
+    height: 110px;
+}
+#sales{
+    margin-top: 5px;
+    margin-right: 2px;
+    margin-bottom: 10px;
+    width: 110px;
+    height: 110px;
+}
 /* customer log in page */
 
 #boxLayout{
-    width: 700px;
-    height: 400px;
+    display: flex;
     background-color: #f0efef;
-    margin: auto;
-    width: 60%;
-    padding: 20px 10px;
-    margin-top: 200px;
-    position: absolute;
-    margin-left: 200px;
+    margin-top: 12em;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 20px;
 }
 
 .userPage{
     margin-top: 40px;
-    margin-left: 300px;
+    margin-left: 5em;
     width: 150px;
     height: 150px;
 }
 
 /*username and password container*/
-.container{
-    margin-top: 20px;
-    width: 50%;
-    margin-left: 210px;
+.input-container{
+    display: flex;
+    flex-direction: column;
 }
 
 input[type=text]{
@@ -566,4 +638,19 @@ button{
 
 button:hover{
     opacity: 0.7;
+}
+
+/* Responsive cases */
+@media screen and (orientation: portrait) {
+    .flex-container > .nav {
+        flex-direction: column;
+        margin-top: 200px;
+  }
+    .flex-container > #circle {
+        position: relative;
+        top: -10em;
+    }
+}
+@media only screen and (max-width: 960px) {
+
 }
