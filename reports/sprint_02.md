@@ -47,6 +47,8 @@
   * Responsible for allocating issues and issues tracking on GitHub
   * Check for bugs or security issues/vulnerabilities in the code.
   * Test Responsive design for new features and discuss feedback with devOps.
+  ![Trello](webApp/Screenshot(24).png)
+
 
 ## Atomic Goals for Sprint-03
 
@@ -146,7 +148,7 @@ List all atomic goals for the Junior Developer and Security Assumptions for this
 * Make the HTML and CSS pages responsive design.
 * Develop detailed notes based on the diagrams from UI/UX Developer.
 * Create diagrams of colors, fonts, and other usability feature.
- ![Commits](webApp/Screenshot(25).png)
- ![Commits](webApp/Screenshot(26).png)
- ![Commits](webApp/Screenshot(27).png)
- ![Commits](webApp/Screenshot(28).png)
+  ![Commits](webApp/Screenshot(25).png)
+  ![Commits](webApp/Screenshot(26).png)
+  ![Commits](webApp/Screenshot(27).png)
+  ![Commits](webApp/Screenshot(28).png)
