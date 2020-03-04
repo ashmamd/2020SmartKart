@@ -146,3 +146,7 @@ List all atomic goals for the Junior Developer and Security Assumptions for this
 * Make the HTML and CSS pages responsive design.
 * Develop detailed notes based on the diagrams from UI/UX Developer.
 * Create diagrams of colors, fonts, and other usability feature.
+ ![Commits](webApp/Screenshot(25).png)
+ ![Commits](webApp/Screenshot(26).png)
+ ![Commits](webApp/Screenshot(27).png)
+ ![Commits](webApp/Screenshot(28).png)
