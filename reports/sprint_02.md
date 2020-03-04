@@ -47,18 +47,19 @@
   * Responsible for allocating issues and issues tracking on GitHub
   * Check for bugs or security issues/vulnerabilities in the code.
   * Test Responsive design for new features and discuss feedback with devOps.
-  ![Trello](webApp/Screenshot(24).png)
+    ![Trello](webApp/Screenshot (24).png)
 
 
 ## Atomic Goals for Sprint-03
 
 ### Project Manager
-1.
-2.
-3.
+1. Create a scope of work to divide amongst team members based on current status. 
+2. Create gitnore file in github. 
+3. Create Sprint 3 report
+4.
 ### UI/UX 
-1.
-2.
+1. Create design for new features on admin page.
+2. Create design for new features on customer servicepage
 3.
 ## Developer
 1.
