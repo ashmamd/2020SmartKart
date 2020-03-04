@@ -87,14 +87,23 @@
 List all atomic goals for UI/UX for this sprint and the artifacts that completed them.  Explain any design assumptions made and or any derivations from the initial User/Admin story.
 
 * Create UI diagram for administrative users with database dump, restore and read features.
+
 ![Admin Screen](../diagrams/UI-UX/adminScreen.png)
+
 * Created UI diagram for Authenticated and Unauthenticated users.
+
 ![Authenticated Users](../diagrams/UI-UX/authenticatedUserProfileScreen.png)
+
 ![UnAuthenticated Users](../diagrams/UI-UX/unAuthenticatedUser.png)
+
 * Created UI diagram for when user if kicked out if user not in session.
+
 ![HTTP session](../diagrams/UI-UX/stillThereScreen.png)
+
 * Make UI/UX diagrams for mobile devices
+
 ![View Cart](webApp/UserMobileScreen.png)
+
 * Created other UI/UX diagrams for other screens and relayed information to developing team.
 
 ## Developer Report
@@ -102,18 +111,25 @@ List all atomic goals for UI/UX for this sprint and the artifacts that completed
 List all atomic goals for the Developer for this sprint and the artifacts that completed them.  Explain development assumptions and or any derivations from the initial User/Admin story.
 
 * Create a html page for Admin/Human Resources and style it by editing the CSS file.
+
 ![Human Resources](webApp/HumanResources.png)
 * Create a html page for Admin/Accounting and style it by editing the CSS file.
+
 ![Accounting](webApp/Accounting.png)
 * Create a html page for Admin/Vendor and style it by editing the CSS file.
+
 ![Vendor](webApp/Vendor.png)
 * Create a html page for Admin/Advertisement and style it by editing the CSS file.
+
 ![Advertisement](webApp/Advertisement.png)
 * Create a html page for Admin/Promotions and style it by editing the CSS file.
+
 ![Promotion](webApp/Promotion.png)
 * Create a html page for Admin/Inventory and style it by editing the CSS file.
+
 ![Inventory](webApp/Inventory.png)
 * Style the html page by editing the CSS file.
+
 ![css](webApp/css.png)
 
 ## IT Infrastructure Report
