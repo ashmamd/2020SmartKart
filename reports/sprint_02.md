@@ -47,7 +47,7 @@
   * Responsible for allocating issues and issues tracking on GitHub
   * Check for bugs or security issues/vulnerabilities in the code.
   * Test Responsive design for new features and discuss feedback with devOps.
-    ![Trello](webApp/Screenshot (24).png)
+    ![Trello](webApp/Screenshot(24).png)
 
 
 ## Atomic Goals for Sprint-03
