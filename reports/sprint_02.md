@@ -37,7 +37,7 @@
   * Drawing Infrastructure diagrams.
   * Responsible for researching Load balancer and implementing its use.
   * Responsible for populating database.
-  * implement database with master/slave repicaltion.
+  * implement database with master/slave replication.
 
 ## Project Manager Report
   * Responsible for managing goals, communication methods, and achieving set goals
