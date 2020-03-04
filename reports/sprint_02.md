@@ -63,28 +63,34 @@
 ## Atomic Goals for Sprint-03
 
 ### Project Manager
-1. Create a scope of work to divide amongst team members based on current status. 
+1. Create a scope of work to divide amongst team members based on current project status. 
 2. Create gitnore file in github. 
-3. Create Sprint 3 report
+3. Create Sprint 3 report.
 4. Assist team members where needed.
 ### UI/UX 
 1. Create design for new features on admin page.
-2. Create design for new features on customer servicepage
-3. Create front-end user test.
+2. Create design for new features on customer service page.
+3. Create front-end user tests and suggestions based on results.
 4. When transitioning to new position debrief personal notes pertaining to project two new successor.
 ## Developer
 1. Prepare HTML file for inventory
 2. Add style to new HTML files through CSS
 3. Add relevant code to JavaScript file
+4. When transitioning to new position debrief personal notes pertaining to project two new successor.
+
 ## JR. Developer
 1. Communicate with developer and supplement developers responsibilities
 2. Ensure that all new HTML files have responsive CSS code relevant to it
 3. Test responsive designs and all three formats
+4. When transitioning to new position debrief personal notes pertaining to project two new successor.
+
 ## IT Infrastructure
 1. Deploy code to machine for testing
 2. Test responsive design
 3. Install load balancer
 4. Implement SQRL security
+5. When transitioning to new position debrief personal notes pertaining to project two new successor.
+
 ## UI/UX Report
 
 List all atomic goals for UI/UX for this sprint and the artifacts that completed them.  Explain any design assumptions made and or any derivations from the initial User/Admin story.
