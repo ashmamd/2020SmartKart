@@ -26,20 +26,11 @@
   * Check for bugs or security issues/vulnerabilities in the code.
   * Test Responsive design for new features and discuss feedback with devOps.
 * Jr. Developer - Aurangzeb Razzaq, arazzaq@hawk.iit.edu 
-<<<<<<< HEAD
   * Responsible for working with Developer to develop code 
   * Working with UI/UX developer to assist with User Interface diagrams
   * Develop detailed notes based on the diagrams from UI/UX Developer
   * Testing the initial developed code for security vulnerabilities
   * Create diagrams of colors, fonts, and other usability features
-=======
-  * Responsible for working with Developer to develop code. 
-  * Working with UI/UX developer to assist with User Interface diagrams.
-  * Testing the initial developed code for security vulnerabilities.
-  * Make the HTML and CSS pages responsive design.
-  * Develop detailed notes based on the diagrams from UI/UX Developer.
-  * Create diagrams of colors, fonts, and other usability feature.
->>>>>>> ea79615ca0c54ab893e516f65c28b7633b3c16bc
 * IT Operations - Darsh Patel, dpatel137@hawk.iit.edu
   * Responsible for ensuring and deploying infrastructure and code.
   * Responsible for ensuring all team members can deploy code locally.
@@ -164,7 +155,6 @@ List all atomic goals for the Infrastructure for this sprint and the artifacts t
 
 List all atomic goals for the Junior Developer and Security Assumptions for this sprint and the artifacts that completed them.  Explain the Junior Developer and Security assumptions made and or any derivations from the initial User/Admin story.
 
-<<<<<<< HEAD
 * Overhaul the current HTML and CSS for Responsive Design (Designed for the Amazon Fire HD 8 Tablet)
   * Initial Page Responsive Design (1280x800)
   
@@ -182,7 +172,6 @@ List all atomic goals for the Junior Developer and Security Assumptions for this
 
 * Security Assumptions
   * Currently the user login is running on locally-stored credentials (JavaScript/Injection vulnerability), this will change in the future. Admin/User passwords will be encrypted as well.
-=======
 * Make the HTML and CSS pages responsive design.
 * Develop detailed notes based on the diagrams from UI/UX Developer.
 * Create diagrams of colors, fonts, and other usability feature.
@@ -190,4 +179,3 @@ List all atomic goals for the Junior Developer and Security Assumptions for this
   ![Commits](webApp/Screenshot(26).png)
   ![Commits](webApp/Screenshot(27).png)
   ![Commits](webApp/Zabe.PNG)
->>>>>>> ea79615ca0c54ab893e516f65c28b7633b3c16bc
