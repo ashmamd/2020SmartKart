@@ -71,7 +71,7 @@
 2. Ensure that all new HTML files have responsive CSS code relevant to it
 3. Test responsive designs and all three formats
 ## IT Infrastructure
-1. Deplore code to machine for testing
+1. Deploy code to machine for testing
 2. Test responsive design
 3. Install load balancer
 ## UI/UX Report
