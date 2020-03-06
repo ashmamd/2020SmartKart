@@ -46,8 +46,8 @@
   * Responsible for allocating issues and issues tracking on GitHub
   * Check for bugs or security issues/vulnerabilities in the code.
   * Test Responsive design for new features and discuss feedback with devOps.
-    ![Trello](webApp/Screenshot(24).png)
-    ![CartImage](webApp/cartImage.PNG)
+    ![Trello](../webApp/Screenshot(24).png)
+    ![CartImage](../webApp/cartImage.PNG)
 
 
 
@@ -88,21 +88,21 @@ List all atomic goals for UI/UX for this sprint and the artifacts that completed
 
 * Create UI diagram for administrative users with database dump, restore and read features.
 
-![Admin Screen](../diagrams/UI-UX/adminScreen.png)
+![Admin Screen](../../diagrams/UI-UX/adminScreen.png)
 
 * Created UI diagram for Authenticated and Unauthenticated users.
 
-![Authenticated Users](../diagrams/UI-UX/authenticatedUserProfileScreen.png)
+![Authenticated Users](../../diagrams/UI-UX/authenticatedUserProfileScreen.png)
 
-![UnAuthenticated Users](../diagrams/UI-UX/unAuthenticatedUser.png)
+![UnAuthenticated Users](../../diagrams/UI-UX/unAuthenticatedUser.png)
 
 * Created UI diagram for when user if kicked out if user not in session.
 
-![HTTP session](../diagrams/UI-UX/stillThereScreen.png)
+![HTTP session](../../diagrams/UI-UX/stillThereScreen.png)
 
 * Make UI/UX diagrams for mobile devices
 
-![View Cart](webApp/UserMobileScreen.png)
+![View Cart](../webApp/UserMobileScreen.png)
 
 * Created other UI/UX diagrams for other screens and relayed information to developing team.
 
@@ -112,25 +112,25 @@ List all atomic goals for the Developer for this sprint and the artifacts that c
 
 * Create a html page for Admin/Human Resources and style it by editing the CSS file.
 
-![Human Resources](webApp/HumanResources.png)
+![Human Resources](../webApp/HumanResources.png)
 * Create a html page for Admin/Accounting and style it by editing the CSS file.
 
-![Accounting](webApp/Accounting.png)
+![Accounting](../webApp/Accounting.png)
 * Create a html page for Admin/Vendor and style it by editing the CSS file.
 
-![Vendor](webApp/Vendor.png)
+![Vendor](../webApp/Vendor.png)
 * Create a html page for Admin/Advertisement and style it by editing the CSS file.
 
-![Advertisement](webApp/Advertisement.png)
+![Advertisement](../webApp/Advertisement.png)
 * Create a html page for Admin/Promotions and style it by editing the CSS file.
 
-![Promotion](webApp/Promotion.png)
+![Promotion](../webApp/Promotion.png)
 * Create a html page for Admin/Inventory and style it by editing the CSS file.
 
-![Inventory](webApp/Inventory.png)
+![Inventory](../webApp/Inventory.png)
 * Style the html page by editing the CSS file.
 
-![css](webApp/css.png)
+![css](../webApp/css.png)
 
 ## IT Infrastructure Report
 
@@ -144,17 +144,17 @@ List all atomic goals for the Infrastructure for this sprint and the artifacts t
 
     * Load balancing is a process of the traffic navigation and workload distribution across multiple components, which is performed by the dedicated type of nodes called load balancers. 
 
-    ![load balancer](webApp/load_balancer.JPG)
+    ![load balancer](../webApp/load_balancer.JPG)
 
     We will be using Jelastic TCP Load Balancer. TCP load balancing component receives a connection request from a client app through a network socket. This component decides which node in the environment receives the request. When the connection is established, requests from the client app continue to go through the same connection to the chosen node. 
 
     * Master-slave replication enables data from one database server (the master) to be replicated to one or more database servers (the slave). The master logs the updates, which then ripple through to the slaves. The slave outputs a message stating that it has received the update successfully, thus allowing the sending of subsequent updates. 
 
-    ![Master/Slave Datastore](webApp/masterslave_datastore.JPG)
+    ![Master/Slave Datastore](../webApp/masterslave_datastore.JPG)
 
 * Create Database Tables in MySQL, based on the Data Schema.
     
-    ![Database](webApp/database.JPG) ![Database on Github](webApp/github_database.JPG)
+    ![Database](../webApp/database.JPG) ![Database on Github](../webApp/github_database.JPG)
 
 * Explain Login Security Assumptions
 
@@ -164,7 +164,7 @@ List all atomic goals for the Infrastructure for this sprint and the artifacts t
 
 * Generate 15 test users. 
 
-    ![Customer table](webApp/customer_table.JPG) ![Orders table](webApp/orders_table.JPG) ![order detail table](webApp/orderDetail_table.JPG) ![Product table](webApp/product_table.JPG) ![order detail delivery](webApp/orderDetailDelivery.JPG) ![Store Associate](webApp/storeAssociate_table.JPG) ![branch table](webApp/branch_table.JPG) ![Delivery](webApp/delivery_table.JPG) 
+    ![Customer table](../webApp/customer_table.JPG) ![Orders table](../webApp/orders_table.JPG) ![order detail table](../webApp/orderDetail_table.JPG) ![Product table](../webApp/product_table.JPG) ![order detail delivery](../webApp/orderDetailDelivery.JPG) ![Store Associate](../webApp/storeAssociate_table.JPG) ![branch table](../webApp/branch_table.JPG) ![Delivery](../webApp/delivery_table.jpg) 
 
 
 ## Junior Developer and Security Assumptions
@@ -174,24 +174,24 @@ List all atomic goals for the Junior Developer and Security Assumptions for this
 * Overhaul the current HTML and CSS for Responsive Design (Designed for the Amazon Fire HD 8 Tablet)
   * Initial Page Responsive Design (1280x800)
   
-    ![Initial Page Responsive Design (Landscape)](webApp/touchtostart_landscape.png)
+    ![Initial Page Responsive Design (Landscape)](../webApp/touchtostart_landscape.png)
   * Initial Page Responsive Design (800x1280)
 
-    ![Initial Page Responsive Design (Portrait)](webApp/touchtostart_portrait.png)
+    ![Initial Page Responsive Design (Portrait)](../webApp/touchtostart_portrait.png)
 * Main Page Responsive Design
   * Main Page Responsive Design (1280x800)
 
-    ![Main Page Responsive Design (Landscape)](webApp/mainpage_landscape.png)
+    ![Main Page Responsive Design (Landscape)](../webApp/mainpage_landscape.png)
   * Main Page Responsive Design (800x1280)
 
-    ![Main Page Responsive Design (Portrait)](webApp/mainpage_portrait.png)
+    ![Main Page Responsive Design (Portrait)](../webApp/mainpage_portrait.png)
 
 * Security Assumptions
   * Currently the user login is running on locally-stored credentials (JavaScript/Injection vulnerability), this will change in the future. Admin/User passwords will be encrypted as well.
 * Make the HTML and CSS pages responsive design.
 * Develop detailed notes based on the diagrams from UI/UX Developer.
 * Create diagrams of colors, fonts, and other usability feature.
-  ![Commits](webApp/Screenshot(25).png)
-  ![Commits](webApp/Screenshot(26).png)
-  ![Commits](webApp/Screenshot(27).png)
-  ![Commits](webApp/Zabe.PNG)
+  ![Commits](../webApp/Screenshot(25).png)
+  ![Commits](../webApp/Screenshot(26).png)
+  ![Commits](../webApp/Screenshot(27).png)
+  ![Commits](../webApp/Zabe.PNG)
