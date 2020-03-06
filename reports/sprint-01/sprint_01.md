@@ -45,10 +45,10 @@
   * (During the initial process, I was able to brainstorm ideas with the team, we choose rolls/duties. We came up with an idea to create a mobile app that would serve as a Grocery's AI. Used as a mobile interface that's designed to cut shopper's shopping time by 50%. As the IT operator, this Spring I was able to choose database software that's conducive to our goals with the project, map the database, provide comprehensive diagrams associated with the data storage and the IT infrastructure of our first prototype. Also, was able to research the security options provided by our advising professor, Jeremy Hajek. I recommended that we implement SQRL. ) 
 
   Data Schema
-  ![Data Schema](webApp/data_schema.JPG)
+  ![Data Schema](../webApp/data_schema.JPG)
 
   IT Infrastructure
-  ![Infrastructure Diagram](webApp/infrastructure.JPG)
+  ![Infrastructure Diagram](../webApp/infrastructure.JPG)
 
 
 ## Jr. Developer
@@ -86,41 +86,41 @@ We will be using SQRL (Secure, Quick, Reliable, Login) for secure website login 
 ## Customer Story
 A customer is in a rush and wants to buy some snacks at Walmart. As soon as he enters the store, he notices a shopping cart which has a tablet device attached to it. He walks up to the tablet, and sees the following screen:
 
-![Main Page](webApp/main_page.JPG)
+![Main Page](../webApp/main_page.jpg)
 
 The customer would have the option to change the language if he wants to. This customer keeps the default English language and taps 'Touch To Start'. Once he taps the that button, he sees the following screen:
 
-![Customer Main Page](webApp/customer_homepage.JPG)
+![Customer Main Page](../webApp/customer_homepage.JPG)
 
 Then, he clicks on 'Profile'. There is a login page which looks like this:
 
-![Customer Login Page](webApp/login.JPG)
+![Customer Login Page](../webApp/login.JPG)
 
 He logs in with his Username and Password. As soon as he logs in, another page pops up. He would have a few options on the screen. He could View his Cart, Navigate through the store, view their personal profile, check the price of an item, request help from customer service, request help for Accessibility, or log out of the page. He is walking around and picks up a couple of items and scans it. He wants to make sure if he has the correct items scanned. He clicks on View Cart, and sees the following screen:
 
-![View Cart](webApp/view_cart.JPG)
+![View Cart](../webApp/view_cart.JPG)
 
 He can see the two items he scanned. Than, he clicks on the checkout button and checks out his purchased items.  
 
 ## Customer Service Story
 A Customer Service representative of Walmart is working at the Customer Service Section. A customer comes into the store with an item in her hand, she walks up to the Customer Service section and asks the representative to offer a full refund on the return she is trying to make. The employee takes the item from her, scans it, clicks on the 'Profile' button on his screen and sees the following Login Page:
 
-![Customer Service Login Page](webApp/login.JPG)
+![Customer Service Login Page](../webApp/login.JPG)
 
 After logging in with his credentials, he sees the following Customer Service Page:
 
-![Customer Service Page](webApp/customerService_page.JPG)
+![Customer Service Page](../webApp/customerService_page.JPG)
 
 As Customer Service employees, they would have the options for modifying the price, do returns, settings, access the customer account, checkout for the customer, and other. The employee then clicks on 'Return', runs the return on the item successfully that the lady wanted to return. This makes the customery happy by quick and reliable service from Walmart using the SmartKart application.
 
 ## Administrator Story
 An Administrator is looking for some information in order to make some changes in the Human Resources. Admin clicks on the 'Profile' button and logs in with his credentials. 
 
-![Admin Login Page](webApp/login.JPG)
+![Admin Login Page](../webApp/login.JPG)
 
 As soon as he logs in, he sees the following screen:
 
-![Admin Page](webApp/admin_page.JPG)
+![Admin Page](../webApp/admin_page.JPG)
 
 The administrator has some options to choose from, such as Human Resources, Accounting, Vendor, Advertisement, Promotions, and Inventory. He clicks on 'Human Resources' to search for the information he is looking for. He updates some of the changes and let's his Human Resources team know.
 
