@@ -44,6 +44,13 @@ Place links and or screenshots to minimum of **4** artifacts here. Artifacts are
 
 User stories needs to be included in the *diagrams* folder but **not** included in the report section under UI/UX
 
+![Create an Account](../webApp/create_account.png)
+![Access Customer](../webApp/access_customer.png)
+![Checkout](../webApp/checkout.png)
+![Price Modify](../webApp/price_modify.png)
+![Returns](../webApp/returns.png)
+![Settings](../webApp/settings.png)
+
 ### Infrastructure
 
 Place links and or screenshots to minimum of **5** artifacts here. Artifacts are defined as GitHub commit URL and Project Management Tool Kanban board images (Trello or JIRA).
