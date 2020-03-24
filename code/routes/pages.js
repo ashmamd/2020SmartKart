@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 const Customer = require('../database/customer');
 
-const customer = new Customer();
+//const customer = new Customer();
 
 //sends to index.html page in the beginning
 router.get('/', (req, res, next) => {
@@ -15,17 +15,7 @@ router.get('/home', (req, res, next) => {
 
 //user login
 router.post('/login', (req, res, next) => {
-    customer.login(req.body.username, req.body.password, function(result) {
-        if(result) {
-            //req.session.customer = result;
-            res.send(req.body);
-            //req.session.opp = 1;
-            //window.location.href = "mainPageEng.html";
-        }else {
-            res.send('Username/Password incorrect!');
-        }
-    })
-
+    res.send(req.body);
 });
 
 
