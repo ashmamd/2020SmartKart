@@ -1,21 +1,67 @@
-DROP DATABASE IF EXISTS SmartKart;
+-- DROP DATABASE IF EXISTS SmartKart;
 CREATE DATABASE IF NOT EXISTS SmartKart;
 
 Use SmartKart;
 
 CREATE TABLE Customer
 (
-	CustomerID		INT(2)		PRIMARY KEY,
+	CustomerID INT(2)		PRIMARY KEY,
     FName	VARCHAR(15),
-    LName	VARCHAR(20)
+    LName	VARCHAR(20),
+    username VARCHAR(20),
+    password VARCHAR(20),
+    email VARCHAR(30),
+    phoneNumber INT(12),
+    address VARCHAR(45),
+    zipCode INT(5)
 );
 
-INSERT INTO Customer VALUES(1, 'user1first', 'user1last');
-INSERT INTO Customer VALUES(2, 'user2first', 'user2last');
-INSERT INTO Customer VALUES(3, 'user3first', 'user3last');
-INSERT INTO Customer VALUES(4, 'user4first', 'user4last');
-INSERT INTO Customer VALUES(5, 'user5first', 'user5last');
-INSERT INTO Customer VALUES(6, 'user6first', 'user6last');
+INSERT INTO Customer VALUES(1, 'testUser', 'testUser', 'test', 'test',
+	'test@gmail.com', '1231231234', '1000 W Monroe St', '60060');
+INSERT INTO Customer VALUES(2, 'Tom', 'Holland', 'tomHolland', 'password123',
+	'tomHolland@gmail.com', '1231231234', '1000 W Monroe St', '60060');
+INSERT INTO Customer VALUES(3, 'Tom', 'Hanks', 'tomHanks', 'password123',
+	'tomHanks@gmail.com', '1231231234', '1000 W Monroe St', '60060');
+INSERT INTO Customer VALUES(4, 'Tom', 'Brady', 'tomBrady', 'password123',
+	'tomBrady@gmail.com', '1231231234', '1000 W Monroe St', '60060');
+INSERT INTO Customer VALUES(5, 'Tom', 'Cruise', 'tomCruise', 'password123',
+	'tomCruise@gmail.com', '1231231234', '1000 W Monroe St', '60060');
+
+CREATE TABLE CustomerServer
+(
+	CustomerServerID INT(2) PRIMARY KEY,
+    FName VARCHAR(15),
+    LName VARCHAR(20),
+    username VARCHAR(20),
+    password VARCHAR(20),
+    email VARCHAR(30),
+    phoneNumber INT(12)
+);
+
+INSERT INTO CustomerServer VALUES(1, 'Ashma', 'Manandhar', 'amanandh', 'password123', 
+	'amanandh@hawk.iit.edu', '1231231234');
+INSERT INTO CustomerServer VALUES(2, 'Aurangzeb', 'Razzaq', 'arazzaq', 'password123',
+	'arazzaq@hawk.iit.edu', '1231231234');
+INSERT INTO CustomerServer VALUES(3, 'Darsh', 'Patel', 'dpatel137', 'password123',
+	'dpatel137@hawk.iit.edu', '1231231234');
+INSERT INTO CustomerServer VALUES(4, 'Kajal', 'Patel', 'kpatel115', 'password123',
+	'kpatel115@hawk.iit.edu', '1231231234');
+INSERT INTO CustomerServer VALUES(5, 'Ramzee', 'Christiel', 'rchristiel', 'password123',
+	'rchristiel@hawk.iit.edu', '1231231234');
+
+
+CREATE TABLE Admin
+(
+	AdminID INT(2) PRIMARY KEY,
+    username VARCHAR(20),
+    password VARCHAR(20),
+    email VARCHAR(30),
+    phoneNumber INT(12)
+);
+
+INSERT INTO Admin VALUES(1, 'admin', 'admin123', 'admin@gmail.com', '1231231234');
+
+/*
 INSERT INTO Customer VALUES(7, 'user7first', 'user7last');
 INSERT INTO Customer VALUES(8, 'user8first', 'user8last');
 INSERT INTO Customer VALUES(9, 'user9first', 'user9last');
@@ -25,6 +71,7 @@ INSERT INTO Customer VALUES(12, 'user12first', 'user12last');
 INSERT INTO Customer VALUES(13, 'user13first', 'user13last');
 INSERT INTO Customer VALUES(14, 'user14first', 'user14last');
 INSERT INTO Customer VALUES(15, 'user15first', 'user15last');
+
 
 CREATE TABLE Orders
 (
@@ -171,7 +218,7 @@ INSERT INTO Delivery VALUES(12, '2020-03-12', 312);
 INSERT INTO Delivery VALUES(13, '2020-03-13', 313);
 INSERT INTO Delivery VALUES(14, '2020-03-14', 314);
 INSERT INTO Delivery VALUES(15, '2020-03-15', 315);
-
+*/
 -- SELECT * FROM Customer;
 -- SELECT * FROM Orders;
 -- SELECT * FROM OrderDetail;
