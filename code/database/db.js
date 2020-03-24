@@ -1,13 +1,12 @@
 const mysql = require('mysql');
-//const util = require('util');
 
 // replace user and password with yours
 const con = mysql.createPool({
   connectionLimit: 10,
   host: 'localhost',
-  user: 'ashma',
-  password: 'password123',
-  database: 'smartkart'
+  user: 'ashma', //change this
+  password: 'password123', //change this
+  database: 'smartkart' //make sure your sql database name is this or change it
 });
 
 con.getConnection((err) => {
