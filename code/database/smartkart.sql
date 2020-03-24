@@ -27,9 +27,9 @@ INSERT INTO Customer VALUES(4, 'Tom', 'Brady', 'tomBrady', 'password123',
 INSERT INTO Customer VALUES(5, 'Tom', 'Cruise', 'tomCruise', 'password123',
 	'tomCruise@gmail.com', '1231231234', '1000 W Monroe St', '60060');
 
-CREATE TABLE CustomerServer
+CREATE TABLE CustomerService
 (
-	CustomerServerID INT(2) PRIMARY KEY,
+	CustomerServiceID INT(2) PRIMARY KEY,
     FName VARCHAR(15),
     LName VARCHAR(20),
     username VARCHAR(20),
@@ -38,15 +38,15 @@ CREATE TABLE CustomerServer
     phoneNumber INT(12)
 );
 
-INSERT INTO CustomerServer VALUES(1, 'Ashma', 'Manandhar', 'amanandh', 'password123', 
+INSERT INTO CustomerService VALUES(1, 'Ashma', 'Manandhar', 'amanandh', 'password123', 
 	'amanandh@hawk.iit.edu', '1231231234');
-INSERT INTO CustomerServer VALUES(2, 'Aurangzeb', 'Razzaq', 'arazzaq', 'password123',
+INSERT INTO CustomerService VALUES(2, 'Aurangzeb', 'Razzaq', 'arazzaq', 'password123',
 	'arazzaq@hawk.iit.edu', '1231231234');
-INSERT INTO CustomerServer VALUES(3, 'Darsh', 'Patel', 'dpatel137', 'password123',
+INSERT INTO CustomerService VALUES(3, 'Darsh', 'Patel', 'dpatel137', 'password123',
 	'dpatel137@hawk.iit.edu', '1231231234');
-INSERT INTO CustomerServer VALUES(4, 'Kajal', 'Patel', 'kpatel115', 'password123',
+INSERT INTO CustomerService VALUES(4, 'Kajal', 'Patel', 'kpatel115', 'password123',
 	'kpatel115@hawk.iit.edu', '1231231234');
-INSERT INTO CustomerServer VALUES(5, 'Ramzee', 'Christiel', 'rchristiel', 'password123',
+INSERT INTO CustomerService VALUES(5, 'Ramzee', 'Christiel', 'rchristiel', 'password123',
 	'rchristiel@hawk.iit.edu', '1231231234');
 
 
