@@ -16,3 +16,8 @@
 
 6. In your terminal, run the command `npm start`
 7. Go to your web broswer and type in http://localhost:3000/
+
+## Database setup
+
+1. Name of the database for this app is *smartkart*
+2. Inside code/database/db.js, make sure to change the user and password field accordingly
