@@ -41,7 +41,8 @@
 
 1. Place images of the full User & Admin and/or anonymous story here with annotations of the functioning and the non-functioning portions as necessary (can reuse the artifact created by UI/UX)
 
-* 
+![Main Page](UI-UX/Customer_story_ss/touchtostart_landscape.png)
+* As soon as the customer enters the store, a shopping cart which has a tablet device attached to it is placed by the entrance. This is the homepage of a Customer.
 
 2. Include a file  ```install.md``` in the root of the team GitHub Repo detailing all instructions to build and run the functioning parts of your site
 
@@ -127,6 +128,9 @@ Place links and or screenshots to minimum of **5** artifacts here. Artifacts are
 ### Developer
 
 Place links and or screenshots to minimum of **5** artifacts here. Artifacts are defined as GitHub commit URL and Project Management Tool Kanban board images (Trello or JIRA).
+
+![Create an Account](../webApp/createaccount.png)
+* Create a html page for Profile/Create an Account page with editing the CSS file.
 
 ### Junior Developer
 
