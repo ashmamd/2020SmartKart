@@ -41,7 +41,7 @@ con.query('SELECT username AS user, password AS pass FROM Customer', function (e
         res.send("you've logged in successfully!");
       } 
     }
-    res.send("error - annot find user in Customer db");
+    res.send("error - cannot find user in Customer db");
     res.end();
     });
   }
@@ -91,7 +91,7 @@ con.query('SELECT username AS user, password AS pass FROM CustomerService', func
           res.send("you've logged in successfully!");
           }
       }
-      res.send("error - annot find user in CustomerService db");
+      res.send("error - cannot find user in CustomerService db");
       res.end();
     });
 });
