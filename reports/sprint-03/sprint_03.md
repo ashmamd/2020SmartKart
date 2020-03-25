@@ -53,7 +53,7 @@
 
 1. List any detailed assumptions your team made explaining deliverable context as needed
 
-* The biggest assumption my team made was to make all the html pages responsive design. Since the tablet fits best for our project, my team decided to continue this project further with a web application on an amazon tablet. According to the privious code, all of our html pages were responsive to desktop computer. For this sprint, our assumption was to have all the html pages respondive to tablet.
+* The biggest assumption my team made was to make all the html pages responsive design. Since the tablet fits best for our project, my team decided to continue this project further with a web application on an amazon tablet. According to the privious code, all of our html pages were responsive to desktop computer. For this sprint, our assumption was to have all the html pages responsive to tablet so we can test it out for better understanding of the customer's experience. 
 
 1. Responsible for managing goals, communication methods, and achieving set goals for the sprint.
   ![Trello](../webApp/trello.png)
@@ -62,7 +62,7 @@
 1. List Atomic goals for sprint-04
 
 * Project Manager
-1. Create a document to get prepared for live demonstration.  
+1. Create a document to get prepared for live demonstration using a tablet.  
 2. Update the install.md file in github. 
 3. Create Sprint 4 report.
 4. Assist team members where needed.
@@ -132,3 +132,5 @@ Place links and or screenshots to minimum of **5** artifacts here. Artifacts are
 Place links and or screenshots to minimum of **4** artifacts here.  Artifacts are defined as GitHub commit URL and Project Management Tool Kanban board images (Trello or JIRA).
 
 Place screen shot to image of a minimum of 5 GitHub issues/bugs reported and assigned
+
+* Moving all the classes and labs online due to global situation, I was not able to communicate with my Junior Developer to meet the defined minimum goals for this spint. 
