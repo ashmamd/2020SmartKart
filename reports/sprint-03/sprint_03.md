@@ -3,13 +3,16 @@
 ## Team 14 - SmartKart
 
 * Developer - Aurangzeb Razzaq, arazzaq@hawk.iit.edu
-  * Create a html page for Customer Service/Access Customer with editing the CSS file.
-  * Create a html page for Customer Service/Checkout with editing the CSS file.
-  * Create a html page for Customer Service/Price Modify with editing the CSS file.
-  * Create a html page for Customer Service/Returns with editing the CSS file.
-  * Create a html page for Customer Service/Settings with editing the CSS file.
-  * Create a html page for Profile/Create an Account page with editing the CSS file.
+  * Create a HTML page for Request Assistance with editing the CSS file.
+  * Create a HTML page for Navigation with editing the CSS file.
+  * Create a HTML page for Customer Checkout with editing the CSS & JS file.
+  * Create a HTML page for Profile/Create an Account page with editing the CSS file.
+  * Create a HTML page for Price Check with editing the CSS file.
 * UI/UX Developer - Darsh Patel, dpatel137@hawk.iit.edu 
+- Complete markdown documents placed in the *diagrams* folder containing the complete visual stories, named:
+    - admin-story.md
+    - customer-story.md
+    - customerservice-story.md
   * Create UI diagram for Customer Service/Access Customer page.
   * Create UI diagram for Customer Service/Checkout page.
   * Create UI diagram for Customer Service/Price Modify page.
@@ -128,15 +131,18 @@
 3. Create Sprint 4 report.
 4. Assist team members where needed.
 * UI/UX 
-1. Create design for new features on Customer/Nevigation page.
+1. Create design for new features on Customer/Navigation page.
 2. Create design for new features on customer/Request Help page.
 3. Create design for new features on customer/Accessibility page.
 4. When transitioning to new position debrief personal notes pertaining to project two new successor.
 * Developer
-1. Prepare HTML file for Nevigation with editing the CSS & JavaScript file.
-2. Prepare HTML file for Request Help with editing the CSS & JavaScript file.
-3. Prepare HTML file for Accessibility with editing the CSS & JavaScript file.
-4. When transitioning to new position debrief personal notes pertaining to project two new successor.
+1. Prepare HTML file for Accessibility with editing the CSS & JavaScript file.
+2. Prepare HTML file for Customer Service/Access Customer with editing the CSS file.
+3. Prepare HTML file for Customer Service/Checkout with editing the CSS file.
+4. Prepare HTML file for Customer Service/Price Modify with editing the CSS file.
+5. Prepare HTML file for Customer Service/Returns with editing the CSS file.
+6. Prepare HTML file for Customer Service/Settings with editing the CSS file.
+7. When transitioning to new position debrief personal notes pertaining to project two new successor.
 * JR. Developer
 1. Communicate with developer and supplement developers responsibilities.
 2. Ensure that all new HTML files have responsive CSS code.
@@ -158,6 +164,13 @@
 Place links and or screenshots to minimum of **4** artifacts here. Artifacts are defined as GitHub commit URL and Project Management Tool Kanban board images (Trello or JIRA).
 
 User stories needs to be included in the *diagrams* folder but **not** included in the report section under UI/UX
+
+- Markdown documents placed in the *diagrams* folder containing the complete visual stories, named:
+    - admin-story.md
+    - customer-story.md
+    - customerservice-story.md
+
+![GitHub Commits](../webApp/story_commits.PNG)
 
 ![Create an Account](../webApp/create_account.png)
 * Created UI diagram for Profile/Create an Account page.
@@ -199,10 +212,16 @@ Place links and or screenshots to minimum of **5** artifacts here. Artifacts are
 ### Developer
 
 Place links and or screenshots to minimum of **5** artifacts here. Artifacts are defined as GitHub commit URL and Project Management Tool Kanban board images (Trello or JIRA).
-
+* Created a html page for Profile/Create an Account page (according to the UI/UX diagrams)
 ![Create an Account](../webApp/createaccount.png)
-* Create a html page for Profile/Create an Account page with editing the CSS file.
-
+* Added new features and functionality to the customer's checkout page
+![Check Out](../webApp/checkout-page.png)
+ * Trello Checkout Task
+ ![Trello Task](../webApp/checkout-task.png)
+* Created a navigation page for the example store layout
+ ![Navigation](../webApp/navpage.png)
+ * Created a Request Assistance page that points to a phone number
+ ![Request Assistance](../webApp/help-page.png)
 ### Junior Developer
 
 Place links and or screenshots to minimum of **4** artifacts here.  Artifacts are defined as GitHub commit URL and Project Management Tool Kanban board images (Trello or JIRA).
