@@ -1,7 +1,9 @@
 const express = require('express');
 const path = require('path');
 const app = express();
-const pageRouter = require('./routes/pages');
+const pageRouter = require('./database/db.js');
+const db = require('./database/db');
+
 
 
 app.use(express.urlencoded( { extended : false}));
