@@ -8,7 +8,6 @@
 4. inside the code folder, run the following commands:
 * `npm init -y`
 * `npm i express mysql`
-* `npm i -D bcrypt@3.0.0`
 * `npm install --save-dev nodemon dotenv` 
 
 5. open your package.json file and inside the script tag,
