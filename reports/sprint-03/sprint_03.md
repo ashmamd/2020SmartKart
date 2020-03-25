@@ -10,6 +10,10 @@
   * Create a html page for Customer Service/Settings with editing the CSS file.
   * Create a html page for Profile/Create an Account page with editing the CSS file.
 * UI/UX Developer - Darsh Patel, dpatel137@hawk.iit.edu 
+- Complete markdown documents placed in the *diagrams* folder containing the complete visual stories, named:
+    - admin-story.md
+    - customer-story.md
+    - customerservice-story.md
   * Create UI diagram for Customer Service/Access Customer page.
   * Create UI diagram for Customer Service/Checkout page.
   * Create UI diagram for Customer Service/Price Modify page.
@@ -158,6 +162,13 @@
 Place links and or screenshots to minimum of **4** artifacts here. Artifacts are defined as GitHub commit URL and Project Management Tool Kanban board images (Trello or JIRA).
 
 User stories needs to be included in the *diagrams* folder but **not** included in the report section under UI/UX
+
+- Markdown documents placed in the *diagrams* folder containing the complete visual stories, named:
+    - admin-story.md
+    - customer-story.md
+    - customerservice-story.md
+
+![GitHub Commits](../webApp/story_commits.PNG)
 
 ![Create an Account](../webApp/create_account.png)
 * Created UI diagram for Profile/Create an Account page.
