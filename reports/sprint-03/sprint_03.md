@@ -41,25 +41,23 @@
 
 1. Place images of the full User & Admin and/or anonymous story here with annotations of the functioning and the non-functioning portions as necessary (can reuse the artifact created by UI/UX)
 
-1. Include a file  ```install.md``` in the root of the team GitHub Repo detailing all instructions to build and run the functioning parts of your site
+* 
+
+2. Include a file  ```install.md``` in the root of the team GitHub Repo detailing all instructions to build and run the functioning parts of your site
 
 * The install.md file is in the root of the team GitHub Repo. Please check there to read the details and instructions to build and run the fuctioning parts of the site provided on instll.md file.
 
-1. Verify that all defined minimum goals were met and explain goals that were reached beyond what was defined.  Also explain reasons behind goals that were not met.
+3. Verify that all defined minimum goals were met and explain goals that were reached beyond what was defined.  Also explain reasons behind goals that were not met.
 
 * The minimum goals defined in the beginning of the report are listed below. The goals are titled with the appropriate role followed with artifact screenshots of minimum goals completed.
 * The goal that was reached beyond what was defined is to ensure we had credintials for all 3 users connected to the database. The IT operational researched and coded beyond what was expected to connect sql.
 * The goal that was not met for this sprint is to make all the html pages under customer service responsive to tablet size. The junior developer and I could not communicate on this goal very well therefore we could not meet this goal. Another goal that was not met was to test the initial developed code for security vulnerabilities as I could not communicate with the Junior Developer.
 
-1. List any detailed assumptions your team made explaining deliverable context as needed
+4. List any detailed assumptions your team made explaining deliverable context as needed
 
 * The biggest assumption my team made was to make all the html pages responsive design. Since the tablet fits best for our project, my team decided to continue this project further with a web application on an amazon tablet. According to the privious code, all of our html pages were responsive to desktop computer. For this sprint, our assumption was to have all the html pages responsive to tablet so we can test it out for better understanding of the customer's experience. 
 
-1. Responsible for managing goals, communication methods, and achieving set goals for the sprint.
-  ![Trello](../webApp/trello.png)
-  ![Slack](../webApp/slack.png)
-
-1. List Atomic goals for sprint-04
+5. List Atomic goals for sprint-04
 
 * Project Manager
 1. Create a document to get prepared for live demonstration using a tablet.  
@@ -88,6 +86,9 @@
 4. Implement SQRL security
 5. When transitioning to new position debrief personal notes pertaining to project two new successor.
 
+6. Responsible for managing goals, communication methods, and achieving set goals for the sprint.
+  ![Trello](../webApp/trello1.png)
+  ![Slack](../webApp/slack.png)
 
 ### UI/UX Artifacts
 
@@ -133,4 +134,4 @@ Place links and or screenshots to minimum of **4** artifacts here.  Artifacts ar
 
 Place screen shot to image of a minimum of 5 GitHub issues/bugs reported and assigned
 
-* Moving all the classes and labs online due to global situation, I was not able to communicate with my Junior Developer to meet the defined minimum goals for this spint. 
+* Moving all the classes and labs online due to global situation, I was not able to reach out to junior developer before the due date. As a project manager, I was not able to communicate with my Junior Developer to meet the defined minimum goals for this spint. Therefore, this section has been left blank and the future junior developer will take the work further.
