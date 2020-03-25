@@ -41,8 +41,70 @@
 
 1. Place images of the full User & Admin and/or anonymous story here with annotations of the functioning and the non-functioning portions as necessary (can reuse the artifact created by UI/UX)
 
-![Main Page](UI-UX/Customer_story_ss/touchtostart_landscape.png)
+* Customer User Story
+
+![Main Page](../webApp/touchtostart_landscape.png)
 * As soon as the customer enters the store, a shopping cart which has a tablet device attached to it is placed by the entrance. This is the homepage of a Customer.
+
+![Customer Login Page](../webApp/login.JPG)
+* The cutomer will log in using their username and password.
+
+![Customer Page](../webApp/custo.png)
+* As soon as the customer logs in, the page above will pop up. The customer would have a few options on the screen. He could View his Cart, Navigate through the store, view their personal profile, check the price of an item, request help from customer service, request help for Accessibility, or log out of the page.
+
+![View Cart](../webApp/Cart.png)
+* This is how the View Cart page looks like. 
+
+* We have not completed the whole Customer User story yet.
+
+* Admin User Story
+
+![Admin Login Page](../webApp/login.JPG)
+* Admin will use their username and password to Log In to the system. This is the log in page.
+
+![Admin Main Page](../webApp/admin_page.JPG)
+* This is the main homepage of an Admin User Story.
+
+![Human Resources Page](../webApp/HumanResources.png)
+* The admin has some options to choose from, and he clicks on 'Human Resources' button and sees the  screen above. 
+
+![Accounting Page](../webApp/Accounting.png)
+* Next, he clicks on Accounting and sees the page above.
+
+![Vendor Page](../webApp/Vendor.png)
+* Next, he clicks on Vendor and sees the page above.
+
+![Advertisement Page](../webApp/Advertisement.png)
+* Next, he clicks on Advertisement and sees the page above.
+
+![Promotions Page](../webApp/Promotion.png)
+* Next, he clicks on Promotions and sees the page above.
+
+![Inventory Page](../webApp/Inventory.png)
+* Next, he clicks on Inventory and sees the page above.
+
+* Customer Service User Story
+
+![CS Login Page](../webApp/login.JPG)
+* The Customer Service representative will log into this page by using their username and password.
+
+![CS Main Page](../webApp/customerService_page.JPG)
+* This is the main homepage for the Customer Service.
+
+![Price modify Page](../webApp/price_modify.png)
+* Next, he clicks on Price Modify and sees the page above. 
+
+![Return Page](../webApp/returns.png)
+* Next, he clicks on Price Modify and sees the page above.
+
+![Settings Page](../webApp/settings.png)
+* Next, he clicks on Settings and sees the page above.
+
+![Access Customer Page](../webApp/access_customer.png)
+* Next, he clicks on Access Customer and sees the page above.
+
+![Customer Checkout Page](../webApp/checkout.png)
+* Next, he clicks on Customer Checkout and sees the page above.
 
 2. Include a file  ```install.md``` in the root of the team GitHub Repo detailing all instructions to build and run the functioning parts of your site
 
