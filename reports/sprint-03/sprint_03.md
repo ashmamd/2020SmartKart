@@ -3,6 +3,10 @@
 ## Team 14 - SmartKart
 
 * Developer - Aurangzeb Razzaq, arazzaq@hawk.iit.edu
+  * Create a html page for Request Assistance with editing the CSS file.
+  * Create a html page for Navigation with editing the CSS file.
+  * Create a html page for Customer Checkout with editing the CSS file.
+  * Create a html page for Profile/Create an Account page with editing the CSS file.
   * Create a html page for Customer Service/Access Customer with editing the CSS file.
   * Create a html page for Customer Service/Checkout with editing the CSS file.
   * Create a html page for Customer Service/Price Modify with editing the CSS file.
@@ -132,15 +136,14 @@
 3. Create Sprint 4 report.
 4. Assist team members where needed.
 * UI/UX 
-1. Create design for new features on Customer/Nevigation page.
+1. Create design for new features on Customer/Navigation page.
 2. Create design for new features on customer/Request Help page.
 3. Create design for new features on customer/Accessibility page.
 4. When transitioning to new position debrief personal notes pertaining to project two new successor.
 * Developer
-1. Prepare HTML file for Nevigation with editing the CSS & JavaScript file.
-2. Prepare HTML file for Request Help with editing the CSS & JavaScript file.
-3. Prepare HTML file for Accessibility with editing the CSS & JavaScript file.
-4. When transitioning to new position debrief personal notes pertaining to project two new successor.
+1. Modify HTML file for Navigation with editing the CSS & JavaScript file.
+2. Prepare HTML file for Accessibility with editing the CSS & JavaScript file.
+3. When transitioning to new position debrief personal notes pertaining to project two new successor.
 * JR. Developer
 1. Communicate with developer and supplement developers responsibilities.
 2. Ensure that all new HTML files have responsive CSS code.
