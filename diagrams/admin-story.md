@@ -32,12 +32,12 @@ On this page, he has options for Tv, Radio, and Print advertisements. He will th
 
 Discounts are the one of the best ways to get customers into the store and make them buy. Out store is doing amazing with the few discounts that were running in the past week. We have new products coming in and some of the unsold items needs to go on sale and put discounts on it. The discount feature will allow the admin to calculate discounts, create tags and print them. Admin can do so by going to the Admin Home Page, and then clicking on Promotions, which looks like the following screen:
 
-![Advertisement](UI-UX/admin_story_screenshots/promotionScreen.png)
+![Promotions](UI-UX/admin_story_screenshots/promotionScreen.png)
 
 Here, he can also choose options for Deals and Rewards that he can create or view, and Weekly Ads that are up and running and can be created for future use. Admin clicks on Discounts, calculates the discounds, and prints the discount tags.
 
 Admin sees that some of the products in the store are going out of stock and will have to order new items before the weekend. He can do so by going to his Admin Page and Clicking on the 'Inventory' button. He will see the follwing screen as soon as he clicks Vendor: 
 
-![Vendor](UI-UX/admin_story_screenshots/inventoryScreen.png)
+![Inventory](UI-UX/admin_story_screenshots/inventoryScreen.png)
 
 And then he is able to click on "Purchase" and further order the products from the correct vendor.
