@@ -95,7 +95,7 @@
 * Next, he clicks on Price Modify and sees the page above. 
 
 ![Return Page](../webApp/returns.png)
-* Next, he clicks on Price Modify and sees the page above.
+* Next, he clicks on Returns and sees the page above.
 
 ![Settings Page](../webApp/settings.png)
 * Next, he clicks on Settings and sees the page above.
