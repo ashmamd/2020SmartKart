@@ -4,7 +4,7 @@ An Administrator is looking for some information in order to make some changes i
 
 As soon as he logs in, he sees the following screen:
 
-![Admin Page](UI-UX/adminScreen.PNG)
+![Admin Page](UI-UX/adminScreen.png)
 
 The administrator has some options to choose from, and he clicks on 'Human Resources' button and sees the following screen. 
 
