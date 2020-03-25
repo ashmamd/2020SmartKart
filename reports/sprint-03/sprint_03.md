@@ -86,7 +86,7 @@
 4. Implement SQRL security
 5. When transitioning to new position debrief personal notes pertaining to project two new successor.
 
-6. Responsible for managing goals, communication methods, and achieving set goals for the sprint.
+* Responsible for managing goals, communication methods, and achieving set goals for the sprint.
   ![Trello](../webApp/trello1.png)
   ![Slack](../webApp/slack.png)
 
