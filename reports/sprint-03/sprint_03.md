@@ -41,7 +41,7 @@
 
 1. Place images of the full User & Admin and/or anonymous story here with annotations of the functioning and the non-functioning portions as necessary (can reuse the artifact created by UI/UX)
 
-* Customer User Story
+### Customer User Story
 
 ![Main Page](../webApp/touchtostart_landscape.png)
 * As soon as the customer enters the store, a shopping cart which has a tablet device attached to it is placed by the entrance. This is the homepage of a Customer.
@@ -57,7 +57,7 @@
 
 * We have not completed the whole Customer User story yet.
 
-* Admin User Story
+### Admin User Story
 
 ![Admin Login Page](../webApp/login.JPG)
 * Admin will use their username and password to Log In to the system. This is the log in page.
@@ -83,7 +83,7 @@
 ![Inventory Page](../webApp/Inventory.png)
 * Next, he clicks on Inventory and sees the page above.
 
-* Customer Service User Story
+### Customer Service User Story
 
 ![CS Login Page](../webApp/login.JPG)
 * The Customer Service representative will log into this page by using their username and password.
