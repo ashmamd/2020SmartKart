@@ -69,7 +69,7 @@
 4. When transitioning to new position debrief personal notes pertaining to project two new successor.
 * IT Infrastructure
 1. Deploy code to machine for testing the three users.
-2. Test responsive designs.
+2. Test responsive designs to tablet.
 3. Install load balancer
 4. Implement SQRL security
 5. When transitioning to new position debrief personal notes pertaining to project two new successor.
