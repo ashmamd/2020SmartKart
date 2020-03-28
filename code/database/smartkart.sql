@@ -5,27 +5,18 @@ Use SmartKart;
 
 CREATE TABLE Customer
 (
-	CustomerID INT(2)		PRIMARY KEY,
+	CustomerID INT(2)		PRIMARY KEY AUTO_INCREMENT,
     FName	VARCHAR(15),
     LName	VARCHAR(20),
-    username VARCHAR(20),
-    password VARCHAR(20),
     email VARCHAR(30),
-    phoneNumber INT(12),
-    address VARCHAR(45),
-    zipCode INT(5)
+    password VARCHAR(20),
 );
 
-INSERT INTO Customer VALUES(1, 'testUser', 'testUser', 'test', 'test',
-	'test@gmail.com', '1231231234', '1000 W Monroe St', '60060');
-INSERT INTO Customer VALUES(2, 'Tom', 'Holland', 'tomHolland', 'password123',
-	'tomHolland@gmail.com', '1231231234', '1000 W Monroe St', '60060');
-INSERT INTO Customer VALUES(3, 'Tom', 'Hanks', 'tomHanks', 'password123',
-	'tomHanks@gmail.com', '1231231234', '1000 W Monroe St', '60060');
-INSERT INTO Customer VALUES(4, 'Tom', 'Brady', 'tomBrady', 'password123',
-	'tomBrady@gmail.com', '1231231234', '1000 W Monroe St', '60060');
-INSERT INTO Customer VALUES(5, 'Tom', 'Cruise', 'tomCruise', 'password123',
-	'tomCruise@gmail.com', '1231231234', '1000 W Monroe St', '60060');
+INSERT INTO Customer VALUES(1, 'testUser', 'testUser', 'test@gmail.com', 'test');
+INSERT INTO Customer VALUES(2, 'Tom', 'Holland', 'tomHolland@gmail.com', 'password123');
+INSERT INTO Customer VALUES(3, 'Tom', 'Hanks', 'tomHanks@gmail.com', 'password123');
+INSERT INTO Customer VALUES(4, 'Tom', 'Brady', 'tomBrady@gmail.com', 'password123');
+INSERT INTO Customer VALUES(5, 'Tom', 'Cruise', 'tomCruise@gmail.com', 'password123');
 
 CREATE TABLE CustomerService
 (

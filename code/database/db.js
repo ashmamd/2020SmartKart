@@ -6,8 +6,8 @@ const router = express.Router();
 const con = mysql.createPool({
   connectionLimit: 10,
   host: 'localhost',
-  user: 'Kajal', //change this
-  password: 'kajal123', //change this
+  user: 'ashma', //change this
+  password: 'password123', //change this
   database: 'smartkart' //make sure your sql database name is this or change it
 });
 
@@ -24,21 +24,21 @@ router.get('/', (req, res, next) => {
 })
 
 //checks from Customer table
-con.query('SELECT username AS user, password AS pass FROM Customer', function (error, results, fields) {
+con.query('SELECT email AS user, password AS pass FROM Customer', function (error, results, fields) {
   if (error) throw error;
   else{
   router.post('/login', (req, res, next) => {
     console.log('checking Customer db');
     //console.log('The correct username and password is: ', results[0].user, ', ' ,results[0].pass);
     console.log('before checking');
-    var usernameInput = req.body.username;
-    console.log('user input: ' + usernameInput);
+    var emailInput = req.body.username;
+    console.log('user input: ' + emailInput);
     var passwordInput = req.body.password;
     console.log('password input by user: ' + passwordInput);
     for(var b = 0; b < results.length; b++){
-      if(usernameInput == results[b].user && passwordInput == results[b].pass){
+      if(emailInput == results[b].user && passwordInput == results[b].pass){
         console.log('you entered the right credentials');
-        res.send("you've logged in successfully!");
+        res.redirect('mainPageUserEng.html');
       } 
     }
     res.send("error - cannot find user in Customer db");
@@ -46,6 +46,50 @@ con.query('SELECT username AS user, password AS pass FROM Customer', function (e
     });
   }
 });
+
+function createAcc(body, callback){
+  var bind = [];
+  console.log('inside createAcc func');
+  for(prop in body){
+    bind.push(body[prop]);
+  }
+  var sql = 'INSERT INTO Customer(FName, LName, email, password) VALUES (?, ?, ?, ?)';
+  con.query(sql, bind, function(err, result) {
+      if(err) throw err;
+      // return last inserted id
+      callback(result.insertId);
+  });
+}
+
+router.post('/sign-in', (req, res, next) => {
+  //console.log('inside sign in router post');
+  let userInput = {
+      fname: req.body.fname,
+      lname: req.body.lname,
+      email: req.body.email,
+      password: req.body.psw,
+  };
+  createAcc(userInput, function(lastId) {
+      if(lastId) {
+        //once created an account, redirecting to profile login page
+        res.redirect('customerProfileEng.html');
+        //checking if new user is inserted in the database
+        con.query(
+          'SELECT * FROM customer',
+          (err, rows) => {
+          if(err) throw err;
+          console.log(rows);
+          }
+        );
+        console.log('')
+      }else {
+          console.log('Error creating a new user ...');
+      }
+  });
+
+});
+
+/*
 
 //var tables = ['Admin', 'CustomerService', 'Customer'];
 //console.log(tables[0]);
@@ -96,20 +140,6 @@ con.query('SELECT username AS user, password AS pass FROM CustomerService', func
     });
 });
 
+*/
 
 module.exports = router;
-
-/*
-
-username = 'tomHolland';
-con.query(
-    'SELECT username, password FROM customer WHERE username = ?',
-    [username],
-    (err, rows) => {
-      if(err) throw err;
-      console.log(rows[0]);
-    }
-  );
-
-con.end((err) => {});
-*/
