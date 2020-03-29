@@ -9,7 +9,7 @@ CREATE TABLE Customer
     FName	VARCHAR(15),
     LName	VARCHAR(20),
     email VARCHAR(30),
-    password VARCHAR(20),
+    password VARCHAR(20)
 );
 
 INSERT INTO Customer VALUES(1, 'testUser', 'testUser', 'test@gmail.com', 'test');
@@ -23,34 +23,27 @@ CREATE TABLE CustomerService
 	CustomerServiceID INT(2) PRIMARY KEY,
     FName VARCHAR(15),
     LName VARCHAR(20),
-    username VARCHAR(20),
-    password VARCHAR(20),
     email VARCHAR(30),
+    password VARCHAR(20),
     phoneNumber INT(12)
 );
 
-INSERT INTO CustomerService VALUES(1, 'Ashma', 'Manandhar', 'amanandh', 'password123', 
-	'amanandh@hawk.iit.edu', '1231231234');
-INSERT INTO CustomerService VALUES(2, 'Aurangzeb', 'Razzaq', 'arazzaq', 'password123',
-	'arazzaq@hawk.iit.edu', '1231231234');
-INSERT INTO CustomerService VALUES(3, 'Darsh', 'Patel', 'dpatel137', 'password123',
-	'dpatel137@hawk.iit.edu', '1231231234');
-INSERT INTO CustomerService VALUES(4, 'Kajal', 'Patel', 'kpatel115', 'password123',
-	'kpatel115@hawk.iit.edu', '1231231234');
-INSERT INTO CustomerService VALUES(5, 'Ramzee', 'Christiel', 'rchristiel', 'password123',
-	'rchristiel@hawk.iit.edu', '1231231234');
+INSERT INTO CustomerService VALUES(1, 'Ashma', 'Manandhar', 'amanandh@hawk.iit.edu', 'password123', '1231231234');
+INSERT INTO CustomerService VALUES(2, 'Aurangzeb', 'Razzaq', 'arazzaq@hawk.iit.edu', 'password123', '1231231234');
+INSERT INTO CustomerService VALUES(3, 'Darsh', 'Patel', 'dpatel137@hawk.iit.edu', 'password123', '1231231234');
+INSERT INTO CustomerService VALUES(4, 'Kajal', 'Patel', 'kpatel115@hawk.iit.edu', 'password123', '1231231234');
+INSERT INTO CustomerService VALUES(5, 'Ramzee', 'Christiel', 'rchristiel@hawk.iit.edu', 'password123', '1231231234');
 
 
 CREATE TABLE Admin
 (
 	AdminID INT(2) PRIMARY KEY,
-    username VARCHAR(20),
-    password VARCHAR(20),
     email VARCHAR(30),
+    password VARCHAR(20),
     phoneNumber INT(12)
 );
 
-INSERT INTO Admin VALUES(1, 'admin', 'admin123', 'admin@gmail.com', '1231231234');
+INSERT INTO Admin VALUES(1, 'admin@gmail.com', 'admin123', '1231231234');
 
 /*
 INSERT INTO Customer VALUES(7, 'user7first', 'user7last');
