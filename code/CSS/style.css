@@ -655,11 +655,11 @@ button:hover{
 @media only screen and (max-width: 960px) {
 
 }
-@media only screen and (max-width: 362px) {
+@media only screen and (max-width: 490px) {
     #firstBox{
-        width: 20em;
+        width: 15em;
         height:50px;
-        font-size: 15px;
+        font-size: 17px;
         text-align: center;
         letter-spacing: 1px;
         background-color: #f0efef;
@@ -668,7 +668,7 @@ button:hover{
         margin: 1em;
     }
  #secondBox{
-        width: 20em;
+        width: 17em;
         height:50px;
         font-size: 15px;
         text-align: center;
@@ -679,7 +679,7 @@ button:hover{
         margin: 1em;
     }
     #thirdBox{
-        width: 20em;
+        width: 17em;
         height:50px;
         font-size: 15px;
         text-align: center;
@@ -690,7 +690,7 @@ button:hover{
         margin: 1em;
     }
     #fourthBox{
-        width: 20em;
+        width: 17em;
         height:50px;
         font-size: 15px;
         text-align: center;
@@ -701,7 +701,7 @@ button:hover{
         margin: 1em;
     }
     #fifthBox{
-        width: 20em;
+        width: 17em;
         height:50px;
         font-size: 15px;
         text-align: center;
@@ -709,10 +709,10 @@ button:hover{
         background-color: #f0efef;
         padding-bottom: 5.3em;
         order: 5;
-        margin: 5em;
+        margin: 1em;
     }
     #sixthBox{
-        width: 20em;
+        width: 17em;
         height:50px;
         font-size: 15px;
         text-align: center;
