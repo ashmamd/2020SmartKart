@@ -652,10 +652,14 @@ button:hover{
         top: -10em;
     }
 }
-@media only screen and (max-width: 960px) {
+@media only screen and (max-width: 360px) {
+    .links{
+        display: none;
+    }
 
 }
-@media only screen and (max-width: 490px) {
+@media only screen and (max-width: 900px) {
+    
     #firstBox{
         width: 15em;
         height:50px;
