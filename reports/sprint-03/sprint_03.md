@@ -225,11 +225,7 @@ Place links and or screenshots to minimum of **5** artifacts here. Artifacts are
  * Created a Request Assistance page that points to a phone number
  ![Request Assistance](../webApp/help-page.png)
 ### Junior Developer
-
-Place links and or screenshots to minimum of **4** artifacts here.  Artifacts are defined as GitHub commit URL and Project Management Tool Kanban board images (Trello or JIRA).
-
-Place screen shot to image of a minimum of 5 GitHub issues/bugs reported and assigned
-![responsive nav bar](../webApp/mobileMainPageEng.png)
+![responsive nav bar](../webApp/mobileMainPageEng.PNG)
  * navigation bar for mobile view
 ![mobile mainPage view](../webApp/.png)
 * created responsive  mobile view for Main page  
