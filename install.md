@@ -8,10 +8,11 @@
 4. inside the code folder, run the following commands:
 * `npm init -y`
 * `npm i express mysql`
-* `npm install --save-dev nodemon dotenv` 
+* `npm install --save-dev nodemon` 
 
-5. open your package.json file and inside the script tag,
-* erase the whole "test" statement and input the following:
+5. Open your package.json file and inside the script tag, if you see the following, go to Step 6.
+* `"start": "nodemon app"`
+* If you do see the `"test: "` statement, erase the whole "test" statement and input the following:
 * `"start": "nodemon app"`
 
 6. In your terminal, run the command `npm start`
@@ -20,4 +21,5 @@
 ## Database setup
 
 1. Name of the database for this app is *smartkart*
-2. Inside code/database/db.js, make sure to change the user and password field accordingly
+2. Inside code/public/js/db.js, make sure to change the user and password field accordingly
+3. Make sure to give your user access rights to use the *smartkart* database
