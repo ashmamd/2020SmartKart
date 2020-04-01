@@ -229,5 +229,14 @@ Place links and or screenshots to minimum of **5** artifacts here. Artifacts are
 Place links and or screenshots to minimum of **4** artifacts here.  Artifacts are defined as GitHub commit URL and Project Management Tool Kanban board images (Trello or JIRA).
 
 Place screen shot to image of a minimum of 5 GitHub issues/bugs reported and assigned
+![responsive nav bar](../webApp/.png)
+ * navigation bar for mobile view
+![mobile mainPage view](../webApp/.png)
+* created responsive  mobile view for Main page  
+![mobile Customer profile](../webApp/.png)
+* created responsive view for customer profile
+![mobile cart view](../webApp/.png)
+* Created responsive view for checkout.
+![mobile CustomeService](../webApp/.png)
 
 * Moving all the classes and labs online due to global situation, I was not able to reach out to junior developer before the due date. As a project manager, I was not able to communicate with my Junior Developer to meet the defined minimum goals for this spint. Therefore, this section has been left blank and the future junior developer will take the work further.
