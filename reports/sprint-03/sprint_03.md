@@ -227,7 +227,7 @@ Place links and or screenshots to minimum of **5** artifacts here. Artifacts are
 ### Junior Developer
 ![responsive nav bar](../webApp/mobileMainPageEng.PNG)
  * navigation bar for mobile view
-![mobile mainPage view](../webApp/.png)
+![mobile mainPage view](../webApp/menuBar.PNG)
 * created responsive  mobile view for Main page  
 ![mobile Customer profile](../webApp/.png)
 * created responsive view for customer profile
