@@ -6,8 +6,8 @@ const router = express.Router();
 const con = mysql.createPool({
   connectionLimit: 10,
   host: 'localhost',
-  user: 'Kajal', //change this
-  password: 'kajal123', //change this
+  user: 'kpatel115', //change this
+  password: 'password', //change this
   database: 'smartkart' //make sure your sql database name is this or change it
 });
 
