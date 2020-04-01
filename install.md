@@ -12,7 +12,7 @@
 
 5. Open your package.json file and inside the script tag, if you see the following, go to Step 6.
 * `"start": "nodemon app"`
-* If you do see the `"test: "` statement, erase the whole "test" statement and input the following:
+* If you see the `"test: "` statement, erase the whole "test" statement and input the following:
 * `"start": "nodemon app"`
 
 6. In your terminal, run the command `npm start`
