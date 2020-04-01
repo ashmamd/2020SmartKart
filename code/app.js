@@ -1,8 +1,8 @@
 const express = require('express');
 const path = require('path');
 const app = express();
-const pageRouter = require('./database/db.js');
-const db = require('./database/db');
+const pageRouter = require('./public/js/db.js');
+const db = require('./public/js/db');
 
 
 

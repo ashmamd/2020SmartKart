@@ -1,65 +1,49 @@
--- DROP DATABASE IF EXISTS SmartKart;
+DROP DATABASE IF EXISTS SmartKart;
 CREATE DATABASE IF NOT EXISTS SmartKart;
 
 Use SmartKart;
 
 CREATE TABLE Customer
 (
-	CustomerID INT(2)		PRIMARY KEY,
+	CustomerID INT(2)		PRIMARY KEY AUTO_INCREMENT,
     FName	VARCHAR(15),
     LName	VARCHAR(20),
-    username VARCHAR(20),
-    password VARCHAR(20),
     email VARCHAR(30),
-    phoneNumber INT(12),
-    address VARCHAR(45),
-    zipCode INT(5)
+    password VARCHAR(20)
 );
 
-INSERT INTO Customer VALUES(1, 'testUser', 'testUser', 'test', 'test',
-	'test@gmail.com', '1231231234', '1000 W Monroe St', '60060');
-INSERT INTO Customer VALUES(2, 'Tom', 'Holland', 'tomHolland', 'password123',
-	'tomHolland@gmail.com', '1231231234', '1000 W Monroe St', '60060');
-INSERT INTO Customer VALUES(3, 'Tom', 'Hanks', 'tomHanks', 'password123',
-	'tomHanks@gmail.com', '1231231234', '1000 W Monroe St', '60060');
-INSERT INTO Customer VALUES(4, 'Tom', 'Brady', 'tomBrady', 'password123',
-	'tomBrady@gmail.com', '1231231234', '1000 W Monroe St', '60060');
-INSERT INTO Customer VALUES(5, 'Tom', 'Cruise', 'tomCruise', 'password123',
-	'tomCruise@gmail.com', '1231231234', '1000 W Monroe St', '60060');
+INSERT INTO Customer VALUES(1, 'testUser', 'testUser', 'test@gmail.com', 'test');
+INSERT INTO Customer VALUES(2, 'Tom', 'Holland', 'tomHolland@gmail.com', 'password123');
+INSERT INTO Customer VALUES(3, 'Tom', 'Hanks', 'tomHanks@gmail.com', 'password123');
+INSERT INTO Customer VALUES(4, 'Tom', 'Brady', 'tomBrady@gmail.com', 'password123');
+INSERT INTO Customer VALUES(5, 'Tom', 'Cruise', 'tomCruise@gmail.com', 'password123');
 
 CREATE TABLE CustomerService
 (
 	CustomerServiceID INT(2) PRIMARY KEY,
     FName VARCHAR(15),
     LName VARCHAR(20),
-    username VARCHAR(20),
-    password VARCHAR(20),
     email VARCHAR(30),
+    password VARCHAR(20),
     phoneNumber INT(12)
 );
 
-INSERT INTO CustomerService VALUES(1, 'Ashma', 'Manandhar', 'amanandh', 'password123', 
-	'amanandh@hawk.iit.edu', '1231231234');
-INSERT INTO CustomerService VALUES(2, 'Aurangzeb', 'Razzaq', 'arazzaq', 'password123',
-	'arazzaq@hawk.iit.edu', '1231231234');
-INSERT INTO CustomerService VALUES(3, 'Darsh', 'Patel', 'dpatel137', 'password123',
-	'dpatel137@hawk.iit.edu', '1231231234');
-INSERT INTO CustomerService VALUES(4, 'Kajal', 'Patel', 'kpatel115', 'password123',
-	'kpatel115@hawk.iit.edu', '1231231234');
-INSERT INTO CustomerService VALUES(5, 'Ramzee', 'Christiel', 'rchristiel', 'password123',
-	'rchristiel@hawk.iit.edu', '1231231234');
+INSERT INTO CustomerService VALUES(1, 'Ashma', 'Manandhar', 'amanandh@hawk.iit.edu', 'password123', '1231231234');
+INSERT INTO CustomerService VALUES(2, 'Aurangzeb', 'Razzaq', 'arazzaq@hawk.iit.edu', 'password123', '1231231234');
+INSERT INTO CustomerService VALUES(3, 'Darsh', 'Patel', 'dpatel137@hawk.iit.edu', 'password123', '1231231234');
+INSERT INTO CustomerService VALUES(4, 'Kajal', 'Patel', 'kpatel115@hawk.iit.edu', 'password123', '1231231234');
+INSERT INTO CustomerService VALUES(5, 'Ramzee', 'Christiel', 'rchristiel@hawk.iit.edu', 'password123', '1231231234');
 
 
 CREATE TABLE Admin
 (
 	AdminID INT(2) PRIMARY KEY,
-    username VARCHAR(20),
-    password VARCHAR(20),
     email VARCHAR(30),
+    password VARCHAR(20),
     phoneNumber INT(12)
 );
 
-INSERT INTO Admin VALUES(1, 'admin', 'admin123', 'admin@gmail.com', '1231231234');
+INSERT INTO Admin VALUES(1, 'admin@gmail.com', 'admin123', '1231231234');
 
 /*
 INSERT INTO Customer VALUES(7, 'user7first', 'user7last');

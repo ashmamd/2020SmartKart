@@ -194,7 +194,7 @@ User stories needs to be included in the *diagrams* folder but **not** included 
 
 Place links and or screenshots to minimum of **5** artifacts here. Artifacts are defined as GitHub commit URL and Project Management Tool Kanban board images (Trello or JIRA).
 
-* Populated users to test and fixed sql syntax 
+* Populated users to test logins and fixed sql syntax 
 ![Populate users](../webApp/sqlUsers.png)
 
 * Successfully connected to the database using JS.
@@ -203,11 +203,13 @@ Place links and or screenshots to minimum of **5** artifacts here. Artifacts are
 * Deployed infrastructure and code with install.md file
 ![install.md file](../webApp/installFile.png)
 
-* Successfully coded to allow customers to login
+* Successfully coded to allow customers to login and users to create an account
 ![user log in](../webApp/loginSuccess.png)
+![create account](../webApp/createAccSuccess.png)
 
 * Tried to ensure that team members can deploy code locally
 ![chat log](../webApp/teamChat.jpg)
+![deploy code doc](../webApp/stepsToDeploy.png)
 
 ### Developer
 
