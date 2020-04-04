@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmartKart Customer Registration</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head> 
+<body id = "mainPageBG">
+    <div id = "header"> 
+        <a class = "links" href = "mainPageEng.html">Go Back</a>
+        <section id = "boxLayout">
+            <div class ="profileImgContainer">
+                <img class ="profile userPage" alt = "Profile" src = "img/profile.png"> 
+                    <div class = "input-container">
+                        <form action="/sign-in" method="post">
+                            <div class="input-container">
+                              <h1>CREAR UNA CUENTA</h1>
+                              <hr>
+
+                              <label for="fname"><b>Nombre de pila</b></label>
+                              <input type="text" placeholder="Ingrese el nombre" name="fname" required>
+
+                              <label for="lname"><b>Apellido</b></label>
+                              <input type="text" placeholder="Introduzca el apellido" name="lname" required>
+
+                              <label for="email"><b>Email</b></label>
+                              <input type="text" placeholder="Ingrese correo electrónic" name="email" required>
+
+                              <label for="psw"><b>Contraseña</b></label>
+                              <input type="password" placeholder="Introducir la contraseña" name="psw" required>
+                          
+                              <label for="psw-repeat"><b>Repite la contraseña</b></label>
+                              <input type="password" placeholder="Repite la contraseña" name="psw-repeat" required>
+                              <hr>
+                          
+                              <button type="submit" class="registerbtn">Registrarse</button>
+                              <div class="container signin">
+                                <p>¿Ya tienes una cuenta? <a href="customerProfileSpan.html">Registrarse</a>.</p>
+                              </div>
+                              <p>Al hacer clic en 'Registrarse', acepta los Términos y la Política de privacidad</p>
+                            </div>
+                          
+
+                          </form> 
+                    </div>
+            </div>        
+        </section>
+    </div>
+</body>
+</html>
