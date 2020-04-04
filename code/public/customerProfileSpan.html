@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmartKart Customer Login</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body id = "mainPageBG">
+    <div id = "header">
+        <a class = "links" href = "mainPageSpanish.html">Go Back</a>
+        <a class = "links createaccount" href = "createAccountSpan.html">Crea Una Cuenta</a>
+        <section id = "boxLayout">
+            <div class ="profileImgContainer">
+                <img class ="profile userPage" alt = "Profile" src = "img/profile.png"> 
+                    <div class = "input-container">
+                        <form name = "loginForm" action="/login" method = "post">
+                            <label for = "email">Email:</label>
+                            <input type ="text" name = "email" placeholder = "entrar email">
+                            <br>
+                            <label for = "password"> contraseña: </label>
+                            <input type = "password" name = "password" placeholder="*******">
+                            <br>
+                            <button type="submit" value ="Login">iniciar sesión </button>
+                        </form>
+                    </div>
+            </div>        
+        </section>
+    </div>
+</body>
+</html>
