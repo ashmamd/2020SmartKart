@@ -896,6 +896,56 @@ button:hover{
             cursor: pointer;
         }
 
+        #create_heading {
+            font-size: 18px;
+            margin-left: 50px;
+        }
+
+       #fname {
+           font-size: 14px;
+           margin-right: 275px;
+       }
+
+       #lname {
+        font-size: 14px;
+        margin-right: 275px;
+        margin-top: 15px;
+    }
+
+    #mail {
+        font-size: 14px;
+        margin-right: 305px;
+        margin-top: 15px; 
+    }
+
+    #pass {
+        font-size: 14px;
+        margin-right: 280px;
+        margin-top: 15px; 
+    }
+
+    #password_input {
+        margin-left: 31px;
+    }
+
+    #pass_repeat {
+        font-size: 14px;
+        margin-right: 238px;
+        margin-top: 15px; 
+    }
+
+    #pass_repeat_input {
+        margin-left: 31px;
+    }
+
+    #register_btn {
+        margin-left: 100px;
+    }
+
+    .below_regis {
+        font-size: 13px;
+    }
+
 
 
 
