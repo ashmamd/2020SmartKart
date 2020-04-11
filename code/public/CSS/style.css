@@ -691,6 +691,11 @@ button:hover{
     opacity: 0.7;
 }
 
+.floorPlan {
+    width: 1200px;
+    height: 640px;
+}
+
 /* Responsive cases */
 
 @media screen and (orientation: portrait) {
@@ -944,6 +949,11 @@ button:hover{
 
     .below_regis {
         font-size: 13px;
+    }
+
+    .floorPlan {
+        width: 600px;
+        height: 410px;
     }
 
 
