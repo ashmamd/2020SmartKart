@@ -1,19 +1,19 @@
 const mysql = require('mysql');
 const express = require('express');
 const router = express.Router();
-
+let loggedIn;
 // replace user and password with yours
 const con = mysql.createPool({
   connectionLimit: 10,
   host: 'localhost',
-  user: 'ashma', //change this
+  user: 'arazzaq', //change this
   password: 'password123', //change this
   database: 'smartkart' //make sure your sql database name is this or change it
 });
 
 con.getConnection((err) => {
   if(err){
-    console.log('Error');
+    console.log('Error', err);
     return;
   }
   console.log('Connected to db!');
@@ -68,34 +68,64 @@ router.post('/sign-in', (req, res, next) => {
 var tables = ['Admin', 'Customer', 'CustomerService'];
 //checks from all the tables
 router.post('/login', (req, res, next) => {
-  for(var i = 0; i < tables.length; i++){
-    var iterations = tables[i];
     //console.log(iterations);
-    con.query('SELECT email AS userEmail, password AS pass FROM ?? ', [iterations], function (error, results, fields) {
-      if (error) throw error;
+    //con.query('SELECT * FROM Customer WHERE email = ' + con.escape(req.body.email) + ' UNION SELECT * FROM CustomerService WHERE email = ' + con.escape(req.body.email) + ' UNION SELECT * FROM Admin WHERE email = ' + con.escape(req.body.email), function (error, results, fields){
+    //con.query('SELECT * FROM Admin, Customer, CustomerService WHERE Admin.email = ' + con.escape(req.body.email) + ' OR Customer.email = ' + con.escape(req.body.email) + ' OR CustomerService.email = ' + con.escape(req.body.email), function (error, results, fields){
+      con.query('SELECT org, email, password FROM Admin UNION SELECT org, email, password FROM CustomerService UNION SELECT org, email, password FROM Customer', function (error, results, fields){
+      console.log("results:", results);
+        if (error) throw error;
+      if (results.length) {
+        const person = results.filter(user => {
+          if (req.body.email === user.email) {
+            return user;
+          }
+        })[0];
+        if (person) {
+      console.log("person: ", person);
+      console.log("person org: ", person.org);
+      var iterations = person.org;
       console.log('inside con.query... ');
       console.log(iterations);
       var userInput = req.body.email;
       console.log('user input: ' + userInput);
       var passwordInput = req.body.password;
-      console.log('password input by user: ' + passwordInput);
-      for(var a = 0; a < results.length; a++){
-        if(userInput == results[a].userEmail && passwordInput == results[a].pass){
+      console.log('password input by user: ' + passwordInput);  
+      //for(var a = 0; a < results.length; a++){
+        if(userInput == person.email && passwordInput == person.password){
           console.log('you entered the right credentials');
-          if (iterations == 'Admin'){
-            res.redirect('AdminPage.html');
-            res.end();
-          }else if (iterations == 'CustomerService'){
-            res.redirect('customerServiceEng.html');
-            res.end();
-          }else if (iterations == 'Customer'){
-            res.redirect('mainPageUserEng.html');
-            res.end();
+          if (iterations == 'admin'){
+            loggedIn = true;
+            res.status(200).redirect('AdminPage.html');
+          }else if (iterations == 'customerservice'){
+            loggedIn = true;
+            res.status(200).redirect('customerServiceEng.html');
+          }else if (iterations == 'customer'){
+            loggedIn = true;
+            res.status(200).redirect('mainPageUserEng.html');
           }
         }
-       //res.end();
+        else {
+          loggedIn = false;
+          console.log("Invalid Credentials!");
+          res.status(404).redirect('customerProfileEng.html');
+        }
+      }else {
+        loggedIn = false;
+        res.status(404).redirect('customerProfileEng.html');
       }
+    }
+    else {
+      loggedIn = false;
+      console.log("Invalid Credentials!");
+      res.status(404).redirect('customerProfileEng.html');
+    }
     });
+});
+
+router.get("/data", (req, res, next) => {
+  if (loggedIn === false){
+  res.json({loggedIn})
+  loggedIn = true;
   }
 });
 
