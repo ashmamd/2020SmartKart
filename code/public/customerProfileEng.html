@@ -14,18 +14,35 @@
             <div class ="profileImgContainer">
                 <img class ="profile userPage" alt = "Profile" src = "img/profile.png"> 
                     <div class = "input-container">
-                        <form name = "loginForm" action="/login" method = "post">
+                        <form id="logID" name = "loginForm" action="/login" method = "post">
                             <label for = "email">Email:</label>
-                            <input type ="text" name = "email" placeholder = "Enter email">
+                            <input id="emailID" type ="text" name = "email" placeholder = "Enter email">
                             <br>
                             <label for = "password"> Password: </label>
-                            <input type = "password" name = "password" placeholder="*******">
+                            <input id="passwordID" type = "password" name = "password" placeholder="*******">
                             <br>
-                            <button type="submit" value ="Login">Login </button>
+                            <button id="submitButton" type="submit" value="Login">Login </button>
                         </form>
                     </div>
             </div>        
         </section>
     </div>
+    <script>
+fetch('/data')
+      .then(async function(response) {
+        const res = await response;
+        if (res) {
+          res.json().then((data) => {
+              console.log("data: ", data);
+            if (!data.loggedIn) {
+              alert("Invalid Credentials!")
+            }
+          })
+        }
+      })
+      .catch(function(err) {
+        console.log('Something went wrong.', err);
+      });
+    </script>
 </body>
 </html>
