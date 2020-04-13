@@ -704,6 +704,10 @@ button:hover{
     margin-left: 40%;
 }
 
+#searchButton {
+    margin-left: -95px;
+}
+
 /* Responsive cases */
 
 @media screen and (orientation: portrait) {

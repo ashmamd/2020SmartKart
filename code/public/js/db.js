@@ -6,8 +6,8 @@ let loggedIn;
 const con = mysql.createPool({
   connectionLimit: 10,
   host: 'localhost',
-  user: 'arazzaq', //change this
-  password: 'password123', //change this
+  user: 'root', //change this
+  password: 'root', //change this
   database: 'smartkart' //make sure your sql database name is this or change it
 });
 
