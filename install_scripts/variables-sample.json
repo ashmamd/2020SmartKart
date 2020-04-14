@@ -1,0 +1,9 @@
+{
+    "database-root-password": "root",
+    "database-user-password": "root",
+    "database-access-from-ip": "192.168.33.10",
+    "database-ip": "192.168.33.11",
+    "webserver-ip": "192.168.33.10",
+    "database-name": "smartkart",
+    "database-user-name": "root"
+}

@@ -1,4 +1,16 @@
-# Install instructions
+# Vagrant/Packer Install instructions 
+1. Install Packer and Vagrant (tooling assignment)
+2. Change Line 65 of ubuntu18044-itmt430-database.json to your rsa key location
+* example:    "source": "/Users/YourUserName/.ssh/id_rsa",
+3. Change Line 65 of ubuntu18044-itmt430-webserver.json to your rsa key location
+* example:    "source": "/Users/YourUserName/.ssh/id_rsa",
+4. cd into the "install_scripts" folder
+5. execute the following commands seperately: 
+* packer build --var-file=./variables.json ubuntu18044-itmt430-database.json
+* packer build --var-file=./variables.json ubuntu18044-itmt430-webserver.json
+6. Open Vagrant box, (initialize as needed)
+7. Navigate to 192.168.33.10 on your local host
+# Local Host Install instructions
 
 1. [Download node.js](https://nodejs.org/en/) 
 2. In your terminal, run the command `git clone https://github.com/illinoistech-itm/2020-team14w.git`
@@ -16,7 +28,7 @@
 * `"start": "nodemon app"`
 
 6. In your terminal, run the command `npm start`
-7. Go to your web broswer and type in http://localhost:3000/
+7. Go to your web browser and type in http://localhost:3000/
 
 ## Database setup
 
