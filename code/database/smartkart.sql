@@ -5,7 +5,7 @@ Use SmartKart;
 
 CREATE TABLE Customer
 (
-	CustomerID INT(2),
+	CustomerID INT(2) NOT NULL PRIMARY KEY,
     FName	VARCHAR(15),
     LName	VARCHAR(20),
     email VARCHAR(30),

@@ -83,6 +83,6 @@ ufw allow from $ACCESSFROMIP to any port 3306
 # Example to do this via command line -- this is verbose but might not be scalable or maintainable, perhaps put it in a .sql file
 # mysql -u root -e "CREATE DATABASE comments DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;"
 
-mysql -u root -e "GRANT SELECT,INSERT,UPDATE,DELETE,CREATE,CREATE TEMPORARY TABLES,DROP,INDEX,ALTER ON SmartKart.* TO worker@'$ACCESSFROMIP' IDENTIFIED BY '$USERPASS'; flush privileges;"
-
 sudo mysql -u root < ~/2020-team14w/code/database/smartkart.sql
+
+mysql -u root -e "GRANT SELECT,INSERT,UPDATE,DELETE,CREATE,CREATE TEMPORARY TABLES,DROP,INDEX,ALTER ON SmartKart.* TO worker@'$ACCESSFROMIP' IDENTIFIED BY '$USERPASS'; flush privileges;"
