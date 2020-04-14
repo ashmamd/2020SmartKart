@@ -1108,7 +1108,7 @@ Checkout page
   }
    
   .step:nth-child(1):before {
-    content: 'Delivery';
+    content: 'Shopping';
   }
   .step:nth-child(2):before {
     right: -40px;
