@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SmartKart User Main Layout</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="js/users.js" async></script>
 </head>
 <body id = "mainPageBG">
     <div id = "header">
@@ -13,7 +14,18 @@
             <!-- voice assist -->
         <!-- <input type = "search" placeholder = "Search...">
         <img id ="voiceAssist" alt = "Voice Assist" src = "img/microphone.png">  --> 
-        <h1>Welcome user</h1>
+    </div>    
+        <h1>Welcome <span id="outputName"> user </span></h1>
+
+        <script>
+            document.getElementById("submitButton").onclick = function() {
+                document.getElementById("outputName").innerText = submitButton;
+            }
+        </script>
+
+
+
+
         <section id = flexboxes>
             <a href = "viewCartPage.html">
                 <div id = "firstBox">
@@ -57,6 +69,6 @@
                 </div>
             </a>
         </section>
-    </div>
+   
 </body>
 </html>
