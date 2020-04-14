@@ -2,6 +2,30 @@
 # Created by https://www.gitignore.io/api/macos,windows
 # Edit at https://www.gitignore.io/?templates=macos,windows
 
+### Packer + Vagrant ###
+packer_cache/
+*.box
+.vagrant/
+*.vdi
+output*/
+*.vmdk
+*.ovf
+build/*
+.vagrant/*
+.cfg*
+variables*.json
+variables.json
+*.swp
+data/
+*.log
+Vagrantfile
+*.tar
+id_rsa_github_deploy_key
+id_rsa*
+packer/build/xenial64/ubuntu-xenial-16.04-cloudimg-console.log
+*.txt.xz
+Understanding-Free*
+
 ### macOS ###
 # General
 .DS_Store
