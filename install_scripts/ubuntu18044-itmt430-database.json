@@ -62,12 +62,12 @@
   "provisioners": [
     {
     "type": "file",
-    "source": "/Users/Zabe/.ssh/id_rsa",
+    "source": "./id_rsa_github_deploy_key",
     "destination": "/home/vagrant/"
     },
     {
       "type": "file",
-      "source": "./config-files",
+      "source": "./config",
       "destination": "/home/vagrant/"     
     },
     {
