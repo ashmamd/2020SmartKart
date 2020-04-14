@@ -13,7 +13,6 @@ output*/
 build/*
 .vagrant/*
 .cfg*
-variables*.json
 variables.json
 *.swp
 data/
