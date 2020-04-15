@@ -50,7 +50,7 @@ sudo apt-get install -y vim git nginx
 # Nginx configurations
 # https://nginx.org/en/docs/beginners_guide.html
 # https://dev.to/guimg/how-to-serve-nodejs-applications-with-nginx-on-a-raspberry-jld
-sudo cp ./nginx/default /etc/nginx/sites-enabled
+sudo cp ./2020-team14w/install_scripts/nginx/default /etc/nginx/sites-enabled
 sudo systemctl daemon-reload
 sudo systemctl reload nginx
 
