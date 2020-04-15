@@ -26,6 +26,27 @@
 
 8. Navigate to 192.168.33.10 on your local host
 
+# Web server configuration
+For webserver
+1. vagrant ssh (if not open up webserver in virtual box, credentials: vagrant vagrant)
+2. cd /etc/nginx/sites-available
+3. sudo nano default
+4. comment all lines with (#) except for the server{} block
+5. make the server block look exactly like this
+server {
+	listen 80 default_server;
+	listen [::]:80 default_server;
+
+	root /home/vagrant/2020-team14w/code/public;
+	index index.html;
+	server_name 192.168.33.101;
+}
+6. ctrl+o (save)
+   ctrl+x (exit) then click enter
+6. test configuration (for misspellings) with
+sudo nginx -t
+7. sudo systemctl restart nginx
+8. on your laptop, navigate to: 192.168.33.101
 
 ## Local Host Install instructions
 
