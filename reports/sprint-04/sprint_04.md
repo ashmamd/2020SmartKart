@@ -14,7 +14,7 @@
 
 * Github commits and Trello artifacts
 ![Commits 1](../webApp/KajalCommits.png)
--- add trello artifact here
+![Trello Artifacts](../webApp/KajalTrello.png)
 
 * Customer Story
  ![Customer Accessibility](../../diagrams/UI-UX/Customer_story_ss/customerAccessibilitypage.png)
@@ -46,6 +46,8 @@
 * Install instructions in install.md
 ![Trello Artifacts](../webApp/ZabeInstall.png)
 
+* Diagram of IP Address
+![Diagram](../../diagrams/Infrastructure/Infrastructure_diagram_Sprint4.png)
 
 ## Jr. Developer
 
@@ -70,6 +72,14 @@
 
 * Install instructions in install.md
 ![InstallMDFile](../webApp/installmdFile.png)
+
+* Kept Communication with team 
+![communication](../webApp/AshmaCommunicate.png)
+
+* Help team build app in their computers 
+![help1](../webApp/kajalChat.png)
+![help2](../webApp/ramzeeChat.png)
+![help3](../webApp/darshChat.png)
 
 ## Assumptions
 
