@@ -5,26 +5,39 @@
 3. Issue the command:
     * cp variables-sample.json variables.json
     * Open the variables.json file and change the usernames and passwords 
--- line 53 on post_install_itmt430-github-js-app.sh should be
-    * sudo cp ./2020-team14w/install_scripts/nginx/default /etc/nginx/sites-enabled
+4. Create a file called `id_rsa_github_deploy_key` inside the install_scripts folder and paste your private RSA key there
 
-4. Execute the following commands seperately: 
+5. Execute the following command: 
 * `packer build --var-file=./variables.json ubuntu18044-itmt430-database.json`
-* `packer build --var-file=./variables.json ubuntu18044-itmt430-webserver.json`
 
-5. Issue the commands for each packer build:
+6. Issue the commands for db packer build:
     * `cd ../build`
-    * `vagrant box add ./YOUR-ubuntu-box-name.box --name 2020team14w`
+    * `vagrant box add ./YOUR-ubuntu-box-name.box --name db2020team14`
     * `vagrant box list` (You should see your Vagrant box in the list)
-    * `mkdir 2020team14w`
-    * `cd 2020team14w`
-    * `vagrant init new2020team14w`
-    * open the vagrantfile inside new2020team14w
+    * `mkdir db2020team14`
+    * `cd db2020team14`
+    * `vagrant init db2020team14`
+    * open the vagrantfile inside db2020team14
     * uncomment line 35 / config.vm.network "private_network", ip: "192.168.33.10"
     * `vagrant up`
     * `vagrant ssh`
+    
+7. Execute the following commands: 
+* `packer build --var-file=./variables.json ubuntu18044-itmt430-webserver.json`
 
-8. Navigate to 192.168.33.10 on your local host
+8. Issue the commands for ws packer build:
+    * `cd ../build`
+    * `vagrant box add ./YOUR-ubuntu-box-name.box --name ws2020team14`
+    * `vagrant box list` (You should see your Vagrant box in the list)
+    * `mkdir ws2020team14`
+    * `cd ws2020team14`
+    * `vagrant init ws2020team14`
+    * open the vagrantfile inside ws2020team14
+    * uncomment line 35 / config.vm.network "private_network", ip: "192.168.33.100"
+    * `vagrant up`
+    * `vagrant ssh`
+    
+8. Navigate to 192.168.33.100 on your local host
 
 # Web server configuration
 For webserver
