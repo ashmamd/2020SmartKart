@@ -29,7 +29,7 @@
 ![Commits 2](../webApp/DarshCommits1.png)
 ![Commits 3](../webApp/DarshCommits2.png)
 ![Commits 4](../webApp/DarshCommits3.png)
--- add trello artifact here
+![Trello Artifacts](../webApp/DarshTrello.PNG)
 
 * Reported 5 bugs/issues
 ![Github Issues](../webApp/DarshIssues.png)
