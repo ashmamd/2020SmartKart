@@ -25,6 +25,8 @@
 * Customer Story
  ![Customer Log in](../../diagrams/UI-UX/Customer_story_ss/customerLogin.png)
 
+ * Updated the Admin and Customer user stories in the diagram folder.
+
 ## Developer Report
 
 * Github commits and Trello artifacts
