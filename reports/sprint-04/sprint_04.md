@@ -27,7 +27,7 @@
 * Github commits and Trello artifacts
 ![Commits 1](../webApp/RamzeeCommits.png)
 ![Commits 2](../webApp/RamzeeCommits1.png)
--- add trello artifact here
+![Trello Artifacts](../webApp/RamzeeTrello.png)
 
 * Created Checkout page
 ![CheckoutPage](../webApp/RamzeeCheckoutPage.png)
@@ -42,6 +42,10 @@
 ![Commits 4](../webApp/ZabeCommits2.png)
 
 ![Trello Artifacts](../webApp/ZabeTrello.png)
+
+* Install instructions in install.md
+![Trello Artifacts](../webApp/ZabeInstall.png)
+
 
 ## Jr. Developer
 
@@ -62,6 +66,7 @@
 
 * Github commits and Trello artifacts
 ![Commits 1](../webApp/AshmaCommits.png)
+![Trello Artifacts](../webApp/AshmaTrello.png)
 
 * Install instructions in install.md
 ![InstallMDFile](../webApp/installmdFile.png)
