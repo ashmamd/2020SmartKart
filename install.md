@@ -17,8 +17,8 @@
     * `vagrant box list` (You should see your Vagrant box in the list)
     * `mkdir 2020team14w`
     * `cd 2020team14w`
-    * `vagrant init new2020team14w`
-    * open the vagrantfile inside new2020team14w
+    * `vagrant init 2020team14w`
+    * open the vagrantfile inside 2020team14w
     * uncomment line 35 / config.vm.network "private_network", ip: "192.168.33.10"
     * `vagrant up`
     * `vagrant ssh`
