@@ -12,6 +12,10 @@
 
  ## UI/UX Report
 
+* Github commits and Trello artifacts
+![Commits 1](../webApp/KajalCommits.png)
+-- add trello artifact here
+
 * Customer Story
  ![Customer Accessibility](../../diagrams/UI-UX/Customer_story_ss/customerAccessibilitypage.png)
 
@@ -20,7 +24,19 @@
 
 ## Developer Report
 
+* Github commits and Trello artifacts
+![Commits 1](../webApp/RamzeeCommits.png)
+![Commits 2](../webApp/RamzeeCommits1.png)
+-- add trello artifact here
+
 ## IT Infrastructure Report
+
+* Github commits and Trello artifacts
+![Commits 1](../webApp/ZabeCommits.png)
+![Commits 2](../webApp/ZabeCommits1.png)
+![Commits 3](../webApp/ZabeCommits2.png)
+-- add trello artifact here
+
 
 ## Jr. Developer
 
@@ -38,6 +54,9 @@
 ![Responsive design](../webApp/DarshResponsiveDesign.png)
 
 ## Project Manager Report
+
+* Github commits and Trello artifacts
+![Commits 1](../webApp/AshmaCommits.png)
 
 ## Assumptions
 
