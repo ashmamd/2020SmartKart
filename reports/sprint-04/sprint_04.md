@@ -80,10 +80,14 @@
 ![communication](../webApp/AshmaCommunicate.png)
 
 * Help team build app in their computers 
+
 ![help1](../webApp/kajalChat.png)
 ![help2](../webApp/ramzeeChat.png)
 ![help3](../webApp/darshChat.png)
 
 ## Assumptions
+
+- We are assuming that users are able to great a ssh key and deploy from our private github repos.
+- The app doesn't connect with the sql database yet so another assumption is that it will successfully connect with the database next sprint and users will be able to login and logout 
 
 
