@@ -39,6 +39,11 @@
     
 8. Navigate to 192.168.33.100 on your local host
 
+## List of external packages installed via package manager
+1. Node.js
+2. Nginx
+3. MariaSQL
+
 # Web server configuration
 For webserver
 1. vagrant ssh (if not open up webserver in virtual box, credentials: vagrant vagrant)
@@ -86,3 +91,4 @@ sudo nginx -t
 1. Name of the database for this app is *smartkart*
 2. Inside code/public/js/db.js, make sure to change the user and password field accordingly
 3. Make sure to give your user access rights to use the *smartkart* database
+
