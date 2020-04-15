@@ -11,6 +11,14 @@ const con = mysql.createPool({
   database: 'smartkart' //make sure your sql database name is this or change it
 });
 
+// const con = mysql.createPool({
+//   connectionLimit: 10,
+//   host: 'localhost',
+//   user: 'root', //change this
+//   password: 'root', //change this
+//   database: 'smartkart' //make sure your sql database name is this or change it
+// });
+
 con.getConnection((err) => {
   if(err){
     console.log('Error', err);
@@ -29,7 +37,7 @@ function createAcc(body, callback){
   for(prop in body){
     bind.push(body[prop]);
   }
-  var sql = 'INSERT INTO Customer(FName, LName, email, password) VALUES (?, ?, ?, ?)';
+  var sql = 'INSERT INTO Customer(FName, LName, email, pass) VALUES (?, ?, ?, ?)';
   con.query(sql, bind, function(err, result) {
       if(err) throw err;
       // return last inserted id
@@ -43,7 +51,7 @@ router.post('/sign-in', (req, res, next) => {
       fname: req.body.fname,
       lname: req.body.lname,
       email: req.body.email,
-      password: req.body.psw,
+      pass: req.body.psw,
   };
   createAcc(userInput, function(lastId) {
       if(lastId) {
@@ -71,7 +79,7 @@ router.post('/login', (req, res, next) => {
     //console.log(iterations);
     //con.query('SELECT * FROM Customer WHERE email = ' + con.escape(req.body.email) + ' UNION SELECT * FROM CustomerService WHERE email = ' + con.escape(req.body.email) + ' UNION SELECT * FROM Admin WHERE email = ' + con.escape(req.body.email), function (error, results, fields){
     //con.query('SELECT * FROM Admin, Customer, CustomerService WHERE Admin.email = ' + con.escape(req.body.email) + ' OR Customer.email = ' + con.escape(req.body.email) + ' OR CustomerService.email = ' + con.escape(req.body.email), function (error, results, fields){
-      con.query('SELECT org, email, password FROM Admin UNION SELECT org, email, password FROM CustomerService UNION SELECT org, email, password FROM Customer', function (error, results, fields){
+      con.query('SELECT org, email, pass FROM Admin UNION SELECT org, email, pass FROM CustomerService UNION SELECT org, email, pass FROM Customer', function (error, results, fields){
       console.log("results:", results);
         if (error) throw error;
       if (results.length) {
