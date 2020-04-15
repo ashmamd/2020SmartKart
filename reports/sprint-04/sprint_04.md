@@ -22,6 +22,9 @@
 * Admin Story
 ![Admin Print page](../../diagrams/UI-UX/admin_story_screenshots/adminPrintpage.png)
 
+* Customer Story
+ ![Customer Log in](../../diagrams/UI-UX/Customer_story_ss/customerLogin.png)
+
 ## Developer Report
 
 * Github commits and Trello artifacts
