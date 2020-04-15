@@ -5,14 +5,13 @@
 3. Issue the command:
     * cp variables-sample.json variables.json
     * Open the variables.json file and change the usernames and passwords 
--- line 53 on post_install_itmt430-github-js-app.sh should be
-    * sudo cp ./2020-team14w/install_scripts/nginx/default /etc/nginx/sites-enabled
+4. Create a file called `id_rsa_github_deploy_key` inside the install_scripts folder and paste your private RSA key
 
-4. Execute the following commands seperately: 
+5. Execute the following commands seperately: 
 * `packer build --var-file=./variables.json ubuntu18044-itmt430-database.json`
 * `packer build --var-file=./variables.json ubuntu18044-itmt430-webserver.json`
 
-5. Issue the commands for each packer build:
+6. Issue the commands for each packer build:
     * `cd ../build`
     * `vagrant box add ./YOUR-ubuntu-box-name.box --name 2020team14w`
     * `vagrant box list` (You should see your Vagrant box in the list)
