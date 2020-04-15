@@ -32,11 +32,13 @@
 ## IT Infrastructure Report
 
 * Github commits and Trello artifacts
-![Commits 1](../webApp/ZabeCommits.png)
-![Commits 2](../webApp/ZabeCommits1.png)
-![Commits 3](../webApp/ZabeCommits2.png)
--- add trello artifact here
 
+![Commits 1](../webApp/ZabeCommits3.png)
+![Commits 2](../webApp/ZabeCommits.png)
+![Commits 3](../webApp/ZabeCommits1.png)
+![Commits 4](../webApp/ZabeCommits2.png)
+
+![Trello Artifacts](../webApp/ZabeTrello.png)
 
 ## Jr. Developer
 
