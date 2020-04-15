@@ -39,14 +39,14 @@ server {
 
 	root /home/vagrant/2020-team14w/code/public;
 	index index.html;
-	server_name 192.168.33.101;
+	server_name 192.168.33.10;
 }
 6. ctrl+o (save)
    ctrl+x (exit) then click enter
-6. test configuration (for misspellings) with
+7. test configuration (for misspellings) with
 sudo nginx -t
-7. sudo systemctl restart nginx
-8. on your laptop, navigate to: 192.168.33.101
+8. sudo systemctl restart nginx
+9. on your laptop, navigate to: 192.168.33.10
 
 ## Local Host Install instructions
 
