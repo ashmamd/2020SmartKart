@@ -30,6 +30,10 @@ Some of the best products from the store are featured on television and people a
 
 On this page, he has options for Tv, Radio, and Print advertisements. He will then click on TV as that is the information he is looking for and then contact the distributor in order to get the products featured on TV.
 
+This page is managed by the Admin to see the flyer and the items on sale for the upcoming weeks. The admin will click on Print tab to view the flyer of the store.
+
+![Admin Print page](../../diagrams/UI-UX/admin_story_screenshots/adminPrintpage.png)
+
 Discounts are the one of the best ways to get customers into the store and make them buy. Out store is doing amazing with the few discounts that were running in the past week. We have new products coming in and some of the unsold items needs to go on sale and put discounts on it. The discount feature will allow the admin to calculate discounts, create tags and print them. Admin can do so by going to the Admin Home Page, and then clicking on Promotions, which looks like the following screen:
 
 ![Promotions](UI-UX/admin_story_screenshots/promotionScreen.png)
