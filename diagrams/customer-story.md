@@ -10,6 +10,10 @@ Then, he clicks on 'Profile'. There is a login page which looks like this:
 
 ![Customer Login Page](UI-UX/Customer_story_ss/login.PNG)
 
+To create a new user, customers can use this page to create an account. Existing customers can simply log in by using their cridentials. 
+
+![Customer Login Page](UI-UX/Customer_story_ss/customerlogin.png)
+
 He logs in with his Username and Password. As soon as he logs in, another page pops up. He would have a few options on the screen. He could View his Cart, Navigate through the store, view their personal profile, check the price of an item, request help from customer service, request help for Accessibility, or log out of the page. He is walking around and picks up a couple of items and scans it. He wants to make sure if he has the correct items scanned. He clicks on View Cart, and sees the following screen:
 
 ![View Cart](UI-UX/Customer_story_ss/Cart.png)
@@ -27,3 +31,7 @@ A customer is trying something that is really heavy from the Lawn and Garden sec
 ![Request Help](UI-UX/Customer_story_ss/request_help.PNG)
 
 From here, they can call an employee to assist them with anything.
+
+This page is used by special and elderly. The accessibility tab will help and guide our customers to simple click one buttom to call assistant for help. 
+
+![Accessibility](UI-UX/Customer_story_ss/customerAccessibilitypage.png)
