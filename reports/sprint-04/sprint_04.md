@@ -29,6 +29,9 @@
 ![Commits 2](../webApp/RamzeeCommits1.png)
 -- add trello artifact here
 
+* Created Checkout page
+![CheckoutPage](../webApp/RamzeeCheckoutPage.png)
+
 ## IT Infrastructure Report
 
 * Github commits and Trello artifacts
@@ -59,6 +62,9 @@
 
 * Github commits and Trello artifacts
 ![Commits 1](../webApp/AshmaCommits.png)
+
+* Install instructions in install.md
+![InstallMDFile](../webApp/installmdFile.png)
 
 ## Assumptions
 
