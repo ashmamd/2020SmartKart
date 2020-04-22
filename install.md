@@ -1,3 +1,20 @@
+# Cloning Application Source Code
+
+1. Open up your terminal, type in "ssh-keygen", hit enter to save it into the default directory or give a specific directory path you want to save the key in, hit enter again (we don't need a passphrase). You will see your key has been generated.
+2. type "ls ~/.ssh" or the path of the directory you saved your key in (ls .../.../.ssh). You will see the keys you have just generated (id_rsa, id_rsa.pub).  
+3. Type in "cat ~/.ssh/id_rsa.pub" or directory path to open up your public key. Copy the public key that is listed on the terminal. Open your repository on GitHub. Go to the settings of your repo. Click on Deploy Keys, than click on Add Deploy Key, and give it a title of your choice. Paste the copied public key into the text box below 'Key'. Click Add key and confirm your password. 
+4. Create a file called 'config' in the ssh directory. Inside the config file add the following:
+Host github.com
+Hostname github.com
+IdentityFile /home/vagrant/.ssh/id_rsa (your path will be different here)
+StrictHostKeyChecking no
+5. Save the file and go back to your terminal and type "git clone git@github.com:illinoistech-itm/2020-team14w.git"
+6. If you get an error for access right do the following in your terminal
+    * type "ls -la ~/.ssh/config"
+    * type "chmod 600 ~/.ssh/config"
+    * type "git clone git@github.com:illinoistech-itm/2020-team14w.git"
+7. This repository now should be cloned successfully.
+
 # Vagrant/Packer Install instructions
 
 1. Remove the current db2020team14 and ws2020team14 folders from install_scripts folder as instructed below. 
