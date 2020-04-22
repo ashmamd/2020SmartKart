@@ -1,15 +1,14 @@
 # Vagrant/Packer Install instructions
 
-1. Remove the current db2020team14 and ws2020team14 folders from install_scripts folder. 
+1. Remove the current db2020team14 and ws2020team14 folders from install_scripts folder as instructed below. 
     * cd into the "install_scripts"
     * use the code "vagrant box remove db2020team14 or vagrant destroy default" when asked type "y" then enter
-    * se the code "vagrant box remove ws2020team14 or vagrant destroy default" when asked type "y" then enter
-    * cd into the "install_scripts" folder
-    * user the code "rm ../build/*box"
+    * use the code "vagrant box remove ws2020team14 or vagrant destroy default" when asked type "y" then enter
+    * use the code "rm ../build/*box"
 2. packer build --var-file=./variables.json ubuntu18044-itmt430-database.json
 3. packer build --var-file=./variables.json ubuntu18044-itmt430-webserver.json
 4. ./startingvagrant.sh
-5. Mac user enter "chmod +x startingvagrant.sh"
+5. Mac users enter "chmod +x startingvagrant.sh"
 
 # Vagrant/Packer Install instructions 
 
