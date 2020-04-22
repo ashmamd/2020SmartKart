@@ -5,10 +5,11 @@
     * use the code "vagrant box remove db2020team14 or vagrant destroy default" when asked type "y" then enter
     * use the code "vagrant box remove ws2020team14 or vagrant destroy default" when asked type "y" then enter
     * use the code "rm ../build/*box"
-2. packer build --var-file=./variables.json ubuntu18044-itmt430-database.json
-3. packer build --var-file=./variables.json ubuntu18044-itmt430-webserver.json
+2. run this on terminal packer build --var-file=./variables.json ubuntu18044-itmt430-database.json
+3. run this on terminal packer build --var-file=./variables.json ubuntu18044-itmt430-webserver.json
 4. ./startingvagrant.sh
-5. Mac users enter "chmod +x startingvagrant.sh"
+5. Mac users enter "chmod +x startingvagrant.sh" to get permission.
+6. Open the "vagrant" file in "db2020team14" folder and change the ip address to "11" instead of "10". Also, uncomment line 35 in "vagrant" file in "db2020team14" & "ws2020team14" folders.
 
 # Vagrant/Packer Install instructions 
 
