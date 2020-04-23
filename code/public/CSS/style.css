@@ -714,7 +714,6 @@ button:hover{
     and (max-width: 768px) 
     and (orientation: landscape) {
 
-
         input[type=search] {
             padding: 12px 20px;
             margin-top: 70px;
@@ -1025,10 +1024,45 @@ button:hover{
     #storeLogo{
         height: 70px;
         padding-right: 5em;
-    } 
-    
-    
+    }
 
+     
+  .panel-body {
+    padding: 4px 8px 0;
+    flex: 1;
+  }
+
+  .input-fields {
+    display: flex;
+    justify-content: space-between;
+  }
+   
+  .input-fields label {
+    display: block;
+    margin-bottom: 10px;
+    color: #b4b4b4;
+    font-size: 15px;
+  }
+  .input-fields input[type='text'], input[type='password'] {
+    font-size: 1em;
+    padding: 2px;
+    text-align: left;
+    position: relative;
+  }
+
+  .back-btn {
+    color: #f62f5e;
+    background: #fff;
+    font-size: 10px;
+  }
+   
+  .next-btn {
+    color: #fff;
+    background: #f62f5e;
+    font-size: 10px;
+  }
+
+   
 
 }
 /*
@@ -1178,13 +1212,14 @@ Checkout page
     margin-top: 50px;
     opacity: .5;
     color: #2e2e2e;
+    position: relative;
   }
    
   div[class*='column'] {
     width: 382px;
   }
    
-  input[type='text'],
+  .input-fields input[type='text'],
   input[type='password'] {
     font-size: 16px;
     width: 100%;
