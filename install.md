@@ -17,16 +17,11 @@ StrictHostKeyChecking no
 
 # Vagrant/Packer Install instructions
 
-1. Remove the current db2020team14 and ws2020team14 folders from install_scripts folder as instructed below. 
-    * cd into the "install_scripts"
-    * use the code "vagrant box remove db2020team14 or vagrant destroy default" when asked type "y" then enter
-    * use the code "vagrant box remove ws2020team14 or vagrant destroy default" when asked type "y" then enter
-    * use the code "rm ../build/*box"
+1. cd into the "install_scripts" folder and run the code ./delete.sh
 2. run this on terminal packer build --var-file=./variables.json ubuntu18044-itmt430-database.json
 3. run this on terminal packer build --var-file=./variables.json ubuntu18044-itmt430-webserver.json
-4. ./startingvagrant.sh
-5. Mac users enter "chmod +x startingvagrant.sh" to get permission.
-6. Open the "vagrant" file in "db2020team14" folder and change the ip address to "11" instead of "10". Also, uncomment line 35 in "vagrant" file in "db2020team14" & "ws2020team14" folders.
+4. Mac users enter "chmod +x startingvagrant.sh" or "chmod +x delete.sh" to get permission if asked.
+5. Open the "vagrant" file in "db2020team14" folder and change the ip address to "11" instead of "10". Also, uncomment line 35 in "vagrant" file in "db2020team14" & "ws2020team14" folders.
 
 # Vagrant/Packer Install instructions 
 
