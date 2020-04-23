@@ -710,19 +710,19 @@ button:hover{
 
 /* Responsive cases */
 
-@media screen and (orientation: portrait) {
-    .flex-container > .nav {
-        flex-direction: column;
-        margin-top: 200px;
-  }
-    .flex-container > #circle {
-        position: relative;
-        top: -10em;
-    }
-}
 @media only screen 
     and (max-width: 768px) 
     and (orientation: landscape) {
+
+
+        input[type=search] {
+            padding: 12px 20px;
+            margin-top: 70px;
+            margin-left: 75px;
+            font-size: 0.9em;
+            position: relative;
+            font-family: Verdana, Tahoma, sans-serif;
+        }
 
         .links{
             float: left;
