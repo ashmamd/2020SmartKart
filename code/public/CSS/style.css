@@ -670,7 +670,16 @@ input[type=text]{
     font-family: Verdana, Tahoma, sans-serif;
 }
 
-input[type=password] {
+input[type=acc_password] {
+    padding: 10px 15px;
+    margin-top: 15px;
+    margin-left: 15px;
+    width: 45%;
+    font-size: 11px;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+input[type=create_password] {
     padding: 10px 15px;
     margin-top: 15px;
     margin-left: 38px;
@@ -1061,8 +1070,6 @@ button:hover{
     background: #f62f5e;
     font-size: 10px;
   }
-
-   
 
 }
 /*
