@@ -33,12 +33,12 @@ else {
 
 if ( Test-Path ubuntu-db-18044-server-virtualbox-*.box )
 { 
-    "Removing db vagrant box..."
+    "Removing the ubuntu-db-18044-server-virtualbox-*.box file..."
     del ubuntu-db-18044-server-virtualbox-*.box
 }
 if ( Test-Path ubuntu-ws-18044-server-virtualbox-*.box )
 {
-    "Removing ws vagrant box..."
+    "Removing the ubuntu-ws-18044-server-virtualbox-*.box file..."
     del ubuntu-ws-18044-server-virtualbox-*.box
 }
 
