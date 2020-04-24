@@ -15,16 +15,17 @@ StrictHostKeyChecking no
     * type "git clone git@github.com:illinoistech-itm/2020-team14w.git"
 7. This repository now should be cloned successfully.
 
-# Vagrant/Packer Install instructions
+# Vagrant/Packer Install instructions (Automation)
 
 1. cd into the "install_scripts" folder and run the code ./delete.sh
 2. run this on terminal packer build --var-file=./variables.json ubuntu18044-itmt430-database.json
 3. run this on terminal packer build --var-file=./variables.json ubuntu18044-itmt430-webserver.json
 4. Mac users enter "chmod +x startingvagrant.sh" or "chmod +x delete.sh" to get permission if asked.
+5. Inside the "install_scripts" folder, run the code ./startingvagrant.sh
 5. Open the "vagrant" file in "db2020team14" folder and change the ip address to "11" instead of "10". Also, uncomment line 35 in "vagrant" file in "db2020team14" & "ws2020team14" folders.
 6. Navigate to 192.168.33.10:3000 on your local host
 
-# Vagrant/Packer Install instructions 
+# Vagrant/Packer Install instructions (Manually)
 
 1. Install Packer and Vagrant (tooling assignment)
 2. cd into the "install_scripts" folder
