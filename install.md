@@ -22,6 +22,7 @@ StrictHostKeyChecking no
 3. run this on terminal packer build --var-file=./variables.json ubuntu18044-itmt430-webserver.json
 4. Mac users enter "chmod +x startingvagrant.sh" or "chmod +x delete.sh" to get permission if asked.
 5. Open the "vagrant" file in "db2020team14" folder and change the ip address to "11" instead of "10". Also, uncomment line 35 in "vagrant" file in "db2020team14" & "ws2020team14" folders.
+6. Navigate to 192.168.33.100 on your local host
 
 # Vagrant/Packer Install instructions 
 
