@@ -46,4 +46,5 @@ CREATE TABLE Admin
     org VARCHAR(20)
 );
 
-INSERT INTO Admin VALUES(1, 'admin@gmail.com', 'admin123', '1231231234', 'admin');
+INSERT INTO Admin VALUES(1, 'admin@gmail.com', 'admin123', '1231231234', "admin");
+INSERT INTO Admin VALUES(2, 'admin2@gmail.com', 'admin123', '1231231234', "admin");

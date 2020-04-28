@@ -6,8 +6,8 @@ let loggedIn;
 const con = mysql.createPool({
   connectionLimit: 10,
   host: 'localhost',
-  user: 'root', //change this
-  password: 'root', //change this
+  user: 'ashma', //change this
+  password: 'password123', //change this
   database: 'smartkart' //make sure your sql database name is this or change it
 });
 
@@ -99,7 +99,7 @@ router.post('/login', (req, res, next) => {
       var passwordInput = req.body.password;
       console.log('password input by user: ' + passwordInput);  
       //for(var a = 0; a < results.length; a++){
-        if(userInput == person.email && passwordInput == person.password){
+        if(userInput == person.email && passwordInput == person.pass){
           console.log('you entered the right credentials');
           if (iterations == 'admin'){
             loggedIn = true;
