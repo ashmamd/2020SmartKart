@@ -44,14 +44,18 @@
 ## Jr. Developer
 
 * Github commits and Trello artifacts
-
+![Github Artifacts](../webApp/githubAshma5.png)
+![Trello Artifacts](../webApp/trello5Ashma.png)
 
 * Feature for Admin to export the entire database to a local file
+![Database Dump](../webApp/adminDumpDB.png)
+![Database Dump txt File](../webApp/dumptxtFile.png)
+  * Dumps datbase when app runs (not upon admin clicking dump database)  
 
 * 2 actions per user for "test" accounts upon deployment of SmartKart
-
+  * Not able to do/test this since automation does not work
 * Database Encryption Report
-
+   ---- 
 
 ## Project Manager Report
 
