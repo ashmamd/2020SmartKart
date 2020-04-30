@@ -1,5 +1,7 @@
 const mysql = require('mysql');
 const express = require('express');
+const mysqldump = require('mysqldump')
+
 const router = express.Router();
 let loggedIn;
 // replace user and password with yours
@@ -26,6 +28,19 @@ con.getConnection((err) => {
   }
   console.log('Connected to db!');
 });
+
+//function dumpFile() {
+  mysqldump({
+      connection: {
+          host: 'localhost',
+          user: 'ashma',
+          password: 'password123',
+          database: 'smartkart',
+      },
+      dumpToFile: './dump.txt',
+    });
+  //alert ("Hello World!")
+//}
 
 router.get('/', (req, res, next) => {
   res.render('');
@@ -80,7 +95,7 @@ router.post('/login', (req, res, next) => {
     //con.query('SELECT * FROM Customer WHERE email = ' + con.escape(req.body.email) + ' UNION SELECT * FROM CustomerService WHERE email = ' + con.escape(req.body.email) + ' UNION SELECT * FROM Admin WHERE email = ' + con.escape(req.body.email), function (error, results, fields){
     //con.query('SELECT * FROM Admin, Customer, CustomerService WHERE Admin.email = ' + con.escape(req.body.email) + ' OR Customer.email = ' + con.escape(req.body.email) + ' OR CustomerService.email = ' + con.escape(req.body.email), function (error, results, fields){
       con.query('SELECT org, email, pass FROM Admin UNION SELECT org, email, pass FROM CustomerService UNION SELECT org, email, pass FROM Customer', function (error, results, fields){
-      console.log("results:", results);
+      //console.log("results:", results);
         if (error) throw error;
       if (results.length) {
         const person = results.filter(user => {
@@ -89,11 +104,11 @@ router.post('/login', (req, res, next) => {
           }
         })[0];
         if (person) {
-      console.log("person: ", person);
-      console.log("person org: ", person.org);
+      //console.log("person: ", person);
+      //console.log("person org: ", person.org);
       var iterations = person.org;
-      console.log('inside con.query... ');
-      console.log(iterations);
+      //console.log('inside con.query... ');
+      //console.log(iterations);
       var userInput = req.body.email;
       console.log('user input: ' + userInput);
       var passwordInput = req.body.password;

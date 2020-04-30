@@ -102,7 +102,7 @@ sudo nginx -t
 * cd to code folder
 4. inside the code folder, run the following commands:
 * `npm init -y`
-* `npm i express mysql`
+* `npm i express mysql mysqldump`
 * `npm install --save-dev nodemon` 
 
 5. Open your package.json file and inside the script tag, if you see the following, go to Step 6.
