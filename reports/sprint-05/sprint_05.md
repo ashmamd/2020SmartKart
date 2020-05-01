@@ -10,7 +10,7 @@
 * Developer - Darsh Patel, dpatel137@hawk.iit.edu
 * Project Manager - Aurangzeb Razzaq, arazzaq@hawk.iit.edu
 
- ## UI/UX Report
+## UI/UX Report
 
 * Github commits and Trello artifacts
 
@@ -25,9 +25,15 @@
 ## Developer Report
 
 * Github commits and Trello artifacts
+![github commits](../webApp/darsh_commits.PNG)
+![github commits](../webApp/darsh_commits2.PNG)
+![Trello artifacts](../webApp/darsh_trello.PNG)
 
+* Show in the scripts required to build the Infrastructure, how you added the ability to clone application source code from your private repo to your local application
+![automation](../webApp/darsh_automation.PNG)
 
 * Creation of a non-root Database user and brief explanation for the permissions granted
+  * A non-root database user is the Customer Service department because they would require some access to the database in order to process information for the employees, inventory, and pay roll. The permissions granted to the Customer Service are Create, Create View, Alter, Select, Insert, Show Database, and Update. 
 
 
 ## IT Infrastructure Report
