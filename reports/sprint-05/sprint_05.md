@@ -33,18 +33,24 @@
 ## IT Infrastructure Report
 
 * Github commits and Trello artifacts
+![Trello](../webApp/trelloKajal.png)
 
-
-* Install instructions in install.md
-
+* Included a script that will build each of these discrete systems as virtual machines automatically.
+![install file](../webApp/shfilescommitKajal.png)
+![startingvagrant file](../webApp/vagrantKajal.png)
 
 * Diagram of all discrete servers and their IP Addresses
+![diagram](../webApp/diagramcommitKajal.png)
+![Diagram](../webApp/vmdiagramKajal.png)
+
+* Included a list of external packages.
+![package](../webApp/packageKajal.png)
 
 
 ## Jr. Developer
 
 * Github commits and Trello artifacts
-![Github Artifacts](../webApp/githubAshma5.png)
+![Github Artifacts](../webApp/gshfiles.png)
 ![Trello Artifacts](../webApp/trello5Ashma.png)
 
 * Feature for Admin to export the entire database to a local file
