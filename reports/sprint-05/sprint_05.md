@@ -62,7 +62,7 @@
 * Feature for Admin to export the entire database to a local file
 ![Database Dump](../webApp/adminDumpDB.png)
 ![Database Dump txt File](../webApp/dumptxtFile.png)
-  * Dumps datbase when app runs (not upon admin clicking dump database)  
+  * Dumps database when app runs (not upon admin clicking dump database)  
 
 * 2 actions per user for "test" accounts upon deployment of SmartKart
   * Not able to do/test this since automation does not work
@@ -71,15 +71,22 @@
 
 ## Project Manager Report
 
-* Github commits and Trello artifacts
+* Github commits
+![Github Artifacts](../webApp/zgit.png)
+* Trello artifacts
+![Trello Artifacts](../webApp/trell1.png)
+![Trello Artifacts](../webApp/trell2.png)
 
 
 * Install instructions in install.md
-
+![Install Instructions](../webApp/install1.png)
 
 * Communication
+![Communications](../webApp/coms2.png)
+![Communications](../webApp/coms1.png)
 
 
 ## Assumptions
 
-- We are assuming that users/administrators are able to create a ssh key and deploy from our private github repositories.
+- Assumption that users/administrators are able to create a ssh key and deploy from our private github repositories
+- Assumption that administrators will have the database/webserver running and networked with all SmartKart shopping carts
