@@ -56,7 +56,7 @@
 ## Jr. Developer
 
 * Github commits and Trello artifacts
-![Github Artifacts](../webApp/gshfiles.png)
+![Github Artifacts](../webApp/githubAshma5.png)
 ![Trello Artifacts](../webApp/trello5Ashma.png)
 
 * Feature for Admin to export the entire database to a local file
